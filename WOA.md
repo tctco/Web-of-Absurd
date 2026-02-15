@@ -76,10 +76,10 @@
 | ![image-20260215232414009](./WOA.assets/image-20260215232414009.png) | Litter Human Behavior |  |  | @Litter Human Behavior | 神经科学，医学/心理学 | ||
 | ![image-20260215232820247](./WOA.assets/image-20260215232820247.png) | Rubbish Daily |  |  | @Rubbish Daily | 文学 | |兄弟们，他真发过nc|
 | ![image-20260215233050023](./WOA.assets/image-20260215233050023.png) | SciHorizon: Biology |  |  | @0xLLLLLL | 生物学 | |简称SB|
-| ![image-20260215233450658](./image-20260215233450658.png) | Call |  |  | @Call期刊编辑部 | 综合 | |中国小Cell|
-| ![image-20260215233913765](./image-20260215233913765.png) | WeCheat Communications | | | @Wecheat Communications | 信息技术 | |已经发表的论文只能保存7天|
-| ![image-20260215233948595](./image-20260215233948595.png) | Frontiers in Bullshitology | | | @《前沿废话》期刊 | 语言学 | ||
-| ![image-20260215234059155](./image-20260215234059155.png) | Joker of Academics | | | @Joker Of Academics | 综合 | ||
+| ![image-20260215233450658](./WOA.assets/image-20260215233450658.png) | Call |  |  | @Call期刊编辑部 | 综合 | |中国小Cell|
+| ![image-20260215233913765](./WOA.assets/image-20260215233913765.png) | WeCheat Communications | | | @Wecheat Communications | 信息技术 | |已经发表的论文只能保存7天|
+| ![image-20260215233948595](./WOA.assets/image-20260215233948595.png) | Frontiers in Bullshitology | | | @《前沿废话》期刊 | 语言学 | ||
+| ![image-20260215234059155](./WOA.assets/image-20260215234059155.png) | Joker of Academics | | | @Joker Of Academics | 综合 | ||
 
 
 

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-15T15:37:38.536Z",
+  "generatedAt": "2026-02-15T15:51:18.441Z",
   "source": "WOA.md",
-  "count": 80,
+  "count": 83,
   "journals": [
     {
       "id": 1,
@@ -1168,6 +1168,51 @@
     },
     {
       "id": 76,
+      "title": "WeCheat Communications",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Wecheat Communications",
+      "tags": [
+        "信息技术"
+      ],
+      "subjectRaw": "信息技术",
+      "isReview": false,
+      "note": "已经发表的论文只能保存7天",
+      "cover": "./WOA.assets/image-20260215233913765.png"
+    },
+    {
+      "id": 77,
+      "title": "Frontiers in Bullshitology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@《前沿废话》期刊",
+      "tags": [
+        "语言学"
+      ],
+      "subjectRaw": "语言学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215233948595.png"
+    },
+    {
+      "id": 78,
+      "title": "Joker of Academics",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Joker Of Academics",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215234059155.png"
+    },
+    {
+      "id": 79,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1183,7 +1228,7 @@
       "cover": "./WOA.assets/image-20260214211912205.png"
     },
     {
-      "id": 77,
+      "id": 80,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1199,7 +1244,7 @@
       "cover": "./WOA.assets/image-20260214220119688.png"
     },
     {
-      "id": 78,
+      "id": 81,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1214,7 +1259,7 @@
       "cover": "./WOA.assets/image-20260215231450128.png"
     },
     {
-      "id": 79,
+      "id": 82,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1229,7 +1274,7 @@
       "cover": "./WOA.assets/image-20260215232309965.png"
     },
     {
-      "id": 80,
+      "id": 83,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
