@@ -1,0 +1,1247 @@
+{
+  "generatedAt": "2026-02-15T15:37:38.536Z",
+  "source": "WOA.md",
+  "count": 80,
+  "journals": [
+    {
+      "id": 1,
+      "title": "Noise",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "11.45",
+      "editor": "@Noise",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214211017048.png"
+    },
+    {
+      "id": 2,
+      "title": "Rubbish Transaction and Theoretical Transformation",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "66.6",
+      "editor": "@RTTT Editorial Office",
+      "tags": [
+        "综合",
+        "国产期刊"
+      ],
+      "subjectRaw": "综合，国产期刊",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214211146092.png"
+    },
+    {
+      "id": 3,
+      "title": "Nothing",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "0",
+      "editor": "@四大地刊《Nothing》官号",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214211517703.png"
+    },
+    {
+      "id": 4,
+      "title": "Nothing communications",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "10",
+      "editor": "@Nothing Communications",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214214119046.png"
+    },
+    {
+      "id": 5,
+      "title": "Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "100",
+      "editor": "@Rubbish",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "当之无愧Top1",
+      "cover": "./WOA.assets/image-20260214211608807.png"
+    },
+    {
+      "id": 6,
+      "title": "Rubbish Review",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "87",
+      "editor": "@中国建筑文化出版社",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": true,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214214009537.png"
+    },
+    {
+      "id": 7,
+      "title": "Silence",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "45.8",
+      "editor": "@Silence",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "同Science",
+      "cover": "./WOA.assets/image-20260214212012769.png"
+    },
+    {
+      "id": 8,
+      "title": "Notrue",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "",
+      "editor": "@Notrue",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214211726582.png"
+    },
+    {
+      "id": 9,
+      "title": "Joke",
+      "section": "SCIE",
+      "originalQuartile": "T2",
+      "originalAif": "🤡",
+      "editor": "@Joke",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214212235430.png"
+    },
+    {
+      "id": 10,
+      "title": "Rubbish Nano",
+      "section": "SCIE",
+      "originalQuartile": "T2",
+      "originalAif": "16.1",
+      "editor": "@Rubbish Nano",
+      "tags": [
+        "化学",
+        "综合",
+        "纳米科技"
+      ],
+      "subjectRaw": "化学/综合，纳米科技",
+      "isReview": false,
+      "note": "同ACS nano",
+      "cover": "./WOA.assets/image-20260214212820073.png"
+    },
+    {
+      "id": 11,
+      "title": "Rubbish Humanities and Social Sciences Communications",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "19.8",
+      "editor": "@Rubbish HSSC",
+      "tags": [
+        "神经科学",
+        "医学",
+        "心理学"
+      ],
+      "subjectRaw": "神经科学，医学/心理学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214215905150.png"
+    },
+    {
+      "id": 12,
+      "title": "Rubbish communication",
+      "section": "SCIE",
+      "originalQuartile": "T3",
+      "originalAif": "15.6",
+      "editor": "@Rubbish communication",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "六耳猕猴（少个s）",
+      "cover": "./WOA.assets/image-20260214213218796.png"
+    },
+    {
+      "id": 13,
+      "title": "Rubbish communications",
+      "section": "SCIE",
+      "originalQuartile": "T3",
+      "originalAif": "21.1",
+      "editor": "@Rubbish communications",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214213236853.png"
+    },
+    {
+      "id": 14,
+      "title": "Rubbish Economic Review",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "44.32",
+      "editor": "@Rubbish Economic Review",
+      "tags": [
+        "经济学"
+      ],
+      "subjectRaw": "经济学",
+      "isReview": true,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214213411951.png"
+    },
+    {
+      "id": 15,
+      "title": "Rubbish Geoscience",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "21.6",
+      "editor": "@Rubbish Geoscience",
+      "tags": [
+        "地球科学"
+      ],
+      "subjectRaw": "地球科学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214213901047.png"
+    },
+    {
+      "id": 16,
+      "title": "Rubbish Ecology",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "32.23",
+      "editor": "@Rubbish Ecology",
+      "tags": [
+        "环境科学"
+      ],
+      "subjectRaw": "环境科学",
+      "isReview": false,
+      "note": "感觉是Rubbish很多的环境",
+      "cover": "./WOA.assets/image-20260214213347764.png"
+    },
+    {
+      "id": 17,
+      "title": "Rubbish Engineering",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "8.8",
+      "editor": "@Rubbish Engineering",
+      "tags": [
+        "工程学",
+        "综合"
+      ],
+      "subjectRaw": "工程学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214214514428.png"
+    },
+    {
+      "id": 18,
+      "title": "Rubbish Chemistry",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "33.5",
+      "editor": "@Rubbish Chemistry",
+      "tags": [
+        "化学",
+        "综合"
+      ],
+      "subjectRaw": "化学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214214614070.png"
+    },
+    {
+      "id": 19,
+      "title": "Rubbish Medicine",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "69.8",
+      "editor": "@我叫哈利，没有波特",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214214659240.png"
+    },
+    {
+      "id": 20,
+      "title": "Rubbish Photonics",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "15.7",
+      "editor": "@Rubbish Photonics editor",
+      "tags": [],
+      "subjectRaw": "",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214214751471.png"
+    },
+    {
+      "id": 21,
+      "title": "Rubbish Psychiatry",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "26.9",
+      "editor": "@第二支羽毛",
+      "tags": [
+        "医学",
+        "心理学",
+        "精神病学"
+      ],
+      "subjectRaw": "医学/心理学，医学/精神病学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214220650845.png"
+    },
+    {
+      "id": 22,
+      "title": "Review in Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "T3",
+      "originalAif": "2.7",
+      "editor": "@Review in Rubbish",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": true,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214215712615.png"
+    },
+    {
+      "id": 23,
+      "title": "Academic Waste",
+      "section": "SCIE",
+      "originalQuartile": "T2",
+      "originalAif": "5.5",
+      "editor": "@Academic Waste",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214213428740.png"
+    },
+    {
+      "id": 24,
+      "title": "The Journal of Cold, Nothing and Silence",
+      "section": "SCIE",
+      "originalQuartile": "T1",
+      "originalAif": "0.75",
+      "editor": "@Nothing and Silence编辑部",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "期刊名不够抽象，不像底刊",
+      "cover": "./WOA.assets/image-20260214222103067.png"
+    },
+    {
+      "id": 25,
+      "title": "JAMA Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "9.7",
+      "editor": "@JAMA Rubbish",
+      "tags": [
+        "医学",
+        "临床医学"
+      ],
+      "subjectRaw": "医学/临床医学",
+      "isReview": false,
+      "note": "同JAMA network open",
+      "cover": "./WOA.assets/image-20260214212416007.png"
+    },
+    {
+      "id": 26,
+      "title": "Journal of Rubbish Behavior",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "28.5",
+      "editor": "@箱型核密度图（生活版）",
+      "tags": [
+        "神经科学",
+        "生物",
+        "心理学"
+      ],
+      "subjectRaw": "神经科学，生物/心理学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214213653602.png"
+    },
+    {
+      "id": 27,
+      "title": "Refuse",
+      "section": "SCIE",
+      "originalQuartile": "T1",
+      "originalAif": "0.1",
+      "editor": "@学会侠",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "全refuse了，没有AIF",
+      "cover": "./WOA.assets/image-20260214214223698.png"
+    },
+    {
+      "id": 28,
+      "title": "Reject",
+      "section": "SCIE",
+      "originalQuartile": "T1",
+      "originalAif": "0.1",
+      "editor": "@学会侠",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "以上期刊专门收录被传统学术体系筛选出的“不合格品”并且拒绝被传统学术期刊筛选出来的“标准品”。刊名在作为名词时，是指被判定为不合格、无利用价值的“不合格品”或“废弃物”;而作为动词有着拒绝的含义。但我们的本质并非盲目否定付出的学术努力，也并非对“不合格品”的拒绝，而是反向定义了合格标准，倒逼筛选体系的优化，显示本刊对作品来源的定位和取舍，挖掘来稿作品的价值边界和“无用之物”大智慧。通过主动发掘正规期刊看不上的“废弃物”，规避内耗、聚焦核心，以彰显本刊清醒的价值判断和正向的发展导向作用",
+      "cover": "./WOA.assets/image-20260214214239729.png"
+    },
+    {
+      "id": 29,
+      "title": "Garbage",
+      "section": "SCIE",
+      "originalQuartile": "T1",
+      "originalAif": "0.1",
+      "editor": "@学会侠",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "Cells对Cell的拙劣模仿",
+      "cover": "./WOA.assets/image-20260214214316213.png"
+    },
+    {
+      "id": 30,
+      "title": "IEEE Device Litter",
+      "section": "SCIE",
+      "originalQuartile": "T3",
+      "originalAif": "5.5",
+      "editor": "@啊啵啵不肥",
+      "tags": [
+        "信息技术"
+      ],
+      "subjectRaw": "信息技术",
+      "isReview": false,
+      "note": "没有Transactions，看来不是bottom期刊",
+      "cover": "./WOA.assets/image-20260214214949524.png"
+    },
+    {
+      "id": 31,
+      "title": "Metaphysics",
+      "section": "SCIE",
+      "originalQuartile": "T2",
+      "originalAif": "2.9",
+      "editor": "@BigSmart",
+      "tags": [
+        "物理学",
+        "玄学"
+      ],
+      "subjectRaw": "物理学/玄学",
+      "isReview": false,
+      "note": "玄学领域小底刊",
+      "cover": "./WOA.assets/image-20260214215045576.png"
+    },
+    {
+      "id": 32,
+      "title": "Silence Bullshit",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "16.9",
+      "editor": "@OK不K",
+      "tags": [
+        "综合",
+        "国产期刊"
+      ],
+      "subjectRaw": "综合，国产期刊",
+      "isReview": false,
+      "note": "跟RTTT并称国产双雄",
+      "cover": "./WOA.assets/image-20260214215132496.png"
+    },
+    {
+      "id": 33,
+      "title": "Sh/*t",
+      "section": "SCIE",
+      "originalQuartile": "T2",
+      "originalAif": "7.5",
+      "editor": "@shit",
+      "tags": [
+        "医学",
+        "消化系统疾病"
+      ],
+      "subjectRaw": "医学/消化系统疾病",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214215240951.png"
+    },
+    {
+      "id": 34,
+      "title": "Crazy",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "7.8",
+      "editor": "@《Crazy》期刊",
+      "tags": [
+        "医学",
+        "心理学"
+      ],
+      "subjectRaw": "医学/心理学",
+      "isReview": false,
+      "note": "心理学小底刊",
+      "cover": "./WOA.assets/image-20260214215420002.png"
+    },
+    {
+      "id": 35,
+      "title": "Litter",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "-1",
+      "editor": "@Litter期刊编辑部",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "分不高，但是挺难投",
+      "cover": "./WOA.assets/image-20260214220253359.png"
+    },
+    {
+      "id": 36,
+      "title": "Rubbish report",
+      "section": "SCIE",
+      "originalQuartile": "T1",
+      "originalAif": "4.2",
+      "editor": "@Rubbish Report编辑部",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "大水刊",
+      "cover": "./WOA.assets/image-20260214220350876.png"
+    },
+    {
+      "id": 37,
+      "title": "Rubbish computing",
+      "section": "SCIE",
+      "originalQuartile": "T4",
+      "originalAif": "22.56",
+      "editor": "@Rubbish Computing",
+      "tags": [
+        "信息科学"
+      ],
+      "subjectRaw": "信息科学",
+      "isReview": false,
+      "note": "曾被联合抵制，但是真香",
+      "cover": "./WOA.assets/image-20260214220502925.png"
+    },
+    {
+      "id": 38,
+      "title": "Journal of Rubbish Finance",
+      "section": "SCIE",
+      "originalQuartile": "T3",
+      "originalAif": "",
+      "editor": "@JournalofRubbishFinance",
+      "tags": [
+        "经济学"
+      ],
+      "subjectRaw": "经济学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215224947285.png"
+    },
+    {
+      "id": 39,
+      "title": "Stupid Tractate and Transferred Trash",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@STTT",
+      "tags": [
+        "综合",
+        "国产期刊"
+      ],
+      "subjectRaw": "综合，国产期刊",
+      "isReview": false,
+      "note": "直接碰瓷！",
+      "cover": "./WOA.assets/image-20260215225141709.png"
+    },
+    {
+      "id": 40,
+      "title": "Rubbish Medicine",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Medicine Report",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215225340564.png"
+    },
+    {
+      "id": 41,
+      "title": "Nonsense Communications",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Nonsense Communications",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "人称小nonsense",
+      "cover": "./WOA.assets/image-20260215225421231.png"
+    },
+    {
+      "id": 42,
+      "title": "Worst Psychoses",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Worst Psychoses",
+      "tags": [
+        "医学",
+        "神经病学",
+        "认知科学"
+      ],
+      "subjectRaw": "医学/神经病学，医学/认知科学",
+      "isReview": false,
+      "note": "那非常worst了",
+      "cover": "./WOA.assets/image-20260215225536872.png"
+    },
+    {
+      "id": 43,
+      "title": "New Rubbish Journal of Medicine",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@NRJM官方账号",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "新英格兰人称小NRJM",
+      "cover": "./WOA.assets/image-20260215225612475.png"
+    },
+    {
+      "id": 44,
+      "title": "Rubbish Metabolism",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Metabolism",
+      "tags": [],
+      "subjectRaw": "",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215225707023.png"
+    },
+    {
+      "id": 45,
+      "title": "International Journal of Garbage Nursing Science",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Int. J. Garb. Nurs.",
+      "tags": [
+        "医学",
+        "护理学"
+      ],
+      "subjectRaw": "医学/护理学",
+      "isReview": false,
+      "note": "护理学的第一本抽象期刊！",
+      "cover": "./WOA.assets/image-20260215225741333.png"
+    },
+    {
+      "id": 46,
+      "title": "Rubbish Story",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Story（故事会）",
+      "tags": [
+        "文学",
+        "科幻"
+      ],
+      "subjectRaw": "文学/科幻",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215225843496.png"
+    },
+    {
+      "id": 47,
+      "title": "Scientific Progress in Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Evan[发呆]",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215225941211.png"
+    },
+    {
+      "id": 48,
+      "title": "Rubbish Biotechnology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Biotechnology",
+      "tags": [
+        "工程学",
+        "生物医学工程",
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "工程学/生物医学工程，医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230031090.png"
+    },
+    {
+      "id": 49,
+      "title": "Journal of Bio-Rubbish and Statistic",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@JBS编辑部",
+      "tags": [
+        "数学",
+        "统计学",
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "数学/统计学，医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230130324.png"
+    },
+    {
+      "id": 50,
+      "title": "Rubbish Glia",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Glia",
+      "tags": [
+        "医学",
+        "综合",
+        "生物学"
+      ],
+      "subjectRaw": "医学/综合，生物学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230202578.png"
+    },
+    {
+      "id": 51,
+      "title": "Rubbish Lancett",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Lancett",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230247050.png"
+    },
+    {
+      "id": 52,
+      "title": "Junk",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@JUNK SCI",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230323064.png"
+    },
+    {
+      "id": 53,
+      "title": "Failure",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@小泽Mark",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230356839.png"
+    },
+    {
+      "id": 54,
+      "title": "Rubbish Mathematics",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Mathematics",
+      "tags": [
+        "数学",
+        "综合"
+      ],
+      "subjectRaw": "数学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230437975.png"
+    },
+    {
+      "id": 55,
+      "title": "Nonsense",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Nonsense",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230511746.png"
+    },
+    {
+      "id": 56,
+      "title": "The Fool",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@The Fool",
+      "tags": [
+        "人类学"
+      ],
+      "subjectRaw": "人类学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215230550370.png"
+    },
+    {
+      "id": 57,
+      "title": "BIG",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@BIG编辑部",
+      "tags": [
+        "纳米科技"
+      ],
+      "subjectRaw": "纳米科技",
+      "isReview": false,
+      "note": "听说small已经降为二区了！",
+      "cover": "./WOA.assets/image-20260215230609271.png"
+    },
+    {
+      "id": 58,
+      "title": "Rubbish Sustainability",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Sustainability",
+      "tags": [
+        "环境科学"
+      ],
+      "subjectRaw": "环境科学",
+      "isReview": false,
+      "note": "希望rubbish系列能持续下去",
+      "cover": "./WOA.assets/image-20260215230716139.png"
+    },
+    {
+      "id": 59,
+      "title": "Advanced Refuse",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Advanced Refuse",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215231019348.png"
+    },
+    {
+      "id": 60,
+      "title": "Science Screw",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@在逃葱油饼",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "AAAS连夜切割",
+      "cover": "./WOA.assets/image-20260215231053538.png"
+    },
+    {
+      "id": 61,
+      "title": "Advanced Funny Materials",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Advanced Funny Materials",
+      "tags": [
+        "工程学",
+        "材料科学"
+      ],
+      "subjectRaw": "工程学/材料科学",
+      "isReview": false,
+      "note": "AFM是李逵还是李鬼？",
+      "cover": "./WOA.assets/image-20260215231139432.png"
+    },
+    {
+      "id": 62,
+      "title": "International Journal of No Data",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@No Data",
+      "tags": [
+        "数据科学"
+      ],
+      "subjectRaw": "数据科学",
+      "isReview": false,
+      "note": "没事，WOA还有点索引数据",
+      "cover": "./WOA.assets/image-20260215231235110.png"
+    },
+    {
+      "id": 63,
+      "title": "Applied Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Applied Rubbish",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215231322212.png"
+    },
+    {
+      "id": 64,
+      "title": "National Rubbish Review",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@National Rubbish Review",
+      "tags": [
+        "综合",
+        "国产期刊"
+      ],
+      "subjectRaw": "综合，国产期刊",
+      "isReview": false,
+      "note": "国产又一力作",
+      "cover": "./WOA.assets/image-20260215231429603.png"
+    },
+    {
+      "id": 65,
+      "title": "Rubbish Anthropology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Anthropology",
+      "tags": [
+        "人类学"
+      ],
+      "subjectRaw": "人类学",
+      "isReview": false,
+      "note": "垃圾从哪里来？",
+      "cover": "./WOA.assets/image-20260215231618514.png"
+    },
+    {
+      "id": 66,
+      "title": "Abandoned Materials",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Abandoned Materials",
+      "tags": [
+        "工程学",
+        "材料科学"
+      ],
+      "subjectRaw": "工程学/材料科学",
+      "isReview": false,
+      "note": "很难突破第一页单词",
+      "cover": "./WOA.assets/image-20260215231654490.png"
+    },
+    {
+      "id": 67,
+      "title": "Nothing Photonics",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Austin BuBu",
+      "tags": [
+        "物理学",
+        "光学"
+      ],
+      "subjectRaw": "物理学/光学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215231801883.png"
+    },
+    {
+      "id": 68,
+      "title": "METAPHYSICS",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@METAPHYSICS",
+      "tags": [
+        "物理学",
+        "玄学"
+      ],
+      "subjectRaw": "物理学/玄学",
+      "isReview": false,
+      "note": "玄学赛道异常拥挤",
+      "cover": "./WOA.assets/image-20260215231831430.png"
+    },
+    {
+      "id": 69,
+      "title": "Silence",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Silence",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215231924878.png"
+    },
+    {
+      "id": 70,
+      "title": "Sorry",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@《Crazy》期刊",
+      "tags": [
+        "医学",
+        "心理学"
+      ],
+      "subjectRaw": "医学/心理学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214215446474.png"
+    },
+    {
+      "id": 71,
+      "title": "Rubbish Research",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Research",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214221018932.png"
+    },
+    {
+      "id": 72,
+      "title": "Litter Human Behavior",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Litter Human Behavior",
+      "tags": [
+        "神经科学",
+        "医学",
+        "心理学"
+      ],
+      "subjectRaw": "神经科学，医学/心理学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260215232414009.png"
+    },
+    {
+      "id": 73,
+      "title": "Rubbish Daily",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Daily",
+      "tags": [
+        "文学"
+      ],
+      "subjectRaw": "文学",
+      "isReview": false,
+      "note": "兄弟们，他真发过nc",
+      "cover": "./WOA.assets/image-20260215232820247.png"
+    },
+    {
+      "id": 74,
+      "title": "SciHorizon: Biology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@0xLLLLLL",
+      "tags": [
+        "生物学"
+      ],
+      "subjectRaw": "生物学",
+      "isReview": false,
+      "note": "简称SB",
+      "cover": "./WOA.assets/image-20260215233050023.png"
+    },
+    {
+      "id": 75,
+      "title": "Call",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Call期刊编辑部",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "中国小Cell",
+      "cover": "./WOA.assets/image-20260215233450658.png"
+    },
+    {
+      "id": 76,
+      "title": "新庸医",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "1.2",
+      "editor": "@新庸医",
+      "tags": [
+        "医学",
+        "临床医学"
+      ],
+      "subjectRaw": "医学/临床医学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260214211912205.png"
+    },
+    {
+      "id": 77,
+      "title": "三体地外医结合杂志",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "1.6",
+      "editor": "@三体地外医结合杂志",
+      "tags": [
+        "医学",
+        "中医"
+      ],
+      "subjectRaw": "医学/中医",
+      "isReview": false,
+      "note": "中医学顶刊",
+      "cover": "./WOA.assets/image-20260214220119688.png"
+    },
+    {
+      "id": 78,
+      "title": "格物",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "",
+      "editor": "@FormatLong",
+      "tags": [
+        "物理学"
+      ],
+      "subjectRaw": "物理学",
+      "isReview": false,
+      "note": "王阳明当创刊主编？",
+      "cover": "./WOA.assets/image-20260215231450128.png"
+    },
+    {
+      "id": 79,
+      "title": "中国织网",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "",
+      "editor": "@中国织网",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "那美国织什么？",
+      "cover": "./WOA.assets/image-20260215232309965.png"
+    },
+    {
+      "id": 80,
+      "title": "Internaltional Laboratory Oolong Converence",
+      "section": "会议",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "Litter 期刊编辑部",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "ILOC",
+      "cover": "./WOA.assets/image-20260215230914422.png"
+    }
+  ]
+}
