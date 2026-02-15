@@ -80,7 +80,7 @@
 | ![image-20260215233913765](./WOA.assets/image-20260215233913765.png) | WeCheat Communications | | | @Wecheat Communications | 信息技术 | |已经发表的论文只能保存7天|
 | ![image-20260215233948595](./WOA.assets/image-20260215233948595.png) | Frontiers in Bullshitology | | | @《前沿废话》期刊 | 语言学 | ||
 | ![image-20260215234059155](./WOA.assets/image-20260215234059155.png) | Joker of Academics | | | @Joker Of Academics | 综合 | ||
-| ![image-20260216002549609](E:\projects\web-of-absurd\WOA.assets\image-20260216002549609.png) | American Economic Rubbish | | | @AmericanEconomicRubbish | 经济学 | |洋垃圾|
+| ![image-20260216002549609](./WOA.assets/image-20260216002549609.png) | American Economic Rubbish | | | @AmericanEconomicRubbish | 经济学 | |洋垃圾|
 
 
 
