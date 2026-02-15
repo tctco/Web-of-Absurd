@@ -255,6 +255,9 @@ select:focus {
   border-radius: 6px;
   cursor: pointer;
   text-align: left;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .tag-node-btn:hover {
@@ -265,6 +268,20 @@ select:focus {
   background: #dcecff;
   color: #123d71;
   font-weight: 600;
+}
+
+.tag-node-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #e5f0ff;
+  border: 1px solid #c7dcf6;
+  color: #15497f;
+  font-size: 0.76rem;
+  line-height: 1.1;
 }
 
 .stats {

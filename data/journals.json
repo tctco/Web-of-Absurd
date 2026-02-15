@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-15T15:51:18.441Z",
+  "generatedAt": "2026-02-15T16:27:22.888Z",
   "source": "WOA.md",
-  "count": 83,
+  "count": 84,
   "journals": [
     {
       "id": 1,
@@ -1213,6 +1213,21 @@
     },
     {
       "id": 79,
+      "title": "American Economic Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@AmericanEconomicRubbish",
+      "tags": [
+        "经济学"
+      ],
+      "subjectRaw": "经济学",
+      "isReview": false,
+      "note": "洋垃圾",
+      "cover": "./WOA.assets/image-20260216002549609.png"
+    },
+    {
+      "id": 80,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1228,7 +1243,7 @@
       "cover": "./WOA.assets/image-20260214211912205.png"
     },
     {
-      "id": 80,
+      "id": 81,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1244,7 +1259,7 @@
       "cover": "./WOA.assets/image-20260214220119688.png"
     },
     {
-      "id": 81,
+      "id": 82,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1259,7 +1274,7 @@
       "cover": "./WOA.assets/image-20260215231450128.png"
     },
     {
-      "id": 82,
+      "id": 83,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1274,7 +1289,7 @@
       "cover": "./WOA.assets/image-20260215232309965.png"
     },
     {
-      "id": 83,
+      "id": 84,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",

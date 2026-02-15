@@ -228,12 +228,14 @@ function renderSubjectTreeNodes(nodes, isRoot = false) {
   const nodeHtml = nodes
     .map((node) => {
       const activeClass = state.tagPath === node.fullPath ? "active" : "";
+      const count = node.count || 0;
       return `
         <li>
           <button type="button" class="tag-node-btn ${activeClass}" data-tag-path="${escapeHtml(
             node.fullPath
           )}">
-            ${escapeHtml(node.name)}
+            <span>${escapeHtml(node.name)}</span>
+            <span class="tag-node-count">${count}</span>
           </button>
           ${renderSubjectTreeNodes(node.children)}
         </li>
@@ -244,7 +246,36 @@ function renderSubjectTreeNodes(nodes, isRoot = false) {
   return `<ul class="${isRoot ? "root" : ""}">${nodeHtml}</ul>`;
 }
 
-function renderSubjectTree() {
+function applyTreeCounts(nodes, countMap) {
+  return nodes.map((node) => ({
+    ...node,
+    count: countMap.get(node.fullPath) || 0,
+    children: applyTreeCounts(node.children, countMap)
+  }));
+}
+
+function buildTreeCountMap(items) {
+  const countMap = new Map();
+  for (const item of items) {
+    const prefixes = new Set();
+    for (const path of item.subjectPaths || []) {
+      const parts = path
+        .split("/")
+        .map((segment) => segment.trim())
+        .filter(Boolean);
+      for (let i = 1; i <= parts.length; i += 1) {
+        prefixes.add(parts.slice(0, i).join("/"));
+      }
+    }
+
+    for (const prefix of prefixes) {
+      countMap.set(prefix, (countMap.get(prefix) || 0) + 1);
+    }
+  }
+  return countMap;
+}
+
+function renderSubjectTree(countMap) {
   if (!elements.tagTree) return;
   if (subjectTree.length === 0) {
     elements.tagTree.innerHTML = '<div class="empty-state">暂无学科标签</div>';
@@ -252,7 +283,8 @@ function renderSubjectTree() {
     return;
   }
 
-  elements.tagTree.innerHTML = renderSubjectTreeNodes(subjectTree, true);
+  const treeWithCounts = applyTreeCounts(subjectTree, countMap);
+  elements.tagTree.innerHTML = renderSubjectTreeNodes(treeWithCounts, true);
   elements.tagTreeSelected.textContent = state.tagPath === "ALL" ? "全部" : state.tagPath;
 }
 
@@ -265,36 +297,40 @@ function updateSectionTabsUi() {
   }
 }
 
+function matchesPrimaryFilters(item) {
+  if (state.query) {
+    const searchable = [
+      item.title,
+      item.editor,
+      item.section,
+      item.note,
+      ...(item.tags || []),
+      ...(item.subjectPaths || [])
+    ]
+      .join(" ")
+      .toLowerCase();
+    if (!searchable.includes(state.query)) return false;
+  }
+
+  if (item.section !== state.section) return false;
+  if (state.tier !== "ALL" && item.tier !== state.tier) return false;
+  if (state.review === "ONLY" && !item.isReview) return false;
+  if (state.hold === "ONLY" && !item.onHold) return false;
+  if (state.hold === "EXCLUDE" && item.onHold) return false;
+  return true;
+}
+
+function getTreeCountBaseJournals() {
+  return journals.filter((item) => matchesPrimaryFilters(item));
+}
+
 function getFilteredJournals() {
   return journals.filter((item) => {
-    if (state.query) {
-      const searchable = [
-        item.title,
-        item.editor,
-        item.section,
-        item.note,
-        ...(item.tags || []),
-        ...(item.subjectPaths || [])
-      ]
-        .join(" ")
-        .toLowerCase();
-      if (!searchable.includes(state.query)) return false;
-    }
-
-    if (item.section !== state.section) return false;
-    if (state.tier !== "ALL" && item.tier !== state.tier) return false;
-    if (state.review === "ONLY" && !item.isReview) return false;
-    if (state.hold === "ONLY" && !item.onHold) return false;
-    if (state.hold === "EXCLUDE" && item.onHold) return false;
-
-    if (state.tagPath !== "ALL") {
-      const matched = (item.subjectPaths || []).some(
-        (path) => path === state.tagPath || path.startsWith(`${state.tagPath}/`)
-      );
-      if (!matched) return false;
-    }
-
-    return true;
+    if (!matchesPrimaryFilters(item)) return false;
+    if (state.tagPath === "ALL") return true;
+    return (item.subjectPaths || []).some(
+      (path) => path === state.tagPath || path.startsWith(`${state.tagPath}/`)
+    );
   });
 }
 
@@ -454,6 +490,8 @@ function updatePaginationUi(total, totalPages, startIndex, endIndex) {
 }
 
 function render() {
+  const treeCountBase = getTreeCountBaseJournals();
+  const treeCountMap = buildTreeCountMap(treeCountBase);
   const filtered = getFilteredJournals();
   const sorted = sortJournals(filtered);
   const pagination = paginateItems(sorted);
@@ -472,7 +510,7 @@ function render() {
   );
   updateSortUi();
   updateSectionTabsUi();
-  renderSubjectTree();
+  renderSubjectTree(treeCountMap);
 
   if (pagination.total === 0) {
     renderEmptyState();
