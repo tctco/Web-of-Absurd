@@ -108,6 +108,9 @@
 | ![image-20260216171312930](./WOA.assets/image-20260216171312930.png) | Silence & Society | | | @Silence&Society | 社会学 | ||
 | ![image-20260216171545266](./WOA.assets/image-20260216171545266.png) | Rubbish Wetland | | | @Rubbish Wetland | 环境学 | ||
 | ![image-20260216171616918](./WOA.assets/image-20260216171616918.png) | Endgineering | | | @Endginneering | 工程学/综合 | ||
+| ![image-20260216173235079](./WOA.assets/image-20260216173235079.png) | Rubbish Sociology | | | @Rubbish Sociology | 社会学 | ||
+| ![image-20260216173349697](./WOA.assets/image-20260216173349697.png) | Psycho Review Letters | | | @Psycho Review Letters | 医学/心理学，医学/神经病学，医学/认知科学 | ||
+| ![image-20260216173626802](./WOA.assets/image-20260216173626802.png) | Cella Comoedia | | | @Cella Comoedia Press | 综合 | ||
 
 
 
@@ -123,6 +126,7 @@
 | ![image-20260215232309965](./WOA.assets/image-20260215232309965.png) | 中国织网           | 核心期刊 |      | @中国织网           | 综合          |          | 那美国织什么？     |
 | ![image-20260216141344594](./WOA.assets/image-20260216141344594.png) | 灌水               | 核心期刊 |      | @灌水               | 综合          |          |                    |
 | ![image-20260216171118181](./WOA.assets/image-20260216171118181.png) | 垃圾诗刊           | 核心期刊 |      | @青梧新论           | 文学          |          |                    |
+| ![image-20260216173456522](./WOA.assets/image-20260216173456522.png) | 甘蔗社会科学       | 核心期刊 |      | @甘蔗社会科学       | 社会学        |          | 感觉很难嚼的样子   |
 
 ## 会议
 

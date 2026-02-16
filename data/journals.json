@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-02-16T09:20:29.768Z",
+  "generatedAt": "2026-02-16T09:37:56.912Z",
   "source": "WOA.md",
-  "count": 113,
+  "count": 117,
   "sectionCounts": {
-    "SCIE": 106,
-    "北小核心": 6,
+    "SCIE": 109,
+    "北小核心": 7,
     "会议": 1
   },
   "journals": [
@@ -1769,6 +1769,57 @@
     },
     {
       "id": 107,
+      "title": "Rubbish Sociology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Sociology",
+      "tags": [
+        "社会学"
+      ],
+      "subjectRaw": "社会学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216173235079.png",
+      "issn": "3220-1508"
+    },
+    {
+      "id": 108,
+      "title": "Psycho Review Letters",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Psycho Review Letters",
+      "tags": [
+        "医学",
+        "心理学",
+        "神经病学",
+        "认知科学"
+      ],
+      "subjectRaw": "医学/心理学，医学/神经病学，医学/认知科学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216173349697.png",
+      "issn": "1898-794X"
+    },
+    {
+      "id": 109,
+      "title": "Cella Comoedia",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Cella Comoedia Press",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216173626802.png",
+      "issn": "5282-683X"
+    },
+    {
+      "id": 110,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1785,7 +1836,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 108,
+      "id": 111,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1802,7 +1853,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 109,
+      "id": 112,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1818,7 +1869,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 110,
+      "id": 113,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1834,7 +1885,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 111,
+      "id": 114,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1850,7 +1901,7 @@
       "issn": "7920-8444"
     },
     {
-      "id": 112,
+      "id": 115,
       "title": "垃圾诗刊",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1866,7 +1917,23 @@
       "issn": "2517-0406"
     },
     {
-      "id": 113,
+      "id": 116,
+      "title": "甘蔗社会科学",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "",
+      "editor": "@甘蔗社会科学",
+      "tags": [
+        "社会学"
+      ],
+      "subjectRaw": "社会学",
+      "isReview": false,
+      "note": "感觉很难嚼的样子",
+      "cover": "./WOA.assets/image-20260216173456522.png",
+      "issn": "4691-4544"
+    },
+    {
+      "id": 117,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
