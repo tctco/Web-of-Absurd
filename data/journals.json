@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-16T09:46:25.421Z",
+  "generatedAt": "2026-02-16T10:10:46.118Z",
   "source": "WOA.md",
-  "count": 118,
+  "count": 119,
   "sectionCounts": {
-    "SCIE": 110,
+    "SCIE": 111,
     "北小核心": 7,
     "会议": 1
   },
@@ -1836,6 +1836,23 @@
     },
     {
       "id": 111,
+      "title": "Rubbish Medicine",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Medicine",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216180924256.png",
+      "issn": "7957-0666"
+    },
+    {
+      "id": 112,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1852,7 +1869,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 112,
+      "id": 113,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1869,7 +1886,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 113,
+      "id": 114,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1885,7 +1902,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 114,
+      "id": 115,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1901,7 +1918,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 115,
+      "id": 116,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1917,7 +1934,7 @@
       "issn": "7920-8444"
     },
     {
-      "id": 116,
+      "id": 117,
       "title": "垃圾诗刊",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1933,7 +1950,7 @@
       "issn": "2517-0406"
     },
     {
-      "id": 117,
+      "id": 118,
       "title": "甘蔗社会科学",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1949,7 +1966,7 @@
       "issn": "4691-4544"
     },
     {
-      "id": 118,
+      "id": 119,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",

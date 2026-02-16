@@ -111,7 +111,8 @@
 | ![image-20260216173235079](./WOA.assets/image-20260216173235079.png) | Rubbish Sociology | | | @Rubbish Sociology | 社会学 | ||
 | ![image-20260216173349697](./WOA.assets/image-20260216173349697.png) | Psycho Review Letters | | | @Psycho Review Letters | 医学/心理学，医学/神经病学，医学/认知科学 | ||
 | ![image-20260216173626802](./WOA.assets/image-20260216173626802.png) | Cella Comoedia | | | @Cella Comoedia Press | 综合 | ||
-| ![image-20260216174536654](E:\projects\web-of-absurd\WOA.assets\image-20260216174536654.png) | Rubbish Advances | | | @Rubbish Advances | 综合 | ||
+| ![image-20260216174536654](./WOA.assets/image-20260216174536654.png) | Rubbish Advances | | | @Rubbish Advances | 综合 | ||
+| ![image-20260216180924256](./WOA.assets/image-20260216180924256.png) | Rubbish Medicine | | | @Rubbish Medicine | 医学/综合 | ||
 
 
 
