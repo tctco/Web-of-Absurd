@@ -1,11 +1,14 @@
-const CACHE_NAME = "woa-static-v1";
+const CACHE_NAME = "woa-static-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
+  "./journal.html",
   "./styles.css",
   "./app.js",
+  "./detail.js",
   "./manifest.webmanifest",
   "./data/journals.json",
+  "./data/journal-count-history.json",
   "./logo.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png"

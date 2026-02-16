@@ -1,4 +1,7 @@
 const elements = {
+  viewTabs: document.getElementById("viewTabs"),
+  catalogView: document.getElementById("catalogView"),
+  metricsView: document.getElementById("metricsView"),
   searchInput: document.getElementById("searchInput"),
   sectionTabs: document.getElementById("sectionTabs"),
   tierFilter: document.getElementById("tierFilter"),
@@ -7,6 +10,8 @@ const elements = {
   tagTree: document.getElementById("tagTree"),
   tagTreeSelected: document.getElementById("tagTreeSelected"),
   clearTagTree: document.getElementById("clearTagTree"),
+  titleSortBtn: document.getElementById("titleSortBtn"),
+  titleSortIndicator: document.getElementById("titleSortIndicator"),
   aifSortBtn: document.getElementById("aifSortBtn"),
   aifSortIndicator: document.getElementById("aifSortIndicator"),
   pageSize: document.getElementById("pageSize"),
@@ -16,19 +21,24 @@ const elements = {
   totalCount: document.getElementById("totalCount"),
   visibleCount: document.getElementById("visibleCount"),
   seedDate: document.getElementById("seedDate"),
+  metricLineChart: document.getElementById("metricLineChart"),
+  metricWordCloud: document.getElementById("metricWordCloud"),
+  metricTypePie: document.getElementById("metricTypePie"),
+  metricTagPie: document.getElementById("metricTagPie"),
   tableBody: document.getElementById("tableBody"),
   mobileList: document.getElementById("mobileList"),
   emptyStateTpl: document.getElementById("emptyStateTpl")
 };
 
 const state = {
+  view: "catalog",
   query: "",
   section: "SCIE",
   tier: "ALL",
   review: "ALL",
   hold: "ALL",
   tagPath: "ALL",
-  sort: "DEFAULT",
+  sort: "TITLE_ASC",
   pageSize: 10,
   currentPage: 1
 };
@@ -38,7 +48,41 @@ let thresholds = { q25: 0, q50: 0, q75: 0 };
 let seedDate = "";
 let lastTotalPages = 1;
 let subjectTree = [];
+let historyEntries = [];
+const metricCharts = {
+  line: null,
+  word: null,
+  pie: null,
+  tagPie: null
+};
 const TAB_SECTIONS = ["SCIE", "北小核心", "会议"];
+const RUNTIME_SNAPSHOT_KEY = "woa-runtime-snapshot-v2";
+const TITLE_STOPWORDS = new Set([
+  "journal",
+  "journals",
+  "the",
+  "of",
+  "and",
+  "in",
+  "for",
+  "on",
+  "to",
+  "with",
+  "a",
+  "an",
+  "international",
+  "advanced",
+  "communications",
+  "review",
+  "science",
+  "scientific",
+  "applied",
+  "new",
+  "期刊",
+  "杂志",
+  "研究",
+  "中国"
+]);
 
 function escapeHtml(value) {
   return String(value || "")
@@ -47,6 +91,10 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function buildDetailHref(issn) {
+  return `./journal.html?issn=${encodeURIComponent(String(issn))}`;
 }
 
 function isJokerJournal(title) {
@@ -297,6 +345,32 @@ function updateSectionTabsUi() {
   }
 }
 
+function updateViewTabsUi() {
+  if (!elements.viewTabs) return;
+  const buttons = elements.viewTabs.querySelectorAll(".view-tab");
+  for (const button of buttons) {
+    const isActive = button.dataset.view === state.view;
+    button.classList.toggle("active", isActive);
+  }
+}
+
+function setView(view) {
+  state.view = view === "metrics" ? "metrics" : "catalog";
+  elements.catalogView.classList.toggle("hidden", state.view !== "catalog");
+  elements.metricsView.classList.toggle("hidden", state.view !== "metrics");
+  updateViewTabsUi();
+
+  if (state.view === "metrics") {
+    renderMetrics();
+    requestAnimationFrame(() => {
+      metricCharts.line?.resize();
+      metricCharts.word?.resize();
+      metricCharts.pie?.resize();
+      metricCharts.tagPie?.resize();
+    });
+  }
+}
+
 function matchesPrimaryFilters(item) {
   if (state.query) {
     const searchable = [
@@ -336,16 +410,29 @@ function getFilteredJournals() {
 
 function sortJournals(items) {
   if (state.sort === "DEFAULT") {
-    return [...items].sort((a, b) => a.id - b.id);
+    return [...items].sort((a, b) => a.title.localeCompare(b.title, "zh-CN"));
   }
 
-  const desc = state.sort === "DESC";
-  return [...items].sort((a, b) => {
-    if (a.numericAif === b.numericAif) {
-      return a.title.localeCompare(b.title, "zh-CN");
-    }
-    return desc ? b.numericAif - a.numericAif : a.numericAif - b.numericAif;
-  });
+  if (state.sort === "AIF_DESC" || state.sort === "AIF_ASC") {
+    const desc = state.sort === "AIF_DESC";
+    return [...items].sort((a, b) => {
+      if (a.numericAif === b.numericAif) {
+        return a.title.localeCompare(b.title, "zh-CN");
+      }
+      return desc ? b.numericAif - a.numericAif : a.numericAif - b.numericAif;
+    });
+  }
+
+  if (state.sort === "TITLE_ASC" || state.sort === "TITLE_DESC") {
+    const desc = state.sort === "TITLE_DESC";
+    return [...items].sort((a, b) => {
+      const byTitle = a.title.localeCompare(b.title, "zh-CN");
+      if (byTitle === 0) return a.id - b.id;
+      return desc ? -byTitle : byTitle;
+    });
+  }
+
+  return [...items].sort((a, b) => a.title.localeCompare(b.title, "zh-CN"));
 }
 
 function paginateItems(items) {
@@ -399,7 +486,9 @@ function renderTable(items) {
       return `
         <tr>
           <td>${item.cover ? `<img class="cover" src="${escapeHtml(item.cover)}" alt="${escapeHtml(item.title)}" loading="lazy" />` : "-"}</td>
-          <td><div class="title">${escapeHtml(item.title)}</div></td>
+          <td>
+            <a class="title-link" href="${buildDetailHref(item.issn || item.id)}">${escapeHtml(item.title)}</a>
+          </td>
           <td><span class="tier ${tierClass(item.tier)}">${item.tier}</span></td>
           <td><span class="aif ${item.aifClass}">${escapeHtml(item.aifDisplay)}</span></td>
           <td>${escapeHtml(item.section || "-")}</td>
@@ -430,7 +519,9 @@ function renderMobile(items) {
           <div class="mobile-card-top">
             ${item.cover ? `<img class="mobile-cover" src="${escapeHtml(item.cover)}" alt="${escapeHtml(item.title)}" loading="lazy" />` : ""}
             <div>
-              <h3 class="mobile-title">${escapeHtml(item.title)}</h3>
+              <h3 class="mobile-title">
+                <a class="title-link" href="${buildDetailHref(item.issn || item.id)}">${escapeHtml(item.title)}</a>
+              </h3>
               <div><span class="tier ${tierClass(item.tier)}">${item.tier}</span></div>
             </div>
           </div>
@@ -449,6 +540,33 @@ function renderMobile(items) {
     .join("");
 }
 
+function storeRuntimeSnapshot(items) {
+  try {
+    const runtimeItems = {};
+    for (const item of items) {
+      const key = String(item.issn || item.id);
+      runtimeItems[key] = {
+        id: item.id,
+        issn: item.issn || "",
+        numericAif: item.numericAif,
+        aifDisplay: item.aifDisplay,
+        aifClass: item.aifClass,
+        onHold: item.onHold,
+        tier: item.tier
+      };
+    }
+
+    const payload = {
+      updatedAt: new Date().toISOString(),
+      seedDate,
+      items: runtimeItems
+    };
+    sessionStorage.setItem(RUNTIME_SNAPSHOT_KEY, JSON.stringify(payload));
+  } catch (error) {
+    console.warn("failed to persist runtime snapshot", error);
+  }
+}
+
 function renderEmptyState() {
   const emptyNode = elements.emptyStateTpl.content.firstElementChild.cloneNode(true);
   elements.tableBody.innerHTML = `<tr><td colspan="10"></td></tr>`;
@@ -459,17 +577,236 @@ function renderEmptyState() {
 }
 
 function updateSortUi() {
-  let text = "↕";
-  let title = "默认顺序";
-  if (state.sort === "DESC") {
-    text = "↓";
-    title = "AIF 从高到低";
-  } else if (state.sort === "ASC") {
-    text = "↑";
-    title = "AIF 从低到高";
+  let aifText = "↕";
+  let aifTitle = "AIF 默认顺序";
+  if (state.sort === "AIF_DESC") {
+    aifText = "↓";
+    aifTitle = "AIF 从高到低";
+  } else if (state.sort === "AIF_ASC") {
+    aifText = "↑";
+    aifTitle = "AIF 从低到高";
   }
-  elements.aifSortIndicator.textContent = text;
-  elements.aifSortBtn.title = title;
+  elements.aifSortIndicator.textContent = aifText;
+  elements.aifSortBtn.title = aifTitle;
+
+  let titleText = "↕";
+  let titleHint = "期刊名默认顺序";
+  if (state.sort === "TITLE_ASC" || state.sort === "DEFAULT") {
+    titleText = "↑";
+    titleHint = "期刊名字典序升序";
+  } else if (state.sort === "TITLE_DESC") {
+    titleText = "↓";
+    titleHint = "期刊名字典序降序";
+  }
+  elements.titleSortIndicator.textContent = titleText;
+  elements.titleSortBtn.title = titleHint;
+}
+
+function tokenizeTitle(title) {
+  const normalized = title
+    .toLowerCase()
+    .replace(/[^\u4e00-\u9fa5a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const englishTokens = normalized.match(/[a-z][a-z0-9]{1,}/g) || [];
+  const chineseTokens = normalized.match(/[\u4e00-\u9fa5]{2,}/g) || [];
+  return [...englishTokens, ...chineseTokens].filter((token) => !TITLE_STOPWORDS.has(token));
+}
+
+function getWordCloudData(items) {
+  const freq = new Map();
+  for (const item of items) {
+    const tokens = tokenizeTitle(item.title || "");
+    for (const token of tokens) {
+      freq.set(token, (freq.get(token) || 0) + 1);
+    }
+  }
+  return [...freq.entries()]
+    .map(([name, value]) => ({ name, value }))
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 120);
+}
+
+function formatHistoryLabel(iso) {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return iso;
+  const y = date.getUTCFullYear();
+  const m = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const d = String(date.getUTCDate()).padStart(2, "0");
+  const hh = String(date.getUTCHours()).padStart(2, "0");
+  const mm = String(date.getUTCMinutes()).padStart(2, "0");
+  return `${y}-${m}-${d} ${hh}:${mm}Z`;
+}
+
+function getLineData() {
+  const points = [...historyEntries]
+    .filter((entry) => typeof entry.count === "number" && entry.generatedAt)
+    .map((entry) => {
+      const time = new Date(entry.generatedAt).getTime();
+      return Number.isNaN(time) ? null : [time, entry.count];
+    })
+    .filter(Boolean)
+    .sort((a, b) => a[0] - b[0]);
+
+  if (points.length === 0) {
+    return [[Date.now(), journals.length]];
+  }
+
+  return points;
+}
+
+function getSectionPieData(items) {
+  const map = new Map();
+  for (const item of items) {
+    const key = item.section || "未分类";
+    map.set(key, (map.get(key) || 0) + 1);
+  }
+  return [...map.entries()].map(([name, value]) => ({ name, value }));
+}
+
+function getTagPieData(items, limit = 10) {
+  const map = new Map();
+  for (const item of items) {
+    const seen = new Set(item.tags || []);
+    for (const tag of seen) {
+      map.set(tag, (map.get(tag) || 0) + 1);
+    }
+  }
+
+  const sorted = [...map.entries()]
+    .map(([name, value]) => ({ name, value }))
+    .sort((a, b) => b.value - a.value);
+
+  if (sorted.length <= limit) return sorted;
+  const head = sorted.slice(0, limit);
+  const tailSum = sorted.slice(limit).reduce((sum, item) => sum + item.value, 0);
+  return [...head, { name: "其他", value: tailSum }];
+}
+
+function renderMetrics() {
+  const echarts = window.echarts;
+  if (!echarts) {
+    elements.metricLineChart.innerHTML = '<div class="empty-state">ECharts 未加载</div>';
+    elements.metricWordCloud.innerHTML = '<div class="empty-state">ECharts 未加载</div>';
+    elements.metricTypePie.innerHTML = '<div class="empty-state">ECharts 未加载</div>';
+    elements.metricTagPie.innerHTML = '<div class="empty-state">ECharts 未加载</div>';
+    return;
+  }
+
+  if (!metricCharts.line) metricCharts.line = echarts.init(elements.metricLineChart);
+  if (!metricCharts.word) metricCharts.word = echarts.init(elements.metricWordCloud);
+  if (!metricCharts.pie) metricCharts.pie = echarts.init(elements.metricTypePie);
+  if (!metricCharts.tagPie) metricCharts.tagPie = echarts.init(elements.metricTagPie);
+
+  const lineData = getLineData();
+  const wordData = getWordCloudData(journals);
+  const pieData = getSectionPieData(journals);
+  const tagPieData = getTagPieData(journals, 10);
+
+  metricCharts.line.setOption({
+    tooltip: {
+      trigger: "axis",
+      formatter(params) {
+        const first = Array.isArray(params) ? params[0] : null;
+        if (!first || !Array.isArray(first.data)) return "";
+        return `${formatHistoryLabel(new Date(first.data[0]).toISOString())}<br/>Count: ${first.data[1]}`;
+      }
+    },
+    grid: { left: 40, right: 20, top: 20, bottom: 40 },
+    xAxis: {
+      type: "time",
+      axisLabel: {
+        formatter(value) {
+          const date = new Date(value);
+          if (Number.isNaN(date.getTime())) return "";
+          const m = String(date.getUTCMonth() + 1).padStart(2, "0");
+          const d = String(date.getUTCDate()).padStart(2, "0");
+          const hh = String(date.getUTCHours()).padStart(2, "0");
+          const mm = String(date.getUTCMinutes()).padStart(2, "0");
+          return `${m}-${d}\n${hh}:${mm}`;
+        }
+      }
+    },
+    yAxis: { type: "value", name: "Count" },
+    series: [
+      {
+        type: "line",
+        data: lineData,
+        smooth: true,
+        areaStyle: { opacity: 0.14 },
+        lineStyle: { width: 2 },
+        symbolSize: 7
+      }
+    ]
+  });
+
+  try {
+    metricCharts.word.setOption({
+      tooltip: {},
+      series: [
+        {
+          type: "wordCloud",
+          shape: "circle",
+          left: "center",
+          top: "center",
+          width: "100%",
+          height: "100%",
+          sizeRange: [12, 58],
+          rotationRange: [-45, 45],
+          gridSize: 8,
+          textStyle: {
+            color() {
+              const palette = ["#0f5fb4", "#1d63b1", "#1d8a52", "#b76815", "#5f6d7d"];
+              return palette[Math.floor(Math.random() * palette.length)];
+            }
+          },
+          emphasis: { focus: "self", textStyle: { shadowBlur: 8, shadowColor: "#8eb4e3" } },
+          data: wordData
+        }
+      ]
+    });
+  } catch {
+    metricCharts.word.setOption({
+      tooltip: { trigger: "axis" },
+      grid: { left: 60, right: 20, top: 20, bottom: 40 },
+      xAxis: { type: "value" },
+      yAxis: {
+        type: "category",
+        data: wordData.slice(0, 20).map((item) => item.name),
+        axisLabel: { fontSize: 11 }
+      },
+      series: [{ type: "bar", data: wordData.slice(0, 20).map((item) => item.value) }]
+    });
+  }
+
+  metricCharts.pie.setOption({
+    tooltip: { trigger: "item" },
+    legend: { bottom: 0 },
+    series: [
+      {
+        type: "pie",
+        radius: ["32%", "68%"],
+        center: ["50%", "45%"],
+        data: pieData,
+        label: { formatter: "{b}: {d}%" }
+      }
+    ]
+  });
+
+  metricCharts.tagPie.setOption({
+    tooltip: { trigger: "item" },
+    legend: { bottom: 0 },
+    series: [
+      {
+        type: "pie",
+        radius: ["32%", "68%"],
+        center: ["50%", "45%"],
+        data: tagPieData,
+        label: { formatter: "{b}: {d}%" }
+      }
+    ]
+  });
 }
 
 function updatePaginationUi(total, totalPages, startIndex, endIndex) {
@@ -543,6 +880,14 @@ function bindEvents() {
     });
   }
 
+  elements.viewTabs.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLElement)) return;
+    if (!target.classList.contains("view-tab")) return;
+    const nextView = target.dataset.view;
+    setView(nextView);
+  });
+
   elements.sectionTabs.addEventListener("click", (event) => {
     const target = event.target;
     if (!(target instanceof HTMLElement)) return;
@@ -556,12 +901,22 @@ function bindEvents() {
   });
 
   elements.aifSortBtn.addEventListener("click", () => {
-    if (state.sort === "DEFAULT") {
-      state.sort = "DESC";
-    } else if (state.sort === "DESC") {
-      state.sort = "ASC";
+    if (state.sort === "AIF_DESC") {
+      state.sort = "AIF_ASC";
+    } else if (state.sort === "AIF_ASC") {
+      state.sort = "TITLE_ASC";
     } else {
-      state.sort = "DEFAULT";
+      state.sort = "AIF_DESC";
+    }
+    state.currentPage = 1;
+    render();
+  });
+
+  elements.titleSortBtn.addEventListener("click", () => {
+    if (state.sort === "TITLE_ASC") {
+      state.sort = "TITLE_DESC";
+    } else {
+      state.sort = "TITLE_ASC";
     }
     state.currentPage = 1;
     render();
@@ -576,9 +931,10 @@ function bindEvents() {
   elements.tagTree.addEventListener("click", (event) => {
     const target = event.target;
     if (!(target instanceof HTMLElement)) return;
-    if (!target.classList.contains("tag-node-btn")) return;
+    const button = target.closest(".tag-node-btn");
+    if (!(button instanceof HTMLElement)) return;
 
-    const selectedPath = target.dataset.tagPath;
+    const selectedPath = button.dataset.tagPath;
     if (!selectedPath) return;
     state.tagPath = selectedPath;
     state.currentPage = 1;
@@ -607,6 +963,17 @@ async function loadData() {
   return payload.journals || [];
 }
 
+async function loadHistory() {
+  try {
+    const response = await fetch("./data/journal-count-history.json");
+    if (!response.ok) return [];
+    const payload = await response.json();
+    return Array.isArray(payload) ? payload : [];
+  } catch {
+    return [];
+  }
+}
+
 function registerServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
   window.addEventListener("load", () => {
@@ -621,8 +988,10 @@ async function bootstrap() {
   registerServiceWorker();
 
   try {
-    const raw = await loadData();
+    const [raw, history] = await Promise.all([loadData(), loadHistory()]);
+    historyEntries = history;
     journals = enrichJournals(raw);
+    storeRuntimeSnapshot(journals);
     subjectTree = buildSubjectTree(journals);
     const availableSections = new Set(journals.map((item) => item.section));
     if (!availableSections.has(state.section)) {
@@ -630,6 +999,13 @@ async function bootstrap() {
     }
     syncState();
     render();
+    setView("catalog");
+    window.addEventListener("resize", () => {
+      metricCharts.line?.resize();
+      metricCharts.word?.resize();
+      metricCharts.pie?.resize();
+      metricCharts.tagPie?.resize();
+    });
   } catch (error) {
     console.error(error);
     elements.tableBody.innerHTML = `<tr><td colspan="10" class="empty-state">数据加载失败，请稍后重试。</td></tr>`;

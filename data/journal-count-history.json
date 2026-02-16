@@ -1,0 +1,112 @@
+[
+  {
+    "generatedAt": "2026-02-14T16:49:21.118Z",
+    "count": 11,
+    "sectionCounts": {
+      "SCIE": 11,
+      "北小核心": 0,
+      "会议": 0
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-14T22:49:21.118Z",
+    "count": 41,
+    "sectionCounts": {
+      "SCIE": 39,
+      "北小核心": 2,
+      "会议": 0
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-15T16:49:21.118Z",
+    "count": 84,
+    "sectionCounts": {
+      "SCIE": 79,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-15T16:49:29.356Z",
+    "count": 84,
+    "sectionCounts": {
+      "SCIE": 79,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-16T02:14:56.848Z",
+    "count": 92,
+    "sectionCounts": {
+      "SCIE": 87,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-16T02:31:54.531Z",
+    "count": 93,
+    "sectionCounts": {
+      "SCIE": 88,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-16T02:41:43.948Z",
+    "count": 98,
+    "sectionCounts": {
+      "SCIE": 93,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-16T03:20:46.353Z",
+    "count": 101,
+    "sectionCounts": {
+      "SCIE": 96,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-16T03:30:56.030Z",
+    "count": 102,
+    "sectionCounts": {
+      "SCIE": 97,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-16T03:42:29.119Z",
+    "count": 102,
+    "sectionCounts": {
+      "SCIE": 97,
+      "北小核心": 4,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  }
+]

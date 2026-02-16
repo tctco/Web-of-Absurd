@@ -35,112 +35,142 @@
     </header>
 
     <main class="layout">
-      <section class="panel filters">
-        <div class="section-tabs" id="sectionTabs">
-          <button class="section-tab active" type="button" data-section="SCIE">SCIE</button>
-          <button class="section-tab" type="button" data-section="北小核心">北小核心</button>
-          <button class="section-tab" type="button" data-section="会议">会议</button>
-        </div>
+      <section class="panel view-tabs" id="viewTabs">
+        <button class="view-tab active" type="button" data-view="catalog">目录</button>
+        <button class="view-tab" type="button" data-view="metrics">Metrics</button>
+      </section>
 
-        <div class="search-row">
-          <label for="searchInput">检索期刊</label>
-          <input id="searchInput" type="search" placeholder="输入期刊名、主编、学科标签、注释..." />
-        </div>
-        <div class="filter-grid">
-          <label>
-            分区
-            <select id="tierFilter">
-              <option value="ALL">全部</option>
-              <option value="T1">T1</option>
-              <option value="T2">T2</option>
-              <option value="T3">T3</option>
-              <option value="T4">T4</option>
-            </select>
-          </label>
-          <label>
-            综述期刊
-            <select id="reviewFilter">
-              <option value="ALL">全部</option>
-              <option value="ONLY">仅综述</option>
-            </select>
-          </label>
-          <label>
-            状态
-            <select id="holdFilter">
-              <option value="ALL">全部</option>
-              <option value="ONLY">仅 On Hold</option>
-              <option value="EXCLUDE">排除 On Hold</option>
-            </select>
-          </label>
-          <div class="tag-tree-filter">
-            <div class="tag-tree-head">
-              <span>学科标签（树）</span>
-              <button id="clearTagTree" type="button">清除</button>
-            </div>
-            <p class="tag-tree-selected">
-              当前：<strong id="tagTreeSelected">全部</strong>
-            </p>
-            <div id="tagTree" class="tag-tree"></div>
+      <div id="catalogView">
+        <section class="panel filters">
+          <div class="section-tabs" id="sectionTabs">
+            <button class="section-tab active" type="button" data-section="SCIE">SCIE</button>
+            <button class="section-tab" type="button" data-section="北小核心">北小核心</button>
+            <button class="section-tab" type="button" data-section="会议">会议</button>
           </div>
-        </div>
-      </section>
 
-      <section class="stats">
-        <article class="panel stat">
-          <span>期刊总数</span>
-          <strong id="totalCount">-</strong>
-        </article>
-        <article class="panel stat">
-          <span>当前结果</span>
-          <strong id="visibleCount">-</strong>
-        </article>
-      </section>
-
-      <section class="panel results-panel">
-        <div class="table-wrap">
-          <table id="desktopTable">
-            <thead>
-              <tr>
-                <th>封面</th>
-                <th>期刊</th>
-                <th>分区</th>
-                <th>
-                  <button id="aifSortBtn" type="button" class="aif-sort-btn">
-                    AIF <span id="aifSortIndicator">↕</span>
-                  </button>
-                </th>
-                <th>收录</th>
-                <th>主编/编辑部</th>
-                <th>学科标签</th>
-                <th>综述</th>
-                <th>状态</th>
-                <th>注释</th>
-              </tr>
-            </thead>
-            <tbody id="tableBody"></tbody>
-          </table>
-        </div>
-
-        <div class="mobile-list" id="mobileList"></div>
-
-        <div class="pagination">
-          <div class="pagination-size">
+          <div class="search-row">
+            <label for="searchInput">检索期刊</label>
+            <input id="searchInput" type="search" placeholder="输入期刊名、主编、学科标签、注释..." />
+          </div>
+          <div class="filter-grid">
             <label>
-              每页数量
-              <select id="pageSize">
-                <option value="8">8</option>
-                <option value="10" selected>10</option>
-                <option value="20">20</option>
-                <option value="50">50</option>
+              分区
+              <select id="tierFilter">
+                <option value="ALL">全部</option>
+                <option value="T1">T1</option>
+                <option value="T2">T2</option>
+                <option value="T3">T3</option>
+                <option value="T4">T4</option>
               </select>
             </label>
+            <label>
+              综述期刊
+              <select id="reviewFilter">
+                <option value="ALL">全部</option>
+                <option value="ONLY">仅综述</option>
+              </select>
+            </label>
+            <label>
+              状态
+              <select id="holdFilter">
+                <option value="ALL">全部</option>
+                <option value="ONLY">仅 On Hold</option>
+                <option value="EXCLUDE">排除 On Hold</option>
+              </select>
+            </label>
+            <div class="tag-tree-filter">
+              <div class="tag-tree-head">
+                <span>学科标签（树）</span>
+                <button id="clearTagTree" type="button">清除</button>
+              </div>
+              <p class="tag-tree-selected">
+                当前：<strong id="tagTreeSelected">全部</strong>
+              </p>
+              <div id="tagTree" class="tag-tree"></div>
+            </div>
           </div>
-          <div class="pagination-nav">
-            <button id="prevPage" type="button">上一页</button>
-            <span id="pageInfo">第 1 / 1 页</span>
-            <button id="nextPage" type="button">下一页</button>
+        </section>
+
+        <section class="stats">
+          <article class="panel stat">
+            <span>期刊总数</span>
+            <strong id="totalCount">-</strong>
+          </article>
+          <article class="panel stat">
+            <span>当前结果</span>
+            <strong id="visibleCount">-</strong>
+          </article>
+        </section>
+
+        <section class="panel results-panel">
+          <div class="table-wrap">
+            <table id="desktopTable">
+              <thead>
+                <tr>
+                  <th>封面</th>
+                  <th>
+                    <button id="titleSortBtn" type="button" class="sort-btn">
+                      期刊 <span id="titleSortIndicator">↕</span>
+                    </button>
+                  </th>
+                  <th>分区</th>
+                  <th>
+                    <button id="aifSortBtn" type="button" class="sort-btn">
+                      AIF <span id="aifSortIndicator">↕</span>
+                    </button>
+                  </th>
+                  <th>收录</th>
+                  <th>主编/编辑部</th>
+                  <th>学科标签</th>
+                  <th>综述</th>
+                  <th>状态</th>
+                  <th>注释</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+            </table>
           </div>
-        </div>
+
+          <div class="mobile-list" id="mobileList"></div>
+
+          <div class="pagination">
+            <div class="pagination-size">
+              <label>
+                每页数量
+                <select id="pageSize">
+                  <option value="8">8</option>
+                  <option value="10" selected>10</option>
+                  <option value="20">20</option>
+                  <option value="50">50</option>
+                </select>
+              </label>
+            </div>
+            <div class="pagination-nav">
+              <button id="prevPage" type="button">上一页</button>
+              <span id="pageInfo">第 1 / 1 页</span>
+              <button id="nextPage" type="button">下一页</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="metrics-view hidden" id="metricsView">
+        <article class="panel metric-panel">
+          <h3>Journal Count Trend</h3>
+          <div id="metricLineChart" class="metric-chart"></div>
+        </article>
+        <article class="panel metric-panel">
+          <h3>Title Word Cloud</h3>
+          <div id="metricWordCloud" class="metric-chart"></div>
+        </article>
+        <article class="panel metric-panel">
+          <h3>Journal Type Pie</h3>
+          <div id="metricTypePie" class="metric-chart"></div>
+        </article>
+        <article class="panel metric-panel">
+          <h3>Subject Tag Pie</h3>
+          <div id="metricTagPie" class="metric-chart"></div>
+        </article>
       </section>
     </main>
 
@@ -148,6 +178,8 @@
       <div class="empty-state">没有匹配结果，请调整检索条件。</div>
     </template>
 
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
     <script type="module" src="./app.js"></script>
   </body>
 </html>

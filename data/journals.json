@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-02-15T16:28:46.609Z",
+  "generatedAt": "2026-02-16T03:42:29.119Z",
   "source": "WOA.md",
-  "count": 84,
+  "count": 102,
+  "sectionCounts": {
+    "SCIE": 97,
+    "北小核心": 4,
+    "会议": 1
+  },
   "journals": [
     {
       "id": 1,
@@ -15,8 +20,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214211017048.png"
+      "note": "也许算物理学/声学刊物？",
+      "cover": "./WOA.assets/image-20260214211017048.png",
+      "issn": "4406-5434"
     },
     {
       "id": 2,
@@ -31,8 +37,9 @@
       ],
       "subjectRaw": "综合，国产期刊",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214211146092.png"
+      "note": "间接碰瓷",
+      "cover": "./WOA.assets/image-20260214211146092.png",
+      "issn": "1002-6320"
     },
     {
       "id": 3,
@@ -46,8 +53,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214211517703.png"
+      "note": "简介也什么都没有",
+      "cover": "./WOA.assets/image-20260214211517703.png",
+      "issn": "8048-1183"
     },
     {
       "id": 4,
@@ -61,8 +69,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214214119046.png"
+      "note": "小Nothing",
+      "cover": "./WOA.assets/image-20260214214119046.png",
+      "issn": "7851-9373"
     },
     {
       "id": 5,
@@ -77,7 +86,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "当之无愧Top1",
-      "cover": "./WOA.assets/image-20260214211608807.png"
+      "cover": "./WOA.assets/image-20260214211608807.png",
+      "issn": "9153-7320"
     },
     {
       "id": 6,
@@ -91,8 +101,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": true,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214214009537.png"
+      "note": "旗舰综述期刊！",
+      "cover": "./WOA.assets/image-20260214214009537.png",
+      "issn": "2818-4165"
     },
     {
       "id": 7,
@@ -106,8 +117,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "同Science",
-      "cover": "./WOA.assets/image-20260214212012769.png"
+      "note": "嘘！",
+      "cover": "./WOA.assets/image-20260214212012769.png",
+      "issn": "0660-9724"
     },
     {
       "id": 8,
@@ -121,8 +133,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214211726582.png"
+      "note": "Nature的卵生兄弟",
+      "cover": "./WOA.assets/image-20260214211726582.png",
+      "issn": "5008-7541"
     },
     {
       "id": 9,
@@ -137,7 +150,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214212235430.png"
+      "cover": "./WOA.assets/image-20260214212235430.png",
+      "issn": "8748-8825"
     },
     {
       "id": 10,
@@ -154,7 +168,8 @@
       "subjectRaw": "化学/综合，纳米科技",
       "isReview": false,
       "note": "同ACS nano",
-      "cover": "./WOA.assets/image-20260214212820073.png"
+      "cover": "./WOA.assets/image-20260214212820073.png",
+      "issn": "1007-5585"
     },
     {
       "id": 11,
@@ -170,8 +185,9 @@
       ],
       "subjectRaw": "神经科学，医学/心理学",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214215905150.png"
+      "note": "人类抽象行为大赏",
+      "cover": "./WOA.assets/image-20260214215905150.png",
+      "issn": "6356-6435"
     },
     {
       "id": 12,
@@ -186,7 +202,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "六耳猕猴（少个s）",
-      "cover": "./WOA.assets/image-20260214213218796.png"
+      "cover": "./WOA.assets/image-20260214213218796.png",
+      "issn": "8882-800X"
     },
     {
       "id": 13,
@@ -200,8 +217,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214213236853.png"
+      "note": "正经RC",
+      "cover": "./WOA.assets/image-20260214213236853.png",
+      "issn": "3715-3196"
     },
     {
       "id": 14,
@@ -216,7 +234,8 @@
       "subjectRaw": "经济学",
       "isReview": true,
       "note": "",
-      "cover": "./WOA.assets/image-20260214213411951.png"
+      "cover": "./WOA.assets/image-20260214213411951.png",
+      "issn": "3475-9697"
     },
     {
       "id": 15,
@@ -231,7 +250,8 @@
       "subjectRaw": "地球科学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214213901047.png"
+      "cover": "./WOA.assets/image-20260214213901047.png",
+      "issn": "0048-0150"
     },
     {
       "id": 16,
@@ -246,7 +266,8 @@
       "subjectRaw": "环境科学",
       "isReview": false,
       "note": "感觉是Rubbish很多的环境",
-      "cover": "./WOA.assets/image-20260214213347764.png"
+      "cover": "./WOA.assets/image-20260214213347764.png",
+      "issn": "8902-7604"
     },
     {
       "id": 17,
@@ -261,8 +282,9 @@
       ],
       "subjectRaw": "工程学/综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214214514428.png"
+      "note": "豆腐渣工程",
+      "cover": "./WOA.assets/image-20260214214514428.png",
+      "issn": "9927-6259"
     },
     {
       "id": 18,
@@ -270,15 +292,16 @@
       "section": "SCIE",
       "originalQuartile": "T4",
       "originalAif": "33.5",
-      "editor": "@Rubbish Chemistry",
+      "editor": "@Rubbish Chemistry期刊编辑部",
       "tags": [
         "化学",
         "综合"
       ],
       "subjectRaw": "化学/综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214214614070.png"
+      "note": "boom",
+      "cover": "./WOA.assets/image-20260214214614070.png",
+      "issn": "7575-3421"
     },
     {
       "id": 19,
@@ -294,7 +317,8 @@
       "subjectRaw": "医学/综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214214659240.png"
+      "cover": "./WOA.assets/image-20260214214659240.png",
+      "issn": "4401-8282"
     },
     {
       "id": 20,
@@ -307,7 +331,8 @@
       "subjectRaw": "",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214214751471.png"
+      "cover": "./WOA.assets/image-20260214214751471.png",
+      "issn": "2594-8814"
     },
     {
       "id": 21,
@@ -324,7 +349,8 @@
       "subjectRaw": "医学/心理学，医学/精神病学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214220650845.png"
+      "cover": "./WOA.assets/image-20260214220650845.png",
+      "issn": "6021-6220"
     },
     {
       "id": 22,
@@ -339,7 +365,8 @@
       "subjectRaw": "综合",
       "isReview": true,
       "note": "",
-      "cover": "./WOA.assets/image-20260214215712615.png"
+      "cover": "./WOA.assets/image-20260214215712615.png",
+      "issn": "3359-5011"
     },
     {
       "id": 23,
@@ -353,8 +380,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214213428740.png"
+      "note": "这不是我吗！？",
+      "cover": "./WOA.assets/image-20260214213428740.png",
+      "issn": "6313-0920"
     },
     {
       "id": 24,
@@ -369,7 +397,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "期刊名不够抽象，不像底刊",
-      "cover": "./WOA.assets/image-20260214222103067.png"
+      "cover": "./WOA.assets/image-20260214222103067.png",
+      "issn": "0741-1510"
     },
     {
       "id": 25,
@@ -385,7 +414,8 @@
       "subjectRaw": "医学/临床医学",
       "isReview": false,
       "note": "同JAMA network open",
-      "cover": "./WOA.assets/image-20260214212416007.png"
+      "cover": "./WOA.assets/image-20260214212416007.png",
+      "issn": "9086-7270"
     },
     {
       "id": 26,
@@ -402,7 +432,8 @@
       "subjectRaw": "神经科学，生物/心理学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214213653602.png"
+      "cover": "./WOA.assets/image-20260214213653602.png",
+      "issn": "9048-6846"
     },
     {
       "id": 27,
@@ -417,7 +448,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "全refuse了，没有AIF",
-      "cover": "./WOA.assets/image-20260214214223698.png"
+      "cover": "./WOA.assets/image-20260214214223698.png",
+      "issn": "2131-2834"
     },
     {
       "id": 28,
@@ -432,7 +464,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "以上期刊专门收录被传统学术体系筛选出的“不合格品”并且拒绝被传统学术期刊筛选出来的“标准品”。刊名在作为名词时，是指被判定为不合格、无利用价值的“不合格品”或“废弃物”;而作为动词有着拒绝的含义。但我们的本质并非盲目否定付出的学术努力，也并非对“不合格品”的拒绝，而是反向定义了合格标准，倒逼筛选体系的优化，显示本刊对作品来源的定位和取舍，挖掘来稿作品的价值边界和“无用之物”大智慧。通过主动发掘正规期刊看不上的“废弃物”，规避内耗、聚焦核心，以彰显本刊清醒的价值判断和正向的发展导向作用",
-      "cover": "./WOA.assets/image-20260214214239729.png"
+      "cover": "./WOA.assets/image-20260214214239729.png",
+      "issn": "4915-9224"
     },
     {
       "id": 29,
@@ -447,7 +480,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "Cells对Cell的拙劣模仿",
-      "cover": "./WOA.assets/image-20260214214316213.png"
+      "cover": "./WOA.assets/image-20260214214316213.png",
+      "issn": "7922-9565"
     },
     {
       "id": 30,
@@ -462,7 +496,8 @@
       "subjectRaw": "信息技术",
       "isReview": false,
       "note": "没有Transactions，看来不是bottom期刊",
-      "cover": "./WOA.assets/image-20260214214949524.png"
+      "cover": "./WOA.assets/image-20260214214949524.png",
+      "issn": "8407-2253"
     },
     {
       "id": 31,
@@ -478,7 +513,8 @@
       "subjectRaw": "物理学/玄学",
       "isReview": false,
       "note": "玄学领域小底刊",
-      "cover": "./WOA.assets/image-20260214215045576.png"
+      "cover": "./WOA.assets/image-20260214215045576.png",
+      "issn": "7325-3359"
     },
     {
       "id": 32,
@@ -494,7 +530,8 @@
       "subjectRaw": "综合，国产期刊",
       "isReview": false,
       "note": "跟RTTT并称国产双雄",
-      "cover": "./WOA.assets/image-20260214215132496.png"
+      "cover": "./WOA.assets/image-20260214215132496.png",
+      "issn": "8709-9497"
     },
     {
       "id": 33,
@@ -509,8 +546,9 @@
       ],
       "subjectRaw": "医学/消化系统疾病",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260214215240951.png"
+      "note": "短而有力！",
+      "cover": "./WOA.assets/image-20260214215240951.png",
+      "issn": "3735-8197"
     },
     {
       "id": 34,
@@ -526,7 +564,8 @@
       "subjectRaw": "医学/心理学",
       "isReview": false,
       "note": "心理学小底刊",
-      "cover": "./WOA.assets/image-20260214215420002.png"
+      "cover": "./WOA.assets/image-20260214215420002.png",
+      "issn": "7753-4425"
     },
     {
       "id": 35,
@@ -541,7 +580,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "分不高，但是挺难投",
-      "cover": "./WOA.assets/image-20260214220253359.png"
+      "cover": "./WOA.assets/image-20260214220253359.png",
+      "issn": "0967-8875"
     },
     {
       "id": 36,
@@ -556,7 +596,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "大水刊",
-      "cover": "./WOA.assets/image-20260214220350876.png"
+      "cover": "./WOA.assets/image-20260214220350876.png",
+      "issn": "8732-6825"
     },
     {
       "id": 37,
@@ -571,7 +612,8 @@
       "subjectRaw": "信息科学",
       "isReview": false,
       "note": "曾被联合抵制，但是真香",
-      "cover": "./WOA.assets/image-20260214220502925.png"
+      "cover": "./WOA.assets/image-20260214220502925.png",
+      "issn": "4664-0746"
     },
     {
       "id": 38,
@@ -585,8 +627,9 @@
       ],
       "subjectRaw": "经济学",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260215224947285.png"
+      "note": "大A还钱！",
+      "cover": "./WOA.assets/image-20260215224947285.png",
+      "issn": "6463-4760"
     },
     {
       "id": 39,
@@ -602,7 +645,8 @@
       "subjectRaw": "综合，国产期刊",
       "isReview": false,
       "note": "直接碰瓷！",
-      "cover": "./WOA.assets/image-20260215225141709.png"
+      "cover": "./WOA.assets/image-20260215225141709.png",
+      "issn": "1730-8593"
     },
     {
       "id": 40,
@@ -617,8 +661,9 @@
       ],
       "subjectRaw": "医学/综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260215225340564.png"
+      "note": "孙刊都来了！",
+      "cover": "./WOA.assets/image-20260215225340564.png",
+      "issn": "1179-447X"
     },
     {
       "id": 41,
@@ -633,7 +678,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "人称小nonsense",
-      "cover": "./WOA.assets/image-20260215225421231.png"
+      "cover": "./WOA.assets/image-20260215225421231.png",
+      "issn": "4992-4257"
     },
     {
       "id": 42,
@@ -650,7 +696,8 @@
       "subjectRaw": "医学/神经病学，医学/认知科学",
       "isReview": false,
       "note": "那非常worst了",
-      "cover": "./WOA.assets/image-20260215225536872.png"
+      "cover": "./WOA.assets/image-20260215225536872.png",
+      "issn": "7208-3956"
     },
     {
       "id": 43,
@@ -666,7 +713,8 @@
       "subjectRaw": "医学/综合",
       "isReview": false,
       "note": "新英格兰人称小NRJM",
-      "cover": "./WOA.assets/image-20260215225612475.png"
+      "cover": "./WOA.assets/image-20260215225612475.png",
+      "issn": "6863-0344"
     },
     {
       "id": 44,
@@ -679,7 +727,8 @@
       "subjectRaw": "",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215225707023.png"
+      "cover": "./WOA.assets/image-20260215225707023.png",
+      "issn": "6142-0794"
     },
     {
       "id": 45,
@@ -695,7 +744,8 @@
       "subjectRaw": "医学/护理学",
       "isReview": false,
       "note": "护理学的第一本抽象期刊！",
-      "cover": "./WOA.assets/image-20260215225741333.png"
+      "cover": "./WOA.assets/image-20260215225741333.png",
+      "issn": "5351-5226"
     },
     {
       "id": 46,
@@ -710,8 +760,9 @@
       ],
       "subjectRaw": "文学/科幻",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260215225843496.png"
+      "note": "科幻类一哥",
+      "cover": "./WOA.assets/image-20260215225843496.png",
+      "issn": "3344-6474"
     },
     {
       "id": 47,
@@ -725,8 +776,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260215225941211.png"
+      "note": "进展0%",
+      "cover": "./WOA.assets/image-20260215225941211.png",
+      "issn": "2353-1398"
     },
     {
       "id": 48,
@@ -744,7 +796,8 @@
       "subjectRaw": "工程学/生物医学工程，医学/综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230031090.png"
+      "cover": "./WOA.assets/image-20260215230031090.png",
+      "issn": "1336-7366"
     },
     {
       "id": 49,
@@ -762,7 +815,8 @@
       "subjectRaw": "数学/统计学，医学/综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230130324.png"
+      "cover": "./WOA.assets/image-20260215230130324.png",
+      "issn": "8935-7949"
     },
     {
       "id": 50,
@@ -779,7 +833,8 @@
       "subjectRaw": "医学/综合，生物学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230202578.png"
+      "cover": "./WOA.assets/image-20260215230202578.png",
+      "issn": "6021-0079"
     },
     {
       "id": 51,
@@ -795,7 +850,8 @@
       "subjectRaw": "医学/综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230247050.png"
+      "cover": "./WOA.assets/image-20260215230247050.png",
+      "issn": "4162-1492"
     },
     {
       "id": 52,
@@ -810,7 +866,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230323064.png"
+      "cover": "./WOA.assets/image-20260215230323064.png",
+      "issn": "0855-0298"
     },
     {
       "id": 53,
@@ -824,8 +881,9 @@
       ],
       "subjectRaw": "综合",
       "isReview": false,
-      "note": "",
-      "cover": "./WOA.assets/image-20260215230356839.png"
+      "note": "Success期刊的母刊",
+      "cover": "./WOA.assets/image-20260215230356839.png",
+      "issn": "7800-1757"
     },
     {
       "id": 54,
@@ -841,7 +899,8 @@
       "subjectRaw": "数学/综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230437975.png"
+      "cover": "./WOA.assets/image-20260215230437975.png",
+      "issn": "8443-4228"
     },
     {
       "id": 55,
@@ -856,7 +915,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230511746.png"
+      "cover": "./WOA.assets/image-20260215230511746.png",
+      "issn": "8739-9822"
     },
     {
       "id": 56,
@@ -871,7 +931,8 @@
       "subjectRaw": "人类学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215230550370.png"
+      "cover": "./WOA.assets/image-20260215230550370.png",
+      "issn": "9492-4643"
     },
     {
       "id": 57,
@@ -886,7 +947,8 @@
       "subjectRaw": "纳米科技",
       "isReview": false,
       "note": "听说small已经降为二区了！",
-      "cover": "./WOA.assets/image-20260215230609271.png"
+      "cover": "./WOA.assets/image-20260215230609271.png",
+      "issn": "2552-4070"
     },
     {
       "id": 58,
@@ -901,7 +963,8 @@
       "subjectRaw": "环境科学",
       "isReview": false,
       "note": "希望rubbish系列能持续下去",
-      "cover": "./WOA.assets/image-20260215230716139.png"
+      "cover": "./WOA.assets/image-20260215230716139.png",
+      "issn": "8082-0794"
     },
     {
       "id": 59,
@@ -916,7 +979,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215231019348.png"
+      "cover": "./WOA.assets/image-20260215231019348.png",
+      "issn": "2029-8714"
     },
     {
       "id": 60,
@@ -931,7 +995,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "AAAS连夜切割",
-      "cover": "./WOA.assets/image-20260215231053538.png"
+      "cover": "./WOA.assets/image-20260215231053538.png",
+      "issn": "0803-771X"
     },
     {
       "id": 61,
@@ -947,7 +1012,8 @@
       "subjectRaw": "工程学/材料科学",
       "isReview": false,
       "note": "AFM是李逵还是李鬼？",
-      "cover": "./WOA.assets/image-20260215231139432.png"
+      "cover": "./WOA.assets/image-20260215231139432.png",
+      "issn": "1586-4472"
     },
     {
       "id": 62,
@@ -962,7 +1028,8 @@
       "subjectRaw": "数据科学",
       "isReview": false,
       "note": "没事，WOA还有点索引数据",
-      "cover": "./WOA.assets/image-20260215231235110.png"
+      "cover": "./WOA.assets/image-20260215231235110.png",
+      "issn": "8765-5640"
     },
     {
       "id": 63,
@@ -977,7 +1044,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215231322212.png"
+      "cover": "./WOA.assets/image-20260215231322212.png",
+      "issn": "7702-7639"
     },
     {
       "id": 64,
@@ -993,7 +1061,8 @@
       "subjectRaw": "综合，国产期刊",
       "isReview": false,
       "note": "国产又一力作",
-      "cover": "./WOA.assets/image-20260215231429603.png"
+      "cover": "./WOA.assets/image-20260215231429603.png",
+      "issn": "6872-3202"
     },
     {
       "id": 65,
@@ -1008,7 +1077,8 @@
       "subjectRaw": "人类学",
       "isReview": false,
       "note": "垃圾从哪里来？",
-      "cover": "./WOA.assets/image-20260215231618514.png"
+      "cover": "./WOA.assets/image-20260215231618514.png",
+      "issn": "3619-3682"
     },
     {
       "id": 66,
@@ -1024,7 +1094,8 @@
       "subjectRaw": "工程学/材料科学",
       "isReview": false,
       "note": "很难突破第一页单词",
-      "cover": "./WOA.assets/image-20260215231654490.png"
+      "cover": "./WOA.assets/image-20260215231654490.png",
+      "issn": "0535-4951"
     },
     {
       "id": 67,
@@ -1040,7 +1111,8 @@
       "subjectRaw": "物理学/光学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215231801883.png"
+      "cover": "./WOA.assets/image-20260215231801883.png",
+      "issn": "5281-2235"
     },
     {
       "id": 68,
@@ -1056,7 +1128,8 @@
       "subjectRaw": "物理学/玄学",
       "isReview": false,
       "note": "玄学赛道异常拥挤",
-      "cover": "./WOA.assets/image-20260215231831430.png"
+      "cover": "./WOA.assets/image-20260215231831430.png",
+      "issn": "6674-4555"
     },
     {
       "id": 69,
@@ -1071,7 +1144,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215231924878.png"
+      "cover": "./WOA.assets/image-20260215231924878.png",
+      "issn": "7438-5917"
     },
     {
       "id": 70,
@@ -1087,7 +1161,8 @@
       "subjectRaw": "医学/心理学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214215446474.png"
+      "cover": "./WOA.assets/image-20260214215446474.png",
+      "issn": "7670-9027"
     },
     {
       "id": 71,
@@ -1102,7 +1177,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214221018932.png"
+      "cover": "./WOA.assets/image-20260214221018932.png",
+      "issn": "7948-4158"
     },
     {
       "id": 72,
@@ -1119,7 +1195,8 @@
       "subjectRaw": "神经科学，医学/心理学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215232414009.png"
+      "cover": "./WOA.assets/image-20260215232414009.png",
+      "issn": "4618-3027"
     },
     {
       "id": 73,
@@ -1134,7 +1211,8 @@
       "subjectRaw": "文学",
       "isReview": false,
       "note": "兄弟们，他真发过nc",
-      "cover": "./WOA.assets/image-20260215232820247.png"
+      "cover": "./WOA.assets/image-20260215232820247.png",
+      "issn": "2490-1318"
     },
     {
       "id": 74,
@@ -1144,12 +1222,14 @@
       "originalAif": "",
       "editor": "@0xLLLLLL",
       "tags": [
-        "生物学"
+        "生物",
+        "综合"
       ],
-      "subjectRaw": "生物学",
+      "subjectRaw": "生物/综合",
       "isReview": false,
       "note": "简称SB",
-      "cover": "./WOA.assets/image-20260215233050023.png"
+      "cover": "./WOA.assets/image-20260215233050023.png",
+      "issn": "0944-954X"
     },
     {
       "id": 75,
@@ -1164,7 +1244,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "中国小Cell",
-      "cover": "./WOA.assets/image-20260215233450658.png"
+      "cover": "./WOA.assets/image-20260215233450658.png",
+      "issn": "1818-4073"
     },
     {
       "id": 76,
@@ -1179,7 +1260,8 @@
       "subjectRaw": "信息技术",
       "isReview": false,
       "note": "已经发表的论文只能保存7天",
-      "cover": "./WOA.assets/image-20260215233913765.png"
+      "cover": "./WOA.assets/image-20260215233913765.png",
+      "issn": "2892-9950"
     },
     {
       "id": 77,
@@ -1194,7 +1276,8 @@
       "subjectRaw": "语言学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215233948595.png"
+      "cover": "./WOA.assets/image-20260215233948595.png",
+      "issn": "5302-3277"
     },
     {
       "id": 78,
@@ -1209,7 +1292,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260215234059155.png"
+      "cover": "./WOA.assets/image-20260215234059155.png",
+      "issn": "3392-5070"
     },
     {
       "id": 79,
@@ -1224,10 +1308,315 @@
       "subjectRaw": "经济学",
       "isReview": false,
       "note": "洋垃圾",
-      "cover": "./WOA.assets/image-20260216002549609.png"
+      "cover": "./WOA.assets/image-20260216002549609.png",
+      "issn": "0544-0092"
     },
     {
       "id": 80,
+      "title": "Rubbish Plant",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Plant",
+      "tags": [
+        "生物",
+        "植物学"
+      ],
+      "subjectRaw": "生物/植物学",
+      "isReview": false,
+      "note": "植物人研究植物学",
+      "cover": "./WOA.assets/image-20260216095338202.png",
+      "issn": "8676-2079"
+    },
+    {
+      "id": 81,
+      "title": "Rubbish Insight",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Insight",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "Insight the nonsense",
+      "cover": "./WOA.assets/image-20260216095521501.png",
+      "issn": "7591-3925"
+    },
+    {
+      "id": 82,
+      "title": "Rejection",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@《Rejection》中国区编辑部",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "创作之后，接收之前",
+      "cover": "./WOA.assets/image-20260216095725950.png",
+      "issn": "9354-3441"
+    },
+    {
+      "id": 83,
+      "title": "The Rubbish of Strategic Studies",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@The Rubbish of Strategic",
+      "tags": [
+        "商学",
+        "战略管理",
+        "数学",
+        "运筹学"
+      ],
+      "subjectRaw": "商学/战略管理，数学/运筹学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216100707125.png",
+      "issn": "5106-2933"
+    },
+    {
+      "id": 84,
+      "title": "Trash",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Trash",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216100831386.png",
+      "issn": "4631-9077"
+    },
+    {
+      "id": 85,
+      "title": "Rubbish Computational Science",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@RubbishComputationalScience",
+      "tags": [
+        "信息科学"
+      ],
+      "subjectRaw": "信息科学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216100928713.png",
+      "issn": "5628-960X"
+    },
+    {
+      "id": 86,
+      "title": "Rubbish Food Science",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Food Science",
+      "tags": [
+        "工程学",
+        "食品科学",
+        "医学",
+        "营养学"
+      ],
+      "subjectRaw": "工程学/食品科学，医学/营养学",
+      "isReview": false,
+      "note": "主要研究……汉堡和薯条？",
+      "cover": "./WOA.assets/image-20260216101010940.png",
+      "issn": "7939-4302"
+    },
+    {
+      "id": 87,
+      "title": "Natura materials",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@学术垃圾（见过许嵩五月天胡彦斌后弦）",
+      "tags": [
+        "工程学",
+        "材料科学"
+      ],
+      "subjectRaw": "工程学/材料科学",
+      "isReview": false,
+      "note": "Nature哭晕在厕所",
+      "cover": "./WOA.assets/image-20260216101122338.png",
+      "issn": "1544-676X"
+    },
+    {
+      "id": 88,
+      "title": "Rubbish Structural & Molecular Biology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Struct Mol Biol.",
+      "tags": [
+        "生物学",
+        "综合",
+        "分子生物学"
+      ],
+      "subjectRaw": "生物学/综合，生物学/分子生物学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216101611520.png",
+      "issn": "6791-5760"
+    },
+    {
+      "id": 89,
+      "title": "Bin",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@六月半",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "学术垃圾们温暖的小家",
+      "cover": "./WOA.assets/image-20260216101734605.png",
+      "issn": "3296-1065"
+    },
+    {
+      "id": 90,
+      "title": "Rubbish Ecology and Evolution",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Ecol. Evol. 编辑部",
+      "tags": [],
+      "subjectRaw": "",
+      "isReview": false,
+      "note": "垃圾的进化史",
+      "cover": "./WOA.assets/image-20260216103807094.png",
+      "issn": "2580-5282"
+    },
+    {
+      "id": 91,
+      "title": "Rubbish cancer research",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@寻。。。。。",
+      "tags": [
+        "医学",
+        "肿瘤学"
+      ],
+      "subjectRaw": "医学/肿瘤学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216103850004.png",
+      "issn": "9586-5039"
+    },
+    {
+      "id": 92,
+      "title": "Angry Chem Wunted Chemie",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Angry.Chem.Int.Ed",
+      "tags": [
+        "化学",
+        "综合"
+      ],
+      "subjectRaw": "化学/综合",
+      "isReview": false,
+      "note": "JOKES老对手",
+      "cover": "./WOA.assets/image-20260216103930383.png",
+      "issn": "1398-9030"
+    },
+    {
+      "id": 93,
+      "title": "Stupid Conclusion Inside",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Stupid Conclusion Index",
+      "tags": [
+        "数学",
+        "统计学",
+        "情报学"
+      ],
+      "subjectRaw": "数学/统计学，情报学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216104034738.png",
+      "issn": "5821-3252"
+    },
+    {
+      "id": 94,
+      "title": "Rubbish Discovery",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Discovery",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216104253927.png",
+      "issn": "1457-9707"
+    },
+    {
+      "id": 95,
+      "title": "Rubbish Design",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Design",
+      "tags": [
+        "工程学",
+        "工业设计"
+      ],
+      "subjectRaw": "工程学/工业设计",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216104400801.png",
+      "issn": "6997-5825"
+    },
+    {
+      "id": 96,
+      "title": "Medical Waste",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@《Medical Waste》主理人",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216104532321.png",
+      "issn": "0206-3786"
+    },
+    {
+      "id": 97,
+      "title": "Nonsense Nanotechnology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Nonsense Nanotechnology",
+      "tags": [
+        "工程学",
+        "材料科学",
+        "纳米技术"
+      ],
+      "subjectRaw": "工程学/材料科学，纳米技术",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216113015720.png",
+      "issn": "1533-4228"
+    },
+    {
+      "id": 98,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1240,10 +1629,11 @@
       "subjectRaw": "医学/临床医学",
       "isReview": false,
       "note": "",
-      "cover": "./WOA.assets/image-20260214211912205.png"
+      "cover": "./WOA.assets/image-20260214211912205.png",
+      "issn": "6750-4698"
     },
     {
-      "id": 81,
+      "id": 99,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1256,10 +1646,11 @@
       "subjectRaw": "医学/中医",
       "isReview": false,
       "note": "中医学顶刊",
-      "cover": "./WOA.assets/image-20260214220119688.png"
+      "cover": "./WOA.assets/image-20260214220119688.png",
+      "issn": "2644-9676"
     },
     {
-      "id": 82,
+      "id": 100,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1271,10 +1662,11 @@
       "subjectRaw": "物理学",
       "isReview": false,
       "note": "王阳明当创刊主编？",
-      "cover": "./WOA.assets/image-20260215231450128.png"
+      "cover": "./WOA.assets/image-20260215231450128.png",
+      "issn": "5789-2571"
     },
     {
-      "id": 83,
+      "id": 101,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1286,10 +1678,11 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "那美国织什么？",
-      "cover": "./WOA.assets/image-20260215232309965.png"
+      "cover": "./WOA.assets/image-20260215232309965.png",
+      "issn": "5138-4825"
     },
     {
-      "id": 84,
+      "id": 102,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
@@ -1301,7 +1694,8 @@
       "subjectRaw": "综合",
       "isReview": false,
       "note": "ILOC",
-      "cover": "./WOA.assets/image-20260215230914422.png"
+      "cover": "./WOA.assets/image-20260215230914422.png",
+      "issn": "0484-8667"
     }
   ]
 }

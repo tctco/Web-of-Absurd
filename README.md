@@ -22,7 +22,16 @@
 node scripts/md-to-json.mjs
 ```
 
-会生成：`data/journals.json`
+会生成：
+
+- `data/journals.json`：当前期刊数据
+- `data/journal-count-history.json`：每次生成时的数量历史（时间、总数、分区计数）
+
+可选参数：
+
+```bash
+node scripts/md-to-json.mjs <输入md> <输出json> <历史json>
+```
 
 ## 本地预览
 

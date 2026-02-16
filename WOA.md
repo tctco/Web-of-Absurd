@@ -2,29 +2,29 @@
 
 |                             封面                             |                        期刊                        | 分区 |        AIF        |          主编          | 学科 | 综述期刊 | 注释 |
 | :----------------------------------------------------------: | :------------------------------------------------: | :--: | :---------------: | :--------------------: | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: |
-| ![image-20260214211017048](./WOA.assets/image-20260214211017048.png) |                       Noise                        |  T4  |       11.45       |         @Noise         | 综合 |  |  |
-| ![image-20260214211146092](./WOA.assets/image-20260214211146092.png) | Rubbish Transaction and Theoretical Transformation |  T4  | 66.6 | @RTTT Editorial Office | 综合，国产期刊 |  |  |
-| ![image-20260214211517703](./WOA.assets/image-20260214211517703.png) |                      Nothing                       |  T4  | 0 |         @四大地刊《Nothing》官号         | 综合 |  |  |
-| ![image-20260214214119046](./WOA.assets/image-20260214214119046.png) | Nothing communications | T4 | 10 | @Nothing Communications | 综合 |  |  |
+| ![image-20260214211017048](./WOA.assets/image-20260214211017048.png) |                       Noise                        |  T4  |       11.45       |         @Noise         | 综合 |  | 也许算物理学/声学刊物？ |
+| ![image-20260214211146092](./WOA.assets/image-20260214211146092.png) | Rubbish Transaction and Theoretical Transformation |  T4  | 66.6 | @RTTT Editorial Office | 综合，国产期刊 |  | 间接碰瓷 |
+| ![image-20260214211517703](./WOA.assets/image-20260214211517703.png) |                      Nothing                       |  T4  | 0 |         @四大地刊《Nothing》官号         | 综合 |  | 简介也什么都没有 |
+| ![image-20260214214119046](./WOA.assets/image-20260214214119046.png) | Nothing communications | T4 | 10 | @Nothing Communications | 综合 |  | 小Nothing |
 | ![image-20260214211608807](./WOA.assets/image-20260214211608807.png) |                      Rubbish                       |  T4  |       100       |        @Rubbish        | 综合 |  | 当之无愧Top1 |
-| ![image-20260214214009537](./WOA.assets/image-20260214214009537.png) | Rubbish Review | T4 | 87 | @中国建筑文化出版社 | 综合 | 是 |  |
-| ![image-20260214212012769](./WOA.assets/image-20260214212012769.png) |                      Silence                       |  T4  | 45.8 |        @Silence        | 综合 |  | 同Science |
-| ![image-20260214211726582](./WOA.assets/image-20260214211726582.png) |                       Notrue                       |  T4  |           |        @Notrue         | 综合 |  |  |
+| ![image-20260214214009537](./WOA.assets/image-20260214214009537.png) | Rubbish Review | T4 | 87 | @中国建筑文化出版社 | 综合 | 是 | 旗舰综述期刊！ |
+| ![image-20260214212012769](./WOA.assets/image-20260214212012769.png) |                      Silence                       |  T4  | 45.8 |        @Silence        | 综合 |  | 嘘！ |
+| ![image-20260214211726582](./WOA.assets/image-20260214211726582.png) |                       Notrue                       |  T4  |           |        @Notrue         | 综合 |  | Nature的卵生兄弟 |
 | ![image-20260214212235430](./WOA.assets/image-20260214212235430.png) |                        Joke                        |  T2  |         🤡         |         @Joke          | 综合 |  |  |
 | ![image-20260214212820073](./WOA.assets/image-20260214212820073.png) | Rubbish Nano | T2 | 16.1 | @Rubbish Nano | 化学/综合，纳米科技 |  | 同ACS nano |
-| ![image-20260214215905150](./WOA.assets/image-20260214215905150.png) | Rubbish Humanities and Social Sciences Communications | T4 | 19.8 | @Rubbish HSSC | 神经科学，医学/心理学 | |  |
+| ![image-20260214215905150](./WOA.assets/image-20260214215905150.png) | Rubbish Humanities and Social Sciences Communications | T4 | 19.8 | @Rubbish HSSC | 神经科学，医学/心理学 | | 人类抽象行为大赏 |
 | ![image-20260214213218796](./WOA.assets/image-20260214213218796.png) | Rubbish communication | T3 | 15.6 | @Rubbish communication | 综合 |  | 六耳猕猴（少个s） |
-| ![image-20260214213236853](./WOA.assets/image-20260214213236853.png) | Rubbish communications | T3 | 21.1 | @Rubbish communications | 综合 |  |  |
+| ![image-20260214213236853](./WOA.assets/image-20260214213236853.png) | Rubbish communications | T3 | 21.1 | @Rubbish communications | 综合 |  | 正经RC |
 | ![image-20260214213411951](./WOA.assets/image-20260214213411951.png) | Rubbish Economic Review | T4 | 44.32 | @Rubbish Economic Review | 经济学 | 是 |  |
 | ![image-20260214213901047](./WOA.assets/image-20260214213901047.png) | Rubbish Geoscience | T4 | 21.6 | @Rubbish Geoscience | 地球科学 |  |  |
 | ![image-20260214213347764](./WOA.assets/image-20260214213347764.png) | Rubbish Ecology | T4 | 32.23 | @Rubbish Ecology | 环境科学 |  | 感觉是Rubbish很多的环境 |
-| ![image-20260214214514428](./WOA.assets/image-20260214214514428.png) | Rubbish Engineering | T4 | 8.8 | @Rubbish Engineering | 工程学/综合 |  |  |
-| ![image-20260214214614070](./WOA.assets/image-20260214214614070.png) | Rubbish Chemistry | T4 | 33.5 | @Rubbish Chemistry | 化学/综合 |  |  |
+| ![image-20260214214514428](./WOA.assets/image-20260214214514428.png) | Rubbish Engineering | T4 | 8.8 | @Rubbish Engineering | 工程学/综合 |  | 豆腐渣工程 |
+| ![image-20260214214614070](./WOA.assets/image-20260214214614070.png) | Rubbish Chemistry | T4 | 33.5 | @Rubbish Chemistry期刊编辑部 | 化学/综合 |  | boom |
 | ![image-20260214214659240](./WOA.assets/image-20260214214659240.png) | Rubbish Medicine | T4 | 69.8 | @我叫哈利，没有波特 | 医学/综合 |  |  |
 | ![image-20260214214751471](./WOA.assets/image-20260214214751471.png) | Rubbish Photonics | T4 | 15.7 | @Rubbish Photonics editor |  |  |  |
 | ![image-20260214220650845](./WOA.assets/image-20260214220650845.png) | Rubbish Psychiatry | T4 | 26.9 | @第二支羽毛 | 医学/心理学，医学/精神病学 | | |
 | ![image-20260214215712615](./WOA.assets/image-20260214215712615.png) | Review in Rubbish | T3 | 2.7 | @Review in Rubbish | 综合 | 是 | |
-| ![image-20260214213428740](./WOA.assets/image-20260214213428740.png) | Academic Waste | T2 | 5.5 | @Academic Waste | 综合 |  |  |
+| ![image-20260214213428740](./WOA.assets/image-20260214213428740.png) | Academic Waste | T2 | 5.5 | @Academic Waste | 综合 |  | 这不是我吗！？ |
 | ![image-20260214222103067](./WOA.assets/image-20260214222103067.png) | The Journal of Cold, Nothing and Silence | T1 | 0.75 | @Nothing and Silence编辑部 | 综合 |          |期刊名不够抽象，不像底刊|
 | ![image-20260214212416007](./WOA.assets/image-20260214212416007.png) | JAMA Rubbish | T4       | 9.7  | @JAMA Rubbish |医学/临床医学||同JAMA network open|
 | ![image-20260214213653602](./WOA.assets/image-20260214213653602.png) | Journal of Rubbish Behavior | T4 | 28.5 | @箱型核密度图（生活版） |神经科学，生物/心理学|||
@@ -34,27 +34,27 @@
 | ![image-20260214214949524](./WOA.assets/image-20260214214949524.png) | IEEE Device Litter | T3 | 5.5 | @啊啵啵不肥 |信息技术||没有Transactions，看来不是bottom期刊|
 | ![image-20260214215045576](./WOA.assets/image-20260214215045576.png) | Metaphysics | T2 | 2.9 | @BigSmart |物理学/玄学||玄学领域小底刊|
 | ![image-20260214215132496](./WOA.assets/image-20260214215132496.png) | Silence Bullshit | T4 | 16.9 | @OK不K |综合，国产期刊||跟RTTT并称国产双雄|
-| ![image-20260214215240951](./WOA.assets/image-20260214215240951.png) | Sh/*t | T2 | 7.5 | @shit |医学/消化系统疾病|||
+| ![image-20260214215240951](./WOA.assets/image-20260214215240951.png) | Sh/*t | T2 | 7.5 | @shit |医学/消化系统疾病||短而有力！|
 | ![image-20260214215420002](./WOA.assets/image-20260214215420002.png) | Crazy | T4 | 7.8 | @《Crazy》期刊 |医学/心理学||心理学小底刊|
 | ![image-20260214220253359](./WOA.assets/image-20260214220253359.png) | Litter | T4 | -1 | @Litter期刊编辑部 | 综合 |          |分不高，但是挺难投|
 | ![image-20260214220350876](./WOA.assets/image-20260214220350876.png) | Rubbish report | T1 | 4.2 | @Rubbish Report编辑部 | 综合 | |大水刊|
 | ![image-20260214220502925](./WOA.assets/image-20260214220502925.png) | Rubbish computing | T4 | 22.56 | @Rubbish Computing | 信息科学 | |曾被联合抵制，但是真香|
-| ![image-20260215224947285](./WOA.assets/image-20260215224947285.png) | Journal of Rubbish Finance | T3 |  | @JournalofRubbishFinance | 经济学 | ||
+| ![image-20260215224947285](./WOA.assets/image-20260215224947285.png) | Journal of Rubbish Finance | T3 |  | @JournalofRubbishFinance | 经济学 | |大A还钱！|
 | ![image-20260215225141709](./WOA.assets/image-20260215225141709.png) | Stupid Tractate and Transferred Trash |  |  | @STTT | 综合，国产期刊 | |直接碰瓷！|
-| ![image-20260215225340564](./WOA.assets/image-20260215225340564.png) | Rubbish Medicine |  |  | @Rubbish Medicine Report | 医学/综合 | ||
+| ![image-20260215225340564](./WOA.assets/image-20260215225340564.png) | Rubbish Medicine |  |  | @Rubbish Medicine Report | 医学/综合 | |孙刊都来了！|
 | ![image-20260215225421231](./WOA.assets/image-20260215225421231.png) | Nonsense Communications |  |  | @Nonsense Communications | 综合 | |人称小nonsense|
 | ![image-20260215225536872](./WOA.assets/image-20260215225536872.png) | Worst Psychoses |  |  | @Worst Psychoses | 医学/神经病学，医学/认知科学 | |那非常worst了|
 | ![image-20260215225612475](./WOA.assets/image-20260215225612475.png) | New Rubbish Journal of Medicine |  |  | @NRJM官方账号 | 医学/综合 | |新英格兰人称小NRJM|
 | ![image-20260215225707023](./WOA.assets/image-20260215225707023.png) | Rubbish Metabolism |  |  | @Rubbish Metabolism |  | ||
 | ![image-20260215225741333](./WOA.assets/image-20260215225741333.png) | International Journal of Garbage Nursing Science |  |  | @Int. J. Garb. Nurs. | 医学/护理学 | |护理学的第一本抽象期刊！|
-| ![image-20260215225843496](./WOA.assets/image-20260215225843496.png) | Rubbish Story |  |  | @Rubbish Story（故事会） | 文学/科幻 | ||
-| ![image-20260215225941211](./WOA.assets/image-20260215225941211.png) | Scientific Progress in Rubbish |  |  | @Evan[发呆] | 综合 | ||
+| ![image-20260215225843496](./WOA.assets/image-20260215225843496.png) | Rubbish Story |  |  | @Rubbish Story（故事会） | 文学/科幻 | |科幻类一哥|
+| ![image-20260215225941211](./WOA.assets/image-20260215225941211.png) | Scientific Progress in Rubbish |  |  | @Evan[发呆] | 综合 | |进展0%|
 | ![image-20260215230031090](./WOA.assets/image-20260215230031090.png) | Rubbish Biotechnology |  |  | @Rubbish Biotechnology | 工程学/生物医学工程，医学/综合 | ||
 | ![image-20260215230130324](./WOA.assets/image-20260215230130324.png) | Journal of Bio-Rubbish and Statistic |  |  | @JBS编辑部 | 数学/统计学，医学/综合 | ||
 | ![image-20260215230202578](./WOA.assets/image-20260215230202578.png) | Rubbish Glia |  |  | @Rubbish Glia | 医学/综合，生物学 | ||
 | ![image-20260215230247050](./WOA.assets/image-20260215230247050.png) | Rubbish Lancett |  |  | @Rubbish Lancett | 医学/综合 | ||
 | ![image-20260215230323064](./WOA.assets/image-20260215230323064.png) | Junk |  |  | @JUNK SCI | 综合 | ||
-| ![image-20260215230356839](./WOA.assets/image-20260215230356839.png) | Failure |  |  | @小泽Mark | 综合 | ||
+| ![image-20260215230356839](./WOA.assets/image-20260215230356839.png) | Failure |  |  | @小泽Mark | 综合 | |Success期刊的母刊|
 | ![image-20260215230437975](./WOA.assets/image-20260215230437975.png) | Rubbish Mathematics |  |  | @Rubbish Mathematics | 数学/综合 | ||
 | ![image-20260215230511746](./WOA.assets/image-20260215230511746.png) | Nonsense |  |  | @Nonsense | 综合 | ||
 | ![image-20260215230550370](./WOA.assets/image-20260215230550370.png) | The Fool |  |  | @The Fool | 人类学 | ||
@@ -75,12 +75,30 @@
 | <img src="./WOA.assets/image-20260214221018932.png" alt="image-20260214221018932" style="zoom: 33%;" /> | Rubbish Research |  |  | @Rubbish Research | 综合 | ||
 | ![image-20260215232414009](./WOA.assets/image-20260215232414009.png) | Litter Human Behavior |  |  | @Litter Human Behavior | 神经科学，医学/心理学 | ||
 | ![image-20260215232820247](./WOA.assets/image-20260215232820247.png) | Rubbish Daily |  |  | @Rubbish Daily | 文学 | |兄弟们，他真发过nc|
-| ![image-20260215233050023](./WOA.assets/image-20260215233050023.png) | SciHorizon: Biology |  |  | @0xLLLLLL | 生物学 | |简称SB|
+| ![image-20260215233050023](./WOA.assets/image-20260215233050023.png) | SciHorizon: Biology |  |  | @0xLLLLLL | 生物/综合 | |简称SB|
 | ![image-20260215233450658](./WOA.assets/image-20260215233450658.png) | Call |  |  | @Call期刊编辑部 | 综合 | |中国小Cell|
 | ![image-20260215233913765](./WOA.assets/image-20260215233913765.png) | WeCheat Communications | | | @Wecheat Communications | 信息技术 | |已经发表的论文只能保存7天|
 | ![image-20260215233948595](./WOA.assets/image-20260215233948595.png) | Frontiers in Bullshitology | | | @《前沿废话》期刊 | 语言学 | ||
 | ![image-20260215234059155](./WOA.assets/image-20260215234059155.png) | Joker of Academics | | | @Joker Of Academics | 综合 | ||
 | ![image-20260216002549609](./WOA.assets/image-20260216002549609.png) | American Economic Rubbish | | | @AmericanEconomicRubbish | 经济学 | |洋垃圾|
+| ![image-20260216095338202](./WOA.assets/image-20260216095338202.png) | Rubbish Plant | | | @Rubbish Plant | 生物/植物学 | |植物人研究植物学|
+| ![image-20260216095521501](./WOA.assets/image-20260216095521501.png) | Rubbish Insight | | | @Rubbish Insight | 综合 | |Insight the nonsense|
+| ![image-20260216095725950](./WOA.assets/image-20260216095725950.png) | Rejection | | | @《Rejection》中国区编辑部 | 综合 | |创作之后，接收之前|
+| ![image-20260216100707125](./WOA.assets/image-20260216100707125.png) | The Rubbish of Strategic Studies | | | @The Rubbish of Strategic | 商学/战略管理，数学/运筹学 | ||
+| ![image-20260216100831386](./WOA.assets/image-20260216100831386.png) | Trash | | | @Trash | 综合 | ||
+| ![image-20260216100928713](./WOA.assets/image-20260216100928713.png) | Rubbish Computational Science | | | @RubbishComputationalScience | 信息科学 | ||
+| ![image-20260216101010940](./WOA.assets/image-20260216101010940.png) | Rubbish Food Science | | | @Rubbish Food Science | 工程学/食品科学，医学/营养学 | |主要研究……汉堡和薯条？|
+| ![image-20260216101122338](./WOA.assets/image-20260216101122338.png) | Natura materials | | | @学术垃圾（见过许嵩五月天胡彦斌后弦） | 工程学/材料科学 | |Nature哭晕在厕所|
+| ![image-20260216101611520](./WOA.assets/image-20260216101611520.png) | Rubbish Structural & Molecular Biology | | | @Rubbish Struct Mol Biol. | 生物学/综合，生物学/分子生物学 | ||
+| ![image-20260216101734605](./WOA.assets/image-20260216101734605.png) | Bin | | | @六月半 | 综合 | |学术垃圾们温暖的小家|
+| ![image-20260216103807094](./WOA.assets/image-20260216103807094.png) | Rubbish Ecology and Evolution | | | @Rubbish Ecol. Evol. 编辑部 |  | |垃圾的进化史|
+| ![image-20260216103850004](./WOA.assets/image-20260216103850004.png) | Rubbish cancer research | | | @寻。。。。。 | 医学/肿瘤学 | ||
+| ![image-20260216103930383](./WOA.assets/image-20260216103930383.png) | Angry Chem Wunted Chemie | | | @Angry.Chem.Int.Ed | 化学/综合 | |JOKES老对手|
+| ![image-20260216104034738](./WOA.assets/image-20260216104034738.png) | Stupid Conclusion Inside | | | @Stupid Conclusion Index | 数学/统计学，情报学 | ||
+| ![image-20260216104253927](./WOA.assets/image-20260216104253927.png) | Rubbish Discovery | | | @Rubbish Discovery | 综合 | ||
+| ![image-20260216104400801](./WOA.assets/image-20260216104400801.png) | Rubbish Design | | | @Rubbish Design | 工程学/工业设计 | ||
+| ![image-20260216104532321](./WOA.assets/image-20260216104532321.png) | Medical Waste | | | @《Medical Waste》主理人 | 医学/综合 | ||
+| ![image-20260216113015720](./WOA.assets/image-20260216113015720.png) | Nonsense Nanotechnology | | | @Nonsense Nanotechnology | 工程学/材料科学，纳米技术 | ||
 
 
 

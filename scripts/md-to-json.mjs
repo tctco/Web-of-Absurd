@@ -5,6 +5,7 @@ import path from "node:path";
 
 const INPUT = process.argv[2] || "WOA.md";
 const OUTPUT = process.argv[3] || "data/journals.json";
+const HISTORY = process.argv[4] || "data/journal-count-history.json";
 
 const SECTION_ALIASES = new Map([
   ["SCIE", "SCIE"],
@@ -98,6 +99,64 @@ function buildJournal(row, section, id) {
   };
 }
 
+function fnv1a32(input) {
+  let hash = 0x811c9dc5;
+  for (let i = 0; i < input.length; i += 1) {
+    hash ^= input.charCodeAt(i);
+    hash = Math.imul(hash, 0x01000193);
+  }
+  return hash >>> 0;
+}
+
+function toIssnFromSeed(seedNumber) {
+  const body = String(seedNumber % 10000000).padStart(7, "0");
+  const digits = body.split("").map((char) => Number.parseInt(char, 10));
+  let sum = 0;
+  for (let i = 0; i < 7; i += 1) {
+    sum += digits[i] * (8 - i);
+  }
+  const mod = sum % 11;
+  const check = (11 - mod) % 11;
+  const checkChar = check === 10 ? "X" : String(check);
+  return `${body.slice(0, 4)}-${body.slice(4)}${checkChar}`;
+}
+
+function assignIssn(journals) {
+  const used = new Set();
+  for (const journal of journals) {
+    let salt = 0;
+    let candidate = "";
+    do {
+      const hash = fnv1a32(`${journal.title}|${journal.section}|${salt}`);
+      candidate = toIssnFromSeed(hash);
+      salt += 1;
+    } while (used.has(candidate));
+
+    used.add(candidate);
+    journal.issn = candidate;
+  }
+}
+
+function countBySection(journals) {
+  const result = {};
+  for (const journal of journals) {
+    const key = journal.section || "未分区";
+    result[key] = (result[key] || 0) + 1;
+  }
+  return result;
+}
+
+async function readJsonArrayIfExists(filePath) {
+  try {
+    const raw = await fs.readFile(filePath, "utf8");
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    if (error && error.code === "ENOENT") return [];
+    throw error;
+  }
+}
+
 async function main() {
   const md = await fs.readFile(INPUT, "utf8");
   const lines = md.split(/\r?\n/);
@@ -140,14 +199,20 @@ async function main() {
     id += 1;
   }
 
+  assignIssn(journals);
+
+  const generatedAt = new Date().toISOString();
+  const sectionCounts = countBySection(journals);
+
   await fs.mkdir(path.dirname(OUTPUT), { recursive: true });
   await fs.writeFile(
     OUTPUT,
     JSON.stringify(
       {
-        generatedAt: new Date().toISOString(),
+        generatedAt,
         source: INPUT,
         count: journals.length,
+        sectionCounts,
         journals
       },
       null,
@@ -155,7 +220,19 @@ async function main() {
     ) + "\n"
   );
 
+  await fs.mkdir(path.dirname(HISTORY), { recursive: true });
+  const history = await readJsonArrayIfExists(HISTORY);
+  history.push({
+    generatedAt,
+    count: journals.length,
+    sectionCounts,
+    source: INPUT,
+    output: OUTPUT
+  });
+  await fs.writeFile(HISTORY, JSON.stringify(history, null, 2) + "\n");
+
   console.log(`Wrote ${journals.length} journals to ${OUTPUT}`);
+  console.log(`Appended history entry to ${HISTORY}`);
 }
 
 main().catch((error) => {
