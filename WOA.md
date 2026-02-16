@@ -93,7 +93,7 @@
 | ![image-20260216101734605](./WOA.assets/image-20260216101734605.png) | Bin | | | @六月半 | 综合 | |学术垃圾们温暖的小家|
 | ![image-20260216103807094](./WOA.assets/image-20260216103807094.png) | Rubbish Ecology and Evolution | | | @Rubbish Ecol. Evol. 编辑部 |  | |垃圾的进化史|
 | ![image-20260216103850004](./WOA.assets/image-20260216103850004.png) | Rubbish cancer research | | | @寻。。。。。 | 医学/肿瘤学 | ||
-| ![image-20260216103930383](./WOA.assets/image-20260216103930383.png) | Angry Chem Wunted Chemie | | | @Angry.Chem.Int.Ed | 化学/综合 | |JOKES老对手|
+| ![image-20260216103930383](./WOA.assets/image-20260216103930383.png) | Angry Chem International Edition | | | @Angry.Chem.Int.Ed | 化学/综合 | |JOKES老对手|
 | ![image-20260216104034738](./WOA.assets/image-20260216104034738.png) | Stupid Conclusion Inside | | | @Stupid Conclusion Index | 数学/统计学，情报学 | ||
 | ![image-20260216104253927](./WOA.assets/image-20260216104253927.png) | Rubbish Discovery | | | @Rubbish Discovery | 综合 | ||
 | ![image-20260216104400801](./WOA.assets/image-20260216104400801.png) | Rubbish Design | | | @Rubbish Design | 工程学/工业设计 | ||
