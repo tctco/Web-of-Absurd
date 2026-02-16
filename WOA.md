@@ -113,6 +113,7 @@
 | ![image-20260216173626802](./WOA.assets/image-20260216173626802.png) | Cella Comoedia | | | @Cella Comoedia Press | 综合 | ||
 | ![image-20260216174536654](./WOA.assets/image-20260216174536654.png) | Rubbish Advances | | | @Rubbish Advances | 综合 | ||
 | ![image-20260216180924256](./WOA.assets/image-20260216180924256.png) | Rubbish Medicine | | | @Rubbish Medicine | 医学/综合 | ||
+| ![image-20260217011208241](./WOA.assets/image-20260217011208241.png) | Luggage | | | @Luggage | 语言学 | ||
 
 
 

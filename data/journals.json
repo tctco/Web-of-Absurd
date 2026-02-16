@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-16T10:10:46.118Z",
+  "generatedAt": "2026-02-16T17:13:33.801Z",
   "source": "WOA.md",
-  "count": 119,
+  "count": 120,
   "sectionCounts": {
-    "SCIE": 111,
+    "SCIE": 112,
     "北小核心": 7,
     "会议": 1
   },
@@ -1853,6 +1853,22 @@
     },
     {
       "id": 112,
+      "title": "Luggage",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Luggage",
+      "tags": [
+        "语言学"
+      ],
+      "subjectRaw": "语言学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260217011208241.png",
+      "issn": "6533-5090"
+    },
+    {
+      "id": 113,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1869,7 +1885,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 113,
+      "id": 114,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1886,7 +1902,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 114,
+      "id": 115,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1902,7 +1918,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 115,
+      "id": 116,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1918,7 +1934,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 116,
+      "id": 117,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1934,7 +1950,7 @@
       "issn": "7920-8444"
     },
     {
-      "id": 117,
+      "id": 118,
       "title": "垃圾诗刊",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1950,7 +1966,7 @@
       "issn": "2517-0406"
     },
     {
-      "id": 118,
+      "id": 119,
       "title": "甘蔗社会科学",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1966,7 +1982,7 @@
       "issn": "4691-4544"
     },
     {
-      "id": 119,
+      "id": 120,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
