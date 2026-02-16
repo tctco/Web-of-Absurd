@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-02-16T17:13:33.801Z",
+  "generatedAt": "2026-02-16T17:23:08.997Z",
   "source": "WOA.md",
-  "count": 120,
+  "count": 121,
   "sectionCounts": {
     "SCIE": 112,
-    "北小核心": 7,
+    "北小核心": 8,
     "会议": 1
   },
   "journals": [
@@ -1983,6 +1983,23 @@
     },
     {
       "id": 120,
+      "title": "人文学术垃圾",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "",
+      "editor": "@人文学术垃圾",
+      "tags": [
+        "艺术学",
+        "社会科学"
+      ],
+      "subjectRaw": "艺术学，社会科学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260217011852802.png",
+      "issn": "7943-9837"
+    },
+    {
+      "id": 121,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
