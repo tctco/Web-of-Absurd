@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-02-16T06:22:18.888Z",
+  "generatedAt": "2026-02-16T09:20:29.768Z",
   "source": "WOA.md",
-  "count": 108,
+  "count": 113,
   "sectionCounts": {
-    "SCIE": 102,
-    "北小核心": 5,
+    "SCIE": 106,
+    "北小核心": 6,
     "会议": 1
   },
   "journals": [
@@ -1488,8 +1488,11 @@
       "originalQuartile": "",
       "originalAif": "",
       "editor": "@Rubbish Ecol. Evol. 编辑部",
-      "tags": [],
-      "subjectRaw": "",
+      "tags": [
+        "环境学",
+        "考古学"
+      ],
+      "subjectRaw": "环境学，考古学",
       "isReview": false,
       "note": "垃圾的进化史",
       "cover": "./WOA.assets/image-20260216103807094.png",
@@ -1701,6 +1704,71 @@
     },
     {
       "id": 103,
+      "title": "Academic Bullshit",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Academic Bullshit",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216171216730.png",
+      "issn": "4125-2837"
+    },
+    {
+      "id": 104,
+      "title": "Silence & Society",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Silence&Society",
+      "tags": [
+        "社会学"
+      ],
+      "subjectRaw": "社会学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216171312930.png",
+      "issn": "2834-6289"
+    },
+    {
+      "id": 105,
+      "title": "Rubbish Wetland",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Wetland",
+      "tags": [
+        "环境学"
+      ],
+      "subjectRaw": "环境学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216171545266.png",
+      "issn": "7120-363X"
+    },
+    {
+      "id": 106,
+      "title": "Endgineering",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Endginneering",
+      "tags": [
+        "工程学",
+        "综合"
+      ],
+      "subjectRaw": "工程学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216171616918.png",
+      "issn": "6359-2169"
+    },
+    {
+      "id": 107,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1717,7 +1785,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 104,
+      "id": 108,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1734,7 +1802,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 105,
+      "id": 109,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1750,7 +1818,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 106,
+      "id": 110,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1766,7 +1834,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 107,
+      "id": 111,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1782,7 +1850,23 @@
       "issn": "7920-8444"
     },
     {
-      "id": 108,
+      "id": 112,
+      "title": "垃圾诗刊",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "",
+      "editor": "@青梧新论",
+      "tags": [
+        "文学"
+      ],
+      "subjectRaw": "文学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216171118181.png",
+      "issn": "2517-0406"
+    },
+    {
+      "id": 113,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
