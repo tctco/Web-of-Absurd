@@ -99,6 +99,11 @@
 | ![image-20260216104400801](./WOA.assets/image-20260216104400801.png) | Rubbish Design | | | @Rubbish Design | 工程学/工业设计 | ||
 | ![image-20260216104532321](./WOA.assets/image-20260216104532321.png) | Medical Waste | | | @《Medical Waste》主理人 | 医学/综合 | ||
 | ![image-20260216113015720](./WOA.assets/image-20260216113015720.png) | Nonsense Nanotechnology | | | @Nonsense Nanotechnology | 工程学/材料科学，纳米技术 | ||
+| ![image-20260216141423222](./WOA.assets/image-20260216141423222.png) | Fucking Academia | | | @F*cking Academia | 医学/生殖医学 | ||
+| ![image-20260216141538668](./WOA.assets/image-20260216141538668.png) | Review of Rubbish Finance | | | @生如夏花 | 经济学 | 是 ||
+| ![image-20260216141640485](./WOA.assets/image-20260216141640485.png) | Nonsense Medicine | | | @18F-大蜘蛛哼唱 | 医学/综合 |  ||
+| ![image-20260216141723540](./WOA.assets/image-20260216141723540.png) | Rubbish Health | | | @Rubbish Health | 医学/综合 |  ||
+| ![image-20260216141808651](./WOA.assets/image-20260216141808651.png) | Stupid Clinical Idiot | | | @丁香园 | 医学/临床医学 |  ||
 
 
 
@@ -112,6 +117,7 @@
 | <img src="./WOA.assets/image-20260214220119688.png" alt="image-20260214220119688" style="zoom: 25%;" /> | 三体地外医结合杂志 | 核心期刊 | 1.6  | @三体地外医结合杂志 | 医学/中医     |          | 中医学顶刊         |
 | ![image-20260215231450128](./WOA.assets/image-20260215231450128.png) | 格物               | 核心期刊 |      | @FormatLong         | 物理学        |          | 王阳明当创刊主编？ |
 | ![image-20260215232309965](./WOA.assets/image-20260215232309965.png) | 中国织网           | 核心期刊 |      | @中国织网           | 综合          |          | 那美国织什么？     |
+| ![image-20260216141344594](./WOA.assets/image-20260216141344594.png) | 灌水               | 核心期刊 |      | @灌水               | 综合          |          |                    |
 
 ## 会议
 

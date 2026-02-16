@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-02-16T03:42:29.119Z",
+  "generatedAt": "2026-02-16T06:19:19.689Z",
   "source": "WOA.md",
-  "count": 102,
+  "count": 108,
   "sectionCounts": {
-    "SCIE": 97,
-    "北小核心": 4,
+    "SCIE": 102,
+    "北小核心": 5,
     "会议": 1
   },
   "journals": [
@@ -1617,6 +1617,90 @@
     },
     {
       "id": 98,
+      "title": "Fucking Academia",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@F*cking Academia",
+      "tags": [
+        "医学",
+        "生殖医学"
+      ],
+      "subjectRaw": "医学/生殖医学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216141423222.png",
+      "issn": "1473-8333"
+    },
+    {
+      "id": 99,
+      "title": "Review of Rubbish Finance",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@生如夏花",
+      "tags": [
+        "经济学"
+      ],
+      "subjectRaw": "经济学",
+      "isReview": true,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216141538668.png",
+      "issn": "1956-8258"
+    },
+    {
+      "id": 100,
+      "title": "Nonsense Medicine",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@18F-大蜘蛛哼唱",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216141640485.png",
+      "issn": "1265-3543"
+    },
+    {
+      "id": 101,
+      "title": "Rubbish Health",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Health",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216141723540.png",
+      "issn": "7532-086X"
+    },
+    {
+      "id": 102,
+      "title": "Stupid Clinical Idiot",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@丁香园",
+      "tags": [
+        "医学",
+        "临床医学"
+      ],
+      "subjectRaw": "医学/临床医学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216141808651.png",
+      "issn": "2650-0604"
+    },
+    {
+      "id": 103,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1633,7 +1717,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 99,
+      "id": 104,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1650,7 +1734,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 100,
+      "id": 105,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1666,7 +1750,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 101,
+      "id": 106,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1682,7 +1766,23 @@
       "issn": "5138-4825"
     },
     {
-      "id": 102,
+      "id": 107,
+      "title": "灌水",
+      "section": "北小核心",
+      "originalQuartile": "核心期刊",
+      "originalAif": "",
+      "editor": "@灌水",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216141344594.png",
+      "issn": "7920-8444"
+    },
+    {
+      "id": 108,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
