@@ -91,7 +91,7 @@
 | ![image-20260216101122338](./WOA.assets/image-20260216101122338.png) | Natura materials | | | @学术垃圾（见过许嵩五月天胡彦斌后弦） | 工程学/材料科学 | |Nature哭晕在厕所|
 | ![image-20260216101611520](./WOA.assets/image-20260216101611520.png) | Rubbish Structural & Molecular Biology | | | @Rubbish Struct Mol Biol. | 生物学/综合，生物学/分子生物学 | ||
 | ![image-20260216101734605](./WOA.assets/image-20260216101734605.png) | Bin | | | @六月半 | 综合 | |学术垃圾们温暖的小家|
-| ![image-20260216103807094](./WOA.assets/image-20260216103807094.png) | Rubbish Ecology and Evolution | | | @Rubbish Ecol. Evol. 编辑部 |  | |垃圾的进化史|
+| ![image-20260216103807094](./WOA.assets/image-20260216103807094.png) | Rubbish Ecology and Evolution | | | @Rubbish Ecol. Evol. 编辑部 | 环境学，考古学 | |垃圾的进化史|
 | ![image-20260216103850004](./WOA.assets/image-20260216103850004.png) | Rubbish cancer research | | | @寻。。。。。 | 医学/肿瘤学 | ||
 | ![image-20260216103930383](./WOA.assets/image-20260216103930383.png) | Angry Chem International Edition | | | @Angry.Chem.Int.Ed | 化学/综合 | |JOKES老对手|
 | ![image-20260216104034738](./WOA.assets/image-20260216104034738.png) | Stupid Conclusion Inside | | | @Stupid Conclusion Index | 数学/统计学，情报学 | ||
@@ -104,6 +104,10 @@
 | ![image-20260216141640485](./WOA.assets/image-20260216141640485.png) | Nonsense Medicine | | | @18F-大蜘蛛哼唱 | 医学/综合 |  ||
 | ![image-20260216141723540](./WOA.assets/image-20260216141723540.png) | Rubbish Health | | | @Rubbish Health | 医学/综合 |  ||
 | ![image-20260216141808651](./WOA.assets/image-20260216141808651.png) | Stupid Clinical Idiot | | | @丁香园 | 医学/临床医学 |  ||
+| ![image-20260216171216730](./WOA.assets/image-20260216171216730.png) | Academic Bullshit | | | @Academic Bullshit | 综合 | ||
+| ![image-20260216171312930](./WOA.assets/image-20260216171312930.png) | Silence & Society | | | @Silence&Society | 社会学 | ||
+| ![image-20260216171545266](./WOA.assets/image-20260216171545266.png) | Rubbish Wetland | | | @Rubbish Wetland | 环境学 | ||
+| ![image-20260216171616918](./WOA.assets/image-20260216171616918.png) | Endgineering | | | @Endginneering | 工程学/综合 | ||
 
 
 
@@ -118,6 +122,7 @@
 | ![image-20260215231450128](./WOA.assets/image-20260215231450128.png) | 格物               | 核心期刊 |      | @FormatLong         | 物理学        |          | 王阳明当创刊主编？ |
 | ![image-20260215232309965](./WOA.assets/image-20260215232309965.png) | 中国织网           | 核心期刊 |      | @中国织网           | 综合          |          | 那美国织什么？     |
 | ![image-20260216141344594](./WOA.assets/image-20260216141344594.png) | 灌水               | 核心期刊 |      | @灌水               | 综合          |          |                    |
+| ![image-20260216171118181](./WOA.assets/image-20260216171118181.png) | 垃圾诗刊           | 核心期刊 |      | @青梧新论           | 文学          |          |                    |
 
 ## 会议
 
