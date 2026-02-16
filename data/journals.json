@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-16T09:37:56.912Z",
+  "generatedAt": "2026-02-16T09:46:25.421Z",
   "source": "WOA.md",
-  "count": 117,
+  "count": 118,
   "sectionCounts": {
-    "SCIE": 109,
+    "SCIE": 110,
     "北小核心": 7,
     "会议": 1
   },
@@ -1820,6 +1820,22 @@
     },
     {
       "id": 110,
+      "title": "Rubbish Advances",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Advances",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260216174536654.png",
+      "issn": "0908-8733"
+    },
+    {
+      "id": 111,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1836,7 +1852,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 111,
+      "id": 112,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1853,7 +1869,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 112,
+      "id": 113,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1869,7 +1885,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 113,
+      "id": 114,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1885,7 +1901,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 114,
+      "id": 115,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1901,7 +1917,7 @@
       "issn": "7920-8444"
     },
     {
-      "id": 115,
+      "id": 116,
       "title": "垃圾诗刊",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1917,7 +1933,7 @@
       "issn": "2517-0406"
     },
     {
-      "id": 116,
+      "id": 117,
       "title": "甘蔗社会科学",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1933,7 +1949,7 @@
       "issn": "4691-4544"
     },
     {
-      "id": 117,
+      "id": 118,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
