@@ -60,6 +60,7 @@ function getUtcSeedDate() {
 }
 
 function pickDailyOnHoldIds(ids, dailySeed, ratio = 0.05) {
+  if (!ids || ids.length === 0) return new Set();
   const count = Math.max(1, Math.round(ids.length * ratio));
   const pool = [...ids];
   const seedHash = xmur3(dailySeed)();
@@ -84,8 +85,11 @@ function getAifClass(aifDisplay, numericAif) {
 
 function buildFallbackRuntime(journals) {
   const seedDate = getUtcSeedDate();
+  const holdEligibleIds = journals
+    .filter((item) => item.onHoldEligible !== false)
+    .map((item) => item.id);
   const holdSet = pickDailyOnHoldIds(
-    journals.map((item) => item.id),
+    holdEligibleIds,
     seedDate,
     0.05
   );
@@ -158,6 +162,28 @@ function loadRuntime(journals) {
   }
 }
 
+function getStatusLabels(journal, runtimeItem) {
+  const labels = [];
+  if (runtimeItem.onHold) labels.push("ON HOLD");
+  for (const tag of journal.statusTags || []) {
+    labels.push(tag);
+  }
+  if (labels.length === 0) labels.push("Active");
+  return [...new Set(labels)];
+}
+
+function getStatusClass(label) {
+  if (label === "ON HOLD") return "status-hold";
+  if (label === "Active") return "status-normal";
+  return "status-alert";
+}
+
+function renderStatusBadges(labels) {
+  return labels
+    .map((label) => `<span class="status-flag ${getStatusClass(label)}">${escapeHtml(label)}</span>`)
+    .join("");
+}
+
 function renderDetail(journal, runtime) {
   const runtimeKey = String(journal.issn || journal.id);
   const runtimeItem = runtime.items[runtimeKey] || runtime.items[String(journal.id)] || {};
@@ -165,9 +191,7 @@ function renderDetail(journal, runtime) {
   const aifDisplay = runtimeItem.aifDisplay || journal.originalAif || "-";
   const numericAif = Number(runtimeItem.numericAif ?? 0);
   const aifClass = runtimeItem.aifClass || getAifClass(aifDisplay, numericAif);
-  const statusHtml = runtimeItem.onHold
-    ? '<span class="status-flag status-hold">ON HOLD</span>'
-    : '<span class="status-flag status-normal">Active</span>';
+  const statusHtml = renderStatusBadges(getStatusLabels(journal, runtimeItem));
   const reviewHtml = journal.isReview ? '<span class="review-flag">Review</span>' : "否";
   const tagsHtml =
     journal.tags && journal.tags.length

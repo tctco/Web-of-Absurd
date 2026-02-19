@@ -240,5 +240,77 @@
     },
     "source": "WOA.md",
     "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-19T15:56:28.228Z",
+    "count": 133,
+    "sectionCounts": {
+      "SCIE": 124,
+      "北小核心": 8,
+      "会议": 1
+    },
+    "statusCounts": {
+      "中科院预警": 0,
+      "WOS除名": 0
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-19T16:01:22.842Z",
+    "count": 188,
+    "sectionCounts": {
+      "SCIE": 179,
+      "北小核心": 8,
+      "会议": 1
+    },
+    "statusCounts": {
+      "中科院预警": 5,
+      "WOS除名": 51
+    },
+    "sourceCounts": {
+      "WOA_MD": 133,
+      "EXTERNAL_INDEX": 55
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-19T16:04:07.388Z",
+    "count": 188,
+    "sectionCounts": {
+      "SCIE": 179,
+      "北小核心": 8,
+      "会议": 1
+    },
+    "statusCounts": {
+      "中科院预警": 5,
+      "WOS除名": 51
+    },
+    "sourceCounts": {
+      "XHS": 133,
+      "EXTERNAL_INDEX": 55
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-19T16:04:45.754Z",
+    "count": 188,
+    "sectionCounts": {
+      "SCIE": 179,
+      "北小核心": 8,
+      "会议": 1
+    },
+    "statusCounts": {
+      "中科院预警": 5,
+      "WOS除名": 51
+    },
+    "sourceCounts": {
+      "XHS": 133,
+      "EXTERNAL_INDEX": 55
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
   }
 ]

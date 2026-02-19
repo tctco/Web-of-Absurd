@@ -7,6 +7,7 @@ const elements = {
   tierFilter: document.getElementById("tierFilter"),
   reviewFilter: document.getElementById("reviewFilter"),
   holdFilter: document.getElementById("holdFilter"),
+  sourceFilter: document.getElementById("sourceFilter"),
   tagTree: document.getElementById("tagTree"),
   tagTreeSelected: document.getElementById("tagTreeSelected"),
   clearTagTree: document.getElementById("clearTagTree"),
@@ -37,6 +38,7 @@ const state = {
   tier: "ALL",
   review: "ALL",
   hold: "ALL",
+  source: "ALL",
   tagPath: "ALL",
   sort: "TITLE_ASC",
   pageSize: 10,
@@ -146,6 +148,7 @@ function getUtcSeedDate() {
 }
 
 function pickDailyOnHoldIds(ids, dailySeed, ratio = 0.05) {
+  if (!ids || ids.length === 0) return new Set();
   const count = Math.max(1, Math.round(ids.length * ratio));
   const pool = [...ids];
   const seedHash = xmur3(dailySeed)();
@@ -177,8 +180,11 @@ function parseSubjectPaths(subjectRaw) {
 
 function enrichJournals(rawJournals) {
   seedDate = getUtcSeedDate();
+  const holdEligibleIds = rawJournals
+    .filter((item) => item.onHoldEligible !== false)
+    .map((item) => item.id);
   const holdSet = pickDailyOnHoldIds(
-    rawJournals.map((item) => item.id),
+    holdEligibleIds,
     seedDate,
     0.05
   );
@@ -213,6 +219,7 @@ function enrichJournals(rawJournals) {
       aifDisplay,
       aifClass,
       subjectPaths,
+      statusTags: Array.isArray(item.statusTags) ? item.statusTags : [],
       onHold: holdSet.has(item.id)
     };
   });
@@ -371,6 +378,18 @@ function setView(view) {
   }
 }
 
+function isXhsSource(item) {
+  return item.sourceType === "XHS" || item.sourceType === "WOA_MD";
+}
+
+function getSourceMarkers(item) {
+  const markers = [];
+  if (isXhsSource(item)) markers.push("XHS");
+  if ((item.statusTags || []).includes("中科院预警")) markers.push("中科院预警");
+  if ((item.statusTags || []).includes("WOS除名")) markers.push("WOS除名");
+  return markers;
+}
+
 function matchesPrimaryFilters(item) {
   if (state.query) {
     const searchable = [
@@ -378,6 +397,8 @@ function matchesPrimaryFilters(item) {
       item.editor,
       item.section,
       item.note,
+      ...(getSourceMarkers(item) || []),
+      ...(item.statusTags || []),
       ...(item.tags || []),
       ...(item.subjectPaths || [])
     ]
@@ -391,6 +412,13 @@ function matchesPrimaryFilters(item) {
   if (state.review === "ONLY" && !item.isReview) return false;
   if (state.hold === "ONLY" && !item.onHold) return false;
   if (state.hold === "EXCLUDE" && item.onHold) return false;
+  if (state.source === "XHS" && !isXhsSource(item)) return false;
+  if (state.source === "CAS_WARNING" && !(item.statusTags || []).includes("中科院预警")) {
+    return false;
+  }
+  if (state.source === "WOS_DELISTED" && !(item.statusTags || []).includes("WOS除名")) {
+    return false;
+  }
   return true;
 }
 
@@ -470,6 +498,28 @@ function renderTags(tags) {
     .join("")}</div>`;
 }
 
+function getStatusLabels(item) {
+  const labels = [];
+  if (item.onHold) labels.push("ON HOLD");
+  for (const tag of item.statusTags || []) {
+    labels.push(tag);
+  }
+  if (labels.length === 0) labels.push("Active");
+  return [...new Set(labels)];
+}
+
+function getStatusClass(label) {
+  if (label === "ON HOLD") return "status-hold";
+  if (label === "Active") return "status-normal";
+  return "status-alert";
+}
+
+function renderStatusBadges(item) {
+  return getStatusLabels(item)
+    .map((label) => `<span class="status-flag ${getStatusClass(label)}">${escapeHtml(label)}</span>`)
+    .join("");
+}
+
 function renderTable(items) {
   if (items.length === 0) {
     elements.tableBody.innerHTML = "";
@@ -479,9 +529,7 @@ function renderTable(items) {
   elements.tableBody.innerHTML = items
     .map((item) => {
       const reviewHtml = item.isReview ? '<span class="review-flag">Review</span>' : "-";
-      const statusHtml = item.onHold
-        ? '<span class="status-flag status-hold">ON HOLD</span>'
-        : '<span class="status-flag status-normal">Active</span>';
+      const statusHtml = renderStatusBadges(item);
 
       return `
         <tr>
@@ -512,7 +560,7 @@ function renderMobile(items) {
   elements.mobileList.innerHTML = items
     .map((item) => {
       const reviewText = item.isReview ? "是" : "否";
-      const statusText = item.onHold ? "ON HOLD" : "Active";
+      const statusText = getStatusLabels(item).join(" / ");
 
       return `
         <article class="mobile-card">
@@ -859,6 +907,7 @@ function syncState() {
   state.tier = elements.tierFilter.value;
   state.review = elements.reviewFilter.value;
   state.hold = elements.holdFilter.value;
+  state.source = elements.sourceFilter.value;
   state.pageSize = Number.parseInt(elements.pageSize.value, 10) || 10;
 }
 
@@ -868,6 +917,7 @@ function bindEvents() {
     elements.tierFilter,
     elements.reviewFilter,
     elements.holdFilter,
+    elements.sourceFilter,
     elements.pageSize
   ];
 

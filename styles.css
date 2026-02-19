@@ -531,6 +531,16 @@ tbody tr:nth-child(odd) {
   border: 1px solid #f4c8c8;
 }
 
+.status-alert {
+  color: #8a4f12;
+  background: #fff3e1;
+  border: 1px solid #f3d3a8;
+}
+
+.status-flag + .status-flag {
+  margin-left: 6px;
+}
+
 .aif {
   font-weight: 700;
 }
