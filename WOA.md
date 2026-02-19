@@ -114,6 +114,16 @@
 | ![image-20260216174536654](./WOA.assets/image-20260216174536654.png) | Rubbish Advances | | | @Rubbish Advances | 综合 | ||
 | ![image-20260216180924256](./WOA.assets/image-20260216180924256.png) | Rubbish Medicine | | | @Rubbish Medicine | 医学/综合 | ||
 | ![image-20260217011208241](./WOA.assets/image-20260217011208241.png) | Luggage | | | @Luggage | 语言学 | ||
+| ![image-20260219213917654](./WOA.assets/image-20260219213917654.png) | Nothing Medicine | | | @Nothing Medicine | 医学/综合 | ||
+| ![image-20260219214114677](./WOA.assets/image-20260219214114677.png) | Natura nanotecchnology | | | @Natura期刊官方号 | 纳米科技，工程学/材料科学 | ||
+| ![image-20260219214143168](./WOA.assets/image-20260219214143168.png) | Rubbish Cities | | | @Rubbish Cities | 城市研究 | ||
+| ![image-20260219214304652](./WOA.assets/image-20260219214304652.png) | Advanced Rubbish | | | @Advanced Rubbish | 综合 | ||
+| ![image-20260219214340111](./WOA.assets/image-20260219214340111.png) | Marketing Shitting | | | @Marketing Shitting | 商学，管理学 | ||
+| ![image-20260219214446567](./WOA.assets/image-20260219214446567.png) | The Blunt Lancet | | | @The Blunt Lancet | 医学/综合 | ||
+| ![image-20260219214536695](./WOA.assets/image-20260219214536695.png) | Garbage | | | @Grabage | 综合 | ||
+| ![image-20260219214604484](./WOA.assets/image-20260219214604484.png) | Tricky | | | @Tricky_editor | 综合 | ||
+| ![image-20260219214628619](./WOA.assets/image-20260219214628619.png) | The Accounting Rubbish | | | @蒸蒸 | 商学 | ||
+| ![image-20260219214736081](./WOA.assets/image-20260219214736081.png) | Nature Cat | | | @Nature Cat | 动物学 | ||
 
 
 

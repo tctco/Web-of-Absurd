@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-16T17:23:08.997Z",
+  "generatedAt": "2026-02-19T13:57:28.663Z",
   "source": "WOA.md",
-  "count": 121,
+  "count": 131,
   "sectionCounts": {
-    "SCIE": 112,
+    "SCIE": 122,
     "北小核心": 8,
     "会议": 1
   },
@@ -1869,6 +1869,171 @@
     },
     {
       "id": 113,
+      "title": "Nothing Medicine",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Nothing Medicine",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219213917654.png",
+      "issn": "8574-5626"
+    },
+    {
+      "id": 114,
+      "title": "Natura nanotecchnology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Natura期刊官方号",
+      "tags": [
+        "纳米科技",
+        "工程学",
+        "材料科学"
+      ],
+      "subjectRaw": "纳米科技，工程学/材料科学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214114677.png",
+      "issn": "5898-9714"
+    },
+    {
+      "id": 115,
+      "title": "Rubbish Cities",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Cities",
+      "tags": [
+        "城市研究"
+      ],
+      "subjectRaw": "城市研究",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214143168.png",
+      "issn": "1811-7414"
+    },
+    {
+      "id": 116,
+      "title": "Advanced Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Advanced Rubbish",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214304652.png",
+      "issn": "0333-0567"
+    },
+    {
+      "id": 117,
+      "title": "Marketing Shitting",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Marketing Shitting",
+      "tags": [
+        "商学",
+        "管理学"
+      ],
+      "subjectRaw": "商学，管理学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214340111.png",
+      "issn": "0526-7811"
+    },
+    {
+      "id": 118,
+      "title": "The Blunt Lancet",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@The Blunt Lancet",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214446567.png",
+      "issn": "0549-3447"
+    },
+    {
+      "id": 119,
+      "title": "Garbage",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Grabage",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214536695.png",
+      "issn": "4700-5750"
+    },
+    {
+      "id": 120,
+      "title": "Tricky",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Tricky_editor",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214604484.png",
+      "issn": "3988-001X"
+    },
+    {
+      "id": 121,
+      "title": "The Accounting Rubbish",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@蒸蒸",
+      "tags": [
+        "商学"
+      ],
+      "subjectRaw": "商学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214628619.png",
+      "issn": "0992-4868"
+    },
+    {
+      "id": 122,
+      "title": "Nature Cat",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Nature Cat",
+      "tags": [
+        "动物学"
+      ],
+      "subjectRaw": "动物学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219214736081.png",
+      "issn": "3412-0629"
+    },
+    {
+      "id": 123,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1885,7 +2050,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 114,
+      "id": 124,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1902,7 +2067,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 115,
+      "id": 125,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1918,7 +2083,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 116,
+      "id": 126,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1934,7 +2099,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 117,
+      "id": 127,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1950,7 +2115,7 @@
       "issn": "7920-8444"
     },
     {
-      "id": 118,
+      "id": 128,
       "title": "垃圾诗刊",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1966,7 +2131,7 @@
       "issn": "2517-0406"
     },
     {
-      "id": 119,
+      "id": 129,
       "title": "甘蔗社会科学",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1982,7 +2147,7 @@
       "issn": "4691-4544"
     },
     {
-      "id": 120,
+      "id": 130,
       "title": "人文学术垃圾",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -1999,7 +2164,7 @@
       "issn": "7943-9837"
     },
     {
-      "id": 121,
+      "id": 131,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
