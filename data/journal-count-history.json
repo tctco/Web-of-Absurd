@@ -218,5 +218,27 @@
     },
     "source": "WOA.md",
     "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-19T15:37:35.671Z",
+    "count": 131,
+    "sectionCounts": {
+      "SCIE": 122,
+      "北小核心": 8,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-19T15:37:34.184Z",
+    "count": 133,
+    "sectionCounts": {
+      "SCIE": 124,
+      "北小核心": 8,
+      "会议": 1
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
   }
 ]

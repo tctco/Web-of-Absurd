@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-19T13:57:28.663Z",
+  "generatedAt": "2026-02-19T15:37:34.184Z",
   "source": "WOA.md",
-  "count": 131,
+  "count": 133,
   "sectionCounts": {
-    "SCIE": 122,
+    "SCIE": 124,
     "北小核心": 8,
     "会议": 1
   },
@@ -2034,6 +2034,39 @@
     },
     {
       "id": 123,
+      "title": "Visual Novelties",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@《Visual Novelties》视觉小说笑话",
+      "tags": [
+        "文学"
+      ],
+      "subjectRaw": "文学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219233613333.png",
+      "issn": "2485-736X"
+    },
+    {
+      "id": 124,
+      "title": "Rubbish Neurology",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Rubbish Neurology",
+      "tags": [
+        "医学",
+        "神经病学"
+      ],
+      "subjectRaw": "医学/神经病学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260219233709310.png",
+      "issn": "2930-3583"
+    },
+    {
+      "id": 125,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2050,7 +2083,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 124,
+      "id": 126,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2067,7 +2100,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 125,
+      "id": 127,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2083,7 +2116,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 126,
+      "id": 128,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2099,7 +2132,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 127,
+      "id": 129,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2115,7 +2148,7 @@
       "issn": "7920-8444"
     },
     {
-      "id": 128,
+      "id": 130,
       "title": "垃圾诗刊",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2131,7 +2164,7 @@
       "issn": "2517-0406"
     },
     {
-      "id": 129,
+      "id": 131,
       "title": "甘蔗社会科学",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2147,7 +2180,7 @@
       "issn": "4691-4544"
     },
     {
-      "id": 130,
+      "id": 132,
       "title": "人文学术垃圾",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -2164,7 +2197,7 @@
       "issn": "7943-9837"
     },
     {
-      "id": 131,
+      "id": 133,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",

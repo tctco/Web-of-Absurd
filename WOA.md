@@ -124,6 +124,8 @@
 | ![image-20260219214604484](./WOA.assets/image-20260219214604484.png) | Tricky | | | @Tricky_editor | 综合 | ||
 | ![image-20260219214628619](./WOA.assets/image-20260219214628619.png) | The Accounting Rubbish | | | @蒸蒸 | 商学 | ||
 | ![image-20260219214736081](./WOA.assets/image-20260219214736081.png) | Nature Cat | | | @Nature Cat | 动物学 | ||
+| ![image-20260219233613333](./WOA.assets/image-20260219233613333.png) | Visual Novelties | | | @《Visual Novelties》视觉小说笑话 | 文学 | ||
+| ![image-20260219233709310](./WOA.assets/image-20260219233709310.png) | Rubbish Neurology | | | @Rubbish Neurology | 医学/神经病学 | ||
 
 
 
