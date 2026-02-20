@@ -129,6 +129,7 @@
 | ![image-20260220151904301](./WOA.assets/image-20260220151904301.png) | Journal of Littering Studies | | | @JO_Littering Studies | 综合 | ||
 | ![image-20260220152027553](./WOA.assets/image-20260220152027553.png) | Argue Communications | | | @Argue | 综合 | ||
 | ![image-20260220152118593](./WOA.assets/image-20260220152118593.png) | Advanced Silence | | | @Advanced Silence | 综合 | ||
+| ![image-20260220201302298](./WOA.assets/image-20260220201302298.png) | Rubbish Psychiatry | | | @Rubbish Psychiatry | 医学/精神病学，医学/神经病学，医学/认知科学 | ||
 
 
 
