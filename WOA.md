@@ -130,6 +130,12 @@
 | ![image-20260220152027553](./WOA.assets/image-20260220152027553.png) | Argue Communications | | | @Argue | 综合 | ||
 | ![image-20260220152118593](./WOA.assets/image-20260220152118593.png) | Advanced Silence | | | @Advanced Silence | 综合 | ||
 | ![image-20260220201302298](./WOA.assets/image-20260220201302298.png) | Rubbish Psychiatry | | | @Rubbish Psychiatry | 医学/精神病学，医学/神经病学，医学/认知科学 | ||
+| ![image-20260221180658587](./WOA.assets/image-20260221180658587.png) | Natura | | | @Natura期刊官方号 | 综合 | ||
+| ![image-20260221180736571](./WOA.assets/image-20260221180736571.png) | Waste | | | @Natura期刊官方号 | 综合 | ||
+| ![image-20260221180828840](./WOA.assets/image-20260221180828840.png) | Natura Rubbish Medicine | | | @Natura期刊官方号 | 医学/综合 | ||
+| ![image-20260221180916882](./WOA.assets/image-20260221180916882.png) | Junk of Academic Chinese Stupiders | | | @Natura期刊官方号 | 综合 | ||
+| ![image-20260221181038677](./WOA.assets/image-20260221181038677.png) | Absurd Materials | | | @Natura期刊官方号 | 工程学/材料科学 | ||
+|  |  | | |  |  | ||
 
 
 

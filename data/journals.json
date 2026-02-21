@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-20T12:13:42.764Z",
+  "generatedAt": "2026-02-21T10:11:41.804Z",
   "source": "WOA.md",
-  "count": 193,
+  "count": 198,
   "sectionCounts": {
-    "SCIE": 183,
+    "SCIE": 188,
     "北小核心": 9,
     "会议": 1
   },
@@ -12,7 +12,7 @@
     "WOS除名": 51
   },
   "sourceCounts": {
-    "XHS": 138,
+    "XHS": 143,
     "EXTERNAL_INDEX": 55
   },
   "sourceStatuses": {
@@ -3557,6 +3557,143 @@
     },
     {
       "id": 129,
+      "title": "Natura",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Natura期刊官方号",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260221180658587.png",
+      "sourceIssnRaw": "",
+      "sourceIssns": [],
+      "statusTags": [],
+      "statusMeta": {
+        "casWarning": false,
+        "casWarningReasons": [],
+        "wosDelisted": false,
+        "wosStatuses": []
+      },
+      "sourceType": "XHS",
+      "onHoldEligible": true,
+      "issn": "1591-786X"
+    },
+    {
+      "id": 130,
+      "title": "Waste",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Natura期刊官方号",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260221180736571.png",
+      "sourceIssnRaw": "",
+      "sourceIssns": [],
+      "statusTags": [],
+      "statusMeta": {
+        "casWarning": false,
+        "casWarningReasons": [],
+        "wosDelisted": false,
+        "wosStatuses": []
+      },
+      "sourceType": "XHS",
+      "onHoldEligible": true,
+      "issn": "3536-8837"
+    },
+    {
+      "id": 131,
+      "title": "Natura Rubbish Medicine",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Natura期刊官方号",
+      "tags": [
+        "医学",
+        "综合"
+      ],
+      "subjectRaw": "医学/综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260221180828840.png",
+      "sourceIssnRaw": "",
+      "sourceIssns": [],
+      "statusTags": [],
+      "statusMeta": {
+        "casWarning": false,
+        "casWarningReasons": [],
+        "wosDelisted": false,
+        "wosStatuses": []
+      },
+      "sourceType": "XHS",
+      "onHoldEligible": true,
+      "issn": "1707-2697"
+    },
+    {
+      "id": 132,
+      "title": "Junk of Academic Chinese Stupiders",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Natura期刊官方号",
+      "tags": [
+        "综合"
+      ],
+      "subjectRaw": "综合",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260221180916882.png",
+      "sourceIssnRaw": "",
+      "sourceIssns": [],
+      "statusTags": [],
+      "statusMeta": {
+        "casWarning": false,
+        "casWarningReasons": [],
+        "wosDelisted": false,
+        "wosStatuses": []
+      },
+      "sourceType": "XHS",
+      "onHoldEligible": true,
+      "issn": "3674-1957"
+    },
+    {
+      "id": 133,
+      "title": "Absurd Materials",
+      "section": "SCIE",
+      "originalQuartile": "",
+      "originalAif": "",
+      "editor": "@Natura期刊官方号",
+      "tags": [
+        "工程学",
+        "材料科学"
+      ],
+      "subjectRaw": "工程学/材料科学",
+      "isReview": false,
+      "note": "",
+      "cover": "./WOA.assets/image-20260221181038677.png",
+      "sourceIssnRaw": "",
+      "sourceIssns": [],
+      "statusTags": [],
+      "statusMeta": {
+        "casWarning": false,
+        "casWarningReasons": [],
+        "wosDelisted": false,
+        "wosStatuses": []
+      },
+      "sourceType": "XHS",
+      "onHoldEligible": true,
+      "issn": "6257-6143"
+    },
+    {
+      "id": 134,
       "title": "新庸医",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3584,7 +3721,7 @@
       "issn": "6750-4698"
     },
     {
-      "id": 130,
+      "id": 135,
       "title": "三体地外医结合杂志",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3612,7 +3749,7 @@
       "issn": "2644-9676"
     },
     {
-      "id": 131,
+      "id": 136,
       "title": "格物",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3639,7 +3776,7 @@
       "issn": "5789-2571"
     },
     {
-      "id": 132,
+      "id": 137,
       "title": "中国织网",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3666,7 +3803,7 @@
       "issn": "5138-4825"
     },
     {
-      "id": 133,
+      "id": 138,
       "title": "灌水",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3693,7 +3830,7 @@
       "issn": "7920-8444"
     },
     {
-      "id": 134,
+      "id": 139,
       "title": "垃圾诗刊",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3720,7 +3857,7 @@
       "issn": "2517-0406"
     },
     {
-      "id": 135,
+      "id": 140,
       "title": "甘蔗社会科学",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3747,7 +3884,7 @@
       "issn": "4691-4544"
     },
     {
-      "id": 136,
+      "id": 141,
       "title": "人文学术垃圾",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3775,7 +3912,7 @@
       "issn": "7943-9837"
     },
     {
-      "id": 137,
+      "id": 142,
       "title": "辛青年",
       "section": "北小核心",
       "originalQuartile": "核心期刊",
@@ -3802,7 +3939,7 @@
       "issn": "1921-135X"
     },
     {
-      "id": 138,
+      "id": 143,
       "title": "Internaltional Laboratory Oolong Converence",
       "section": "会议",
       "originalQuartile": "",
@@ -3829,7 +3966,7 @@
       "issn": "0484-8667"
     },
     {
-      "id": 139,
+      "id": 144,
       "title": "Wireless Personal Communications",
       "section": "SCIE",
       "originalQuartile": "",
@@ -3860,7 +3997,7 @@
       "issn": "0929-6212"
     },
     {
-      "id": 140,
+      "id": 145,
       "title": "Natural Resources Forum",
       "section": "SCIE",
       "originalQuartile": "",
@@ -3891,7 +4028,7 @@
       "issn": "0165-0203"
     },
     {
-      "id": 141,
+      "id": 146,
       "title": "Computers & Electrical Engineering",
       "section": "SCIE",
       "originalQuartile": "",
@@ -3922,7 +4059,7 @@
       "issn": "0045-7906"
     },
     {
-      "id": 142,
+      "id": 147,
       "title": "NUMERICAL HEAT TRANSFER PART A-APPLICATIONS",
       "section": "SCIE",
       "originalQuartile": "",
@@ -3953,7 +4090,7 @@
       "issn": "1040-7782"
     },
     {
-      "id": 143,
+      "id": 148,
       "title": "SCALABLE COMPUTING-PRACTICE AND EXPERIENCE",
       "section": "SCIE",
       "originalQuartile": "",
@@ -3987,7 +4124,7 @@
       "issn": "1895-1767"
     },
     {
-      "id": 144,
+      "id": 149,
       "title": "Acta Missiologica",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4018,7 +4155,7 @@
       "issn": "2453-7160"
     },
     {
-      "id": 145,
+      "id": 150,
       "title": "Ad Alta-Journal of Interdisciplinary Research",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4049,7 +4186,7 @@
       "issn": "1804-7890"
     },
     {
-      "id": 146,
+      "id": 151,
       "title": "Amazonia Investiga",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4080,7 +4217,7 @@
       "issn": "2322-6307"
     },
     {
-      "id": 147,
+      "id": 152,
       "title": "American Journal of Health Behavior",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4112,7 +4249,7 @@
       "issn": "1087-3244"
     },
     {
-      "id": 148,
+      "id": 153,
       "title": "American Journal of Psychiatric Rehabilitation",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4144,7 +4281,7 @@
       "issn": "1548-7768"
     },
     {
-      "id": 149,
+      "id": 154,
       "title": "Annals of Applied Sport Science",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4176,7 +4313,7 @@
       "issn": "2476-4981"
     },
     {
-      "id": 150,
+      "id": 155,
       "title": "Annals of Phytomedicine-An International Journal",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4208,7 +4345,7 @@
       "issn": "2393-9885"
     },
     {
-      "id": 151,
+      "id": 156,
       "title": "Artseduca",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4239,7 +4376,7 @@
       "issn": "2254-0709"
     },
     {
-      "id": 152,
+      "id": 157,
       "title": "Asean Journal of Psychiatry",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4271,7 +4408,7 @@
       "issn": "2231-7791"
     },
     {
-      "id": 153,
+      "id": 158,
       "title": "Bioengineered",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4303,7 +4440,7 @@
       "issn": "2165-5979"
     },
     {
-      "id": 154,
+      "id": 159,
       "title": "Cadernos Educacao Tecnologia E Sociedade",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4334,7 +4471,7 @@
       "issn": "2316-9907"
     },
     {
-      "id": 155,
+      "id": 160,
       "title": "CHINA AND WTO REVIEW",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4366,7 +4503,7 @@
       "issn": "2383-8221"
     },
     {
-      "id": 156,
+      "id": 161,
       "title": "Clinical Social Work and Health Intervention",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4398,7 +4535,7 @@
       "issn": "2222-386X"
     },
     {
-      "id": 157,
+      "id": 162,
       "title": "Computers in Biology and Medicine",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4430,7 +4567,7 @@
       "issn": "0010-4825"
     },
     {
-      "id": 158,
+      "id": 163,
       "title": "Conhecimento & Diversidade",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4462,7 +4599,7 @@
       "issn": "1983-3695"
     },
     {
-      "id": 159,
+      "id": 164,
       "title": "Cultura. International Journal of Philosophy of Culture and Axiology",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4494,7 +4631,7 @@
       "issn": "1584-1057"
     },
     {
-      "id": 160,
+      "id": 165,
       "title": "CUREUS JOURNAL OF MEDICAL SCIENCE",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4525,7 +4662,7 @@
       "issn": "2168-8184"
     },
     {
-      "id": 161,
+      "id": 166,
       "title": "Eksplorium-Buletin Pusat Teknologi Bahan Galian Nuklir",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4556,7 +4693,7 @@
       "issn": "0854-1418"
     },
     {
-      "id": 162,
+      "id": 167,
       "title": "Eurasian Journal of Educational Research",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4588,7 +4725,7 @@
       "issn": "1302-597X"
     },
     {
-      "id": 163,
+      "id": 168,
       "title": "European Journal for Philosophy of Religion",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4619,7 +4756,7 @@
       "issn": "1689-8311"
     },
     {
-      "id": 164,
+      "id": 169,
       "title": "Exploratory Animal and Medical Research",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4651,7 +4788,7 @@
       "issn": "2277-470X"
     },
     {
-      "id": 165,
+      "id": 170,
       "title": "Fonseca Journal of Communication",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4682,7 +4819,7 @@
       "issn": "2172-9077"
     },
     {
-      "id": 166,
+      "id": 171,
       "title": "Future of Food: Journal on Food, Agriculture and Society",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4713,7 +4850,7 @@
       "issn": "2197-411X"
     },
     {
-      "id": 167,
+      "id": 172,
       "title": "HTS Teologiese Studies / Theological Studies",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4745,7 +4882,7 @@
       "issn": "0259-9422"
     },
     {
-      "id": 168,
+      "id": 173,
       "title": "INTERNATIONAL JOURNAL OF ORGANIZATIONAL LEADERSHIP",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4777,7 +4914,7 @@
       "issn": "2383-1103"
     },
     {
-      "id": 169,
+      "id": 174,
       "title": "International Journal on Semantic Web and Information Systems",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4809,7 +4946,7 @@
       "issn": "1552-6283"
     },
     {
-      "id": 170,
+      "id": 175,
       "title": "Iraqi Journal of Agricultural Sciences",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4841,7 +4978,7 @@
       "issn": "0075-0530"
     },
     {
-      "id": 171,
+      "id": 176,
       "title": "Journal of Education Culture and Society",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4872,7 +5009,7 @@
       "issn": "2081-1640"
     },
     {
-      "id": 172,
+      "id": 177,
       "title": "Journal of Mind and Medical Sciences",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4903,7 +5040,7 @@
       "issn": "2392-7674"
     },
     {
-      "id": 173,
+      "id": 178,
       "title": "Journal of Pharmacy and Bioallied Sciences",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4935,7 +5072,7 @@
       "issn": "0976-4879"
     },
     {
-      "id": 174,
+      "id": 179,
       "title": "Lex Localis",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4967,7 +5104,7 @@
       "issn": "1581-5374"
     },
     {
-      "id": 175,
+      "id": 180,
       "title": "Mediterranean Archaeology and Archaeometry",
       "section": "SCIE",
       "originalQuartile": "",
@@ -4999,7 +5136,7 @@
       "issn": "1108-9628"
     },
     {
-      "id": 176,
+      "id": 181,
       "title": "Metallurgical and Materials Engineering",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5030,7 +5167,7 @@
       "issn": "2217-8961"
     },
     {
-      "id": 177,
+      "id": 182,
       "title": "Minerva Medica",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5062,7 +5199,7 @@
       "issn": "0026-4806"
     },
     {
-      "id": 178,
+      "id": 183,
       "title": "Nexo Revista Cientifica",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5094,7 +5231,7 @@
       "issn": "1818-6742"
     },
     {
-      "id": 179,
+      "id": 184,
       "title": "Panminerva Medica",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5126,7 +5263,7 @@
       "issn": "0031-0808"
     },
     {
-      "id": 180,
+      "id": 185,
       "title": "Pegem Egitim ve Ogretim Dergisi",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5158,7 +5295,7 @@
       "issn": "2146-0655"
     },
     {
-      "id": 181,
+      "id": 186,
       "title": "Profesional de la Informacion",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5190,7 +5327,7 @@
       "issn": "1386-6710"
     },
     {
-      "id": 182,
+      "id": 187,
       "title": "Quality - Access to Success",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5221,7 +5358,7 @@
       "issn": "1582-2559"
     },
     {
-      "id": 183,
+      "id": 188,
       "title": "Results in Physics",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5252,7 +5389,7 @@
       "issn": "2211-3797"
     },
     {
-      "id": 184,
+      "id": 189,
       "title": "Retos",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5284,7 +5421,7 @@
       "issn": "1579-1726"
     },
     {
-      "id": 185,
+      "id": 190,
       "title": "Revista Electronica de LEEME",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5315,7 +5452,7 @@
       "issn": "1575-9563"
     },
     {
-      "id": 186,
+      "id": 191,
       "title": "Revista Gestao & Tecnologia-Journal of Management and Technology",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5347,7 +5484,7 @@
       "issn": "1677-9479"
     },
     {
-      "id": 187,
+      "id": 192,
       "title": "Revista Iberoamericana de Psicologia del Ejercicio y el Deporte",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5379,7 +5516,7 @@
       "issn": "1886-8576"
     },
     {
-      "id": 188,
+      "id": 193,
       "title": "Revista Internacional de Medicina y Ciencias de la Actividad Fisica y del Deporte",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5410,7 +5547,7 @@
       "issn": "1577-0354"
     },
     {
-      "id": 189,
+      "id": 194,
       "title": "Revista Latinoamericana de Hipertension",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5441,7 +5578,7 @@
       "issn": "1856-4550"
     },
     {
-      "id": 190,
+      "id": 195,
       "title": "Romanian Journal of Oral Rehabilitation",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5472,7 +5609,7 @@
       "issn": "2066-7000"
     },
     {
-      "id": 191,
+      "id": 196,
       "title": "Science of the Total Environment",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5504,7 +5641,7 @@
       "issn": "0048-9697"
     },
     {
-      "id": 192,
+      "id": 197,
       "title": "Scientific Bulletin of Mukachevo State University. Series Economics",
       "section": "SCIE",
       "originalQuartile": "",
@@ -5536,7 +5673,7 @@
       "issn": "2313-8114"
     },
     {
-      "id": 193,
+      "id": 198,
       "title": "Strategies for Policy in Science and Education-Strategii na Obrazovatelnata i Nauchnata Politika",
       "section": "SCIE",
       "originalQuartile": "",
