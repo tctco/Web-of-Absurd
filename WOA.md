@@ -135,6 +135,7 @@
 | ![image-20260221180828840](./WOA.assets/image-20260221180828840.png) | Natura Rubbish Medicine | | | @Natura期刊官方号 | 医学/综合 | ||
 | ![image-20260221180916882](./WOA.assets/image-20260221180916882.png) | Junk of Academic Chinese Stupiders | | | @Natura期刊官方号 | 综合 | ||
 | ![image-20260221181038677](./WOA.assets/image-20260221181038677.png) | Absurd Materials | | | @Natura期刊官方号 | 工程学/材料科学 | ||
+| ![image-20260221213739243](./WOA.assets/image-20260221213739243.png) | Rubbish Microbiology | | | @Rubbish Microbiology | 医学/微生物学 | ||
 |  |  | | |  |  | ||
 
 
