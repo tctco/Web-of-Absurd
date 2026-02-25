@@ -136,7 +136,14 @@
 | ![image-20260221180916882](./WOA.assets/image-20260221180916882.png) | Junk of Academic Chinese Stupiders | | | @Natura期刊官方号 | 综合 | ||
 | ![image-20260221181038677](./WOA.assets/image-20260221181038677.png) | Absurd Materials | | | @Natura期刊官方号 | 工程学/材料科学 | ||
 | ![image-20260221213739243](./WOA.assets/image-20260221213739243.png) | Rubbish Microbiology | | | @Rubbish Microbiology | 医学/微生物学 | ||
-|  |  | | |  |  | ||
+| ![image-20260225233128878](E:\projects\web-of-absurd\WOA.assets\image-20260225233128878.png) | Digital Sator | | | @Juno | 信息科学 | ||
+| ![image-20260225233436914](E:\projects\web-of-absurd\WOA.assets\image-20260225233436914.png) |                 Torture Neuroscience                  |      |       |         @Torture Neuroscience         | 医学/神经科学，医学/认知科学，医学/疼痛学   | ||
+| ![image-20260225233536050](E:\projects\web-of-absurd\WOA.assets\image-20260225233536050.png) |                         Hell                          |      |       |                 @Hell                 | 神学，综合                                  | ||
+| ![image-20260225233630521](E:\projects\web-of-absurd\WOA.assets\image-20260225233630521.png) |                      natüre mean                      |      |       |         @Natüre mean官方账号          | 综合                                        | ||
+| ![image-20260225233757288](E:\projects\web-of-absurd\WOA.assets\image-20260225233757288.png) |             Environmental Stress & Trash              |      |       |       @EnvironmentalStressTrash       | 环境学                                      | ||
+| ![image-20260225234211291](WOA.assets/image-20260225234211291.png) |                   Absent Materials                    |      |       |           @Absent Materials           | 工程学 /材料科学                            | ||
+| ![image-20260225234310811](WOA.assets/image-20260225234310811.png) |                  Rubbish Chemistry A                  |      |       |      @Rubbish Chemistry A编辑部       | 化学/综合                                   | ||
+| ![image-20260225235111991](WOA.assets/image-20260225235111991.png) |                   Nature of Nothing                   |      |       |                 @Juno                 | 综合                                        | ||
 
 
 
@@ -155,12 +162,15 @@
 | ![image-20260216173456522](./WOA.assets/image-20260216173456522.png) | 甘蔗社会科学       | 核心期刊 |      | @甘蔗社会科学         | 社会学           |          | 感觉很难嚼的样子   |
 | ![image-20260217011852802](./WOA.assets/image-20260217011852802.png) | 人文学术垃圾       | 核心期刊 |      | @人文学术垃圾         | 艺术学，社会科学 |          |                    |
 | ![image-20260220152201820](./WOA.assets/image-20260220152201820.png) | 辛青年             | 核心期刊 |      | @The Sin Youth 辛青年 | 文学             |          |                    |
+| ![image-20260225233314512](E:\projects\web-of-absurd\WOA.assets\image-20260225233314512.png) | 法克研究           | 核心期刊 |      | @《Legal Rubbish》    | 法学             |          |                    |
+| ![image-20260225234427397](WOA.assets/image-20260225234427397.png) | 文学鉴史           | 核心期刊 |      | @《文学鉴史》编辑部   | 文学，史学       |          |                    |
+| ![image-20260225234548079](WOA.assets/image-20260225234548079.png) | 史                 | 核心期刊 |      | @《史》\|Shitory      | 史学             |          |                    |
 
 ## 会议
 
-| 封面                                                         | 期刊                                        | AIF  | 主编              | 学科 | 综述期刊 | 注释 |
-| ------------------------------------------------------------ | ------------------------------------------- | ---- | ----------------- | ---- | -------- | ---- |
-| ![image-20260215230914422](./WOA.assets/image-20260215230914422.png) | Internaltional Laboratory Oolong Converence |      | Litter 期刊编辑部 | 综合 |          | ILOC |
-|                                                              |                                             |      |                   |      |          |      |
-|                                                              |                                             |      |                   |      |          |      |
+| 封面                                                         | 期刊                                                         | AIF  | 主编               | 学科 | 综述期刊 | 注释   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ------------------ | ---- | -------- | ------ |
+| ![image-20260215230914422](./WOA.assets/image-20260215230914422.png) | Internaltional Laboratory Oolong Converence                  |      | @Litter 期刊编辑部 | 综合 |          | ILOC   |
+| ![image-20260225234851270](WOA.assets/image-20260225234851270.png) | International Conference on Academic Failure & Research Rubbish |      | @RubbishReview     | 综合 |          | ICAFRR |
+|                                                              | Network of Nothing New Observed                              |      | @不妨试试看        | 综合 |          | NNNO   |
 
