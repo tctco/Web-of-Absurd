@@ -146,6 +146,9 @@
 | ![image-20260225235111991](WOA.assets/image-20260225235111991.png) |                   Nature of Nothing                   |      |       |                 @Juno                 | 综合                                        | ||
 | ![image-20260226124928101](WOA.assets/image-20260226124928101.png) | Brainless | | | @BRAINLESS | 医学/神经科学，医学/认知科学 | ||
 | ![image-20260226132300241](WOA.assets/image-20260226132300241.png) | Rubbish Management | | | @Rubbish Management | 管理学 | ||
+| ![image-20260226194121702](WOA.assets/image-20260226194121702.png) | Advanced Shit | | | @Advanced Shit | 医学/消化系统疾病 | ||
+| ![image-20260226194241903](WOA.assets/image-20260226194241903.png) | Hockum Quarterly | | | @基本错误的经济学(FFE) | 经济学 | ||
+| ![image-20260226194339539](WOA.assets/image-20260226194339539.png) | Rubbish Psychology | | | @Rubbish Psychology | 医学/心理学，医学/神经科学，医学/神经病学 | ||
 
 
 
@@ -153,20 +156,23 @@
 
 
 
-| 封面                                                         | 期刊               | 分区     | AIF  | 主编                  | 学科             | 综述期刊 | 注释               |
-| ------------------------------------------------------------ | ------------------ | -------- | ---- | --------------------- | ---------------- | -------- | ------------------ |
-| <img src="./WOA.assets/image-20260214211912205.png" alt="image-20260214211912205" style="zoom: 25%;" /> | 新庸医             | 核心期刊 | 1.2  | @新庸医               | 医学/临床医学    |          |                    |
-| <img src="./WOA.assets/image-20260214220119688.png" alt="image-20260214220119688" style="zoom: 25%;" /> | 三体地外医结合杂志 | 核心期刊 | 1.6  | @三体地外医结合杂志   | 医学/中医        |          | 中医学顶刊         |
-| ![image-20260215231450128](./WOA.assets/image-20260215231450128.png) | 格物               | 核心期刊 |      | @FormatLong           | 物理学           |          | 王阳明当创刊主编？ |
-| ![image-20260215232309965](./WOA.assets/image-20260215232309965.png) | 中国织网           | 核心期刊 |      | @中国织网             | 综合             |          | 那美国织什么？     |
-| ![image-20260216141344594](./WOA.assets/image-20260216141344594.png) | 灌水               | 核心期刊 |      | @灌水                 | 综合             |          |                    |
-| ![image-20260216171118181](./WOA.assets/image-20260216171118181.png) | 垃圾诗刊           | 核心期刊 |      | @青梧新论             | 文学             |          |                    |
-| ![image-20260216173456522](./WOA.assets/image-20260216173456522.png) | 甘蔗社会科学       | 核心期刊 |      | @甘蔗社会科学         | 社会学           |          | 感觉很难嚼的样子   |
-| ![image-20260217011852802](./WOA.assets/image-20260217011852802.png) | 人文学术垃圾       | 核心期刊 |      | @人文学术垃圾         | 艺术学，社会科学 |          |                    |
-| ![image-20260220152201820](./WOA.assets/image-20260220152201820.png) | 辛青年             | 核心期刊 |      | @The Sin Youth 辛青年 | 文学             |          |                    |
-| ![image-20260225233314512](E:\projects\web-of-absurd\WOA.assets\image-20260225233314512.png) | 法克研究           | 核心期刊 |      | @《Legal Rubbish》    | 法学             |          |                    |
-| ![image-20260225234427397](WOA.assets/image-20260225234427397.png) | 文学鉴史           | 核心期刊 |      | @《文学鉴史》编辑部   | 文学，史学       |          |                    |
-| ![image-20260225234548079](WOA.assets/image-20260225234548079.png) | 史                 | 核心期刊 |      | @《史》\|Shitory      | 史学             |          |                    |
+| 封面                                                         | 期刊               | 分区     | AIF  | 主编                  | 学科                           | 综述期刊 | 注释               |
+| ------------------------------------------------------------ | ------------------ | -------- | ---- | --------------------- | ------------------------------ | -------- | ------------------ |
+| <img src="./WOA.assets/image-20260214211912205.png" alt="image-20260214211912205" style="zoom: 25%;" /> | 新庸医             | 核心期刊 | 1.2  | @新庸医               | 医学/临床医学                  |          |                    |
+| <img src="./WOA.assets/image-20260214220119688.png" alt="image-20260214220119688" style="zoom: 25%;" /> | 三体地外医结合杂志 | 核心期刊 | 1.6  | @三体地外医结合杂志   | 医学/中医                      |          | 中医学顶刊         |
+| ![image-20260215231450128](./WOA.assets/image-20260215231450128.png) | 格物               | 核心期刊 |      | @FormatLong           | 物理学                         |          | 王阳明当创刊主编？ |
+| ![image-20260215232309965](./WOA.assets/image-20260215232309965.png) | 中国织网           | 核心期刊 |      | @中国织网             | 综合                           |          | 那美国织什么？     |
+| ![image-20260216141344594](./WOA.assets/image-20260216141344594.png) | 灌水               | 核心期刊 |      | @灌水                 | 综合                           |          |                    |
+| ![image-20260216171118181](./WOA.assets/image-20260216171118181.png) | 垃圾诗刊           | 核心期刊 |      | @青梧新论             | 文学                           |          |                    |
+| ![image-20260216173456522](./WOA.assets/image-20260216173456522.png) | 甘蔗社会科学       | 核心期刊 |      | @甘蔗社会科学         | 社会学                         |          | 感觉很难嚼的样子   |
+| ![image-20260217011852802](./WOA.assets/image-20260217011852802.png) | 人文学术垃圾       | 核心期刊 |      | @人文学术垃圾         | 艺术学，社会科学               |          |                    |
+| ![image-20260220152201820](./WOA.assets/image-20260220152201820.png) | 辛青年             | 核心期刊 |      | @The Sin Youth 辛青年 | 文学                           |          |                    |
+| ![image-20260225233314512](E:\projects\web-of-absurd\WOA.assets\image-20260225233314512.png) | 法克研究           | 核心期刊 |      | @《Legal Rubbish》    | 法学                           |          |                    |
+| ![image-20260225234427397](WOA.assets/image-20260225234427397.png) | 文学鉴史           | 核心期刊 |      | @《文学鉴史》编辑部   | 文学，史学                     |          |                    |
+| ![image-20260225234548079](WOA.assets/image-20260225234548079.png) | 史                 | 核心期刊 |      | @《史》\|Shitory      | 史学                           |          |                    |
+| ![image-20260226194550242](WOA.assets/image-20260226194550242.png) | 野史研究           | 核心期刊 |      | @《野史研究》         | 史学                           |          |                    |
+| ![image-20260226194626383](WOA.assets/image-20260226194626383.png) | 法术研究           | 核心期刊 |      | @《法术研究》         | 法学                           |          |                    |
+| ![image-20260226194702194](WOA.assets/image-20260226194702194.png) | 棋牌法学           | 核心期刊 |      | @《棋牌法学》         | 法学，数学/运筹学，数学/概率学 |          |                    |
 
 ## 会议
 
@@ -175,4 +181,5 @@
 | ![image-20260215230914422](./WOA.assets/image-20260215230914422.png) | Internaltional Laboratory Oolong Converence                  |      | @Litter 期刊编辑部 | 综合 |          | ILOC   |
 | ![image-20260225234851270](WOA.assets/image-20260225234851270.png) | International Conference on Academic Failure & Research Rubbish |      | @RubbishReview     | 综合 |          | ICAFRR |
 |                                                              | Network of Nothing New Observed                              |      | @不妨试试看        | 综合 |          | NNNO   |
+| ![image-20260226194504365](WOA.assets/image-20260226194504365.png) | International Conference on Nobody Cares Science             |      | @NBCS  Conference  | 综合 |          | NBCS   |
 
