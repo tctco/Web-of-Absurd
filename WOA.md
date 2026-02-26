@@ -145,6 +145,7 @@
 | ![image-20260225234310811](WOA.assets/image-20260225234310811.png) |                  Rubbish Chemistry A                  |      |       |      @Rubbish Chemistry A编辑部       | 化学/综合                                   | ||
 | ![image-20260225235111991](WOA.assets/image-20260225235111991.png) |                   Nature of Nothing                   |      |       |                 @Juno                 | 综合                                        | ||
 | ![image-20260226124928101](WOA.assets/image-20260226124928101.png) | Brainless | | | @BRAINLESS | 医学/神经科学，医学/认知科学 | ||
+| ![image-20260226132300241](WOA.assets/image-20260226132300241.png) | Rubbish Management | | | @Rubbish Management | 管理学 | ||
 
 
 
