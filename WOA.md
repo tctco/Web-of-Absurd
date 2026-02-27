@@ -115,7 +115,7 @@
 | ![image-20260216180924256](./WOA.assets/image-20260216180924256.png) | Rubbish Medicine | | | @Rubbish Medicine | 医学/综合 | ||
 | ![image-20260217011208241](./WOA.assets/image-20260217011208241.png) | Luggage | | | @Luggage | 语言学 | ||
 | ![image-20260219213917654](./WOA.assets/image-20260219213917654.png) | Nothing Medicine | | | @Nothing Medicine | 医学/综合 | ||
-| ![image-20260219214114677](./WOA.assets/image-20260219214114677.png) | Natura nanotecchnology | | | @Natura期刊官方号 | 纳米科技，工程学/材料科学 | ||
+| ![image-20260219214114677](./WOA.assets/image-20260219214114677.png) | Natura nanotechnology | | | @Natura期刊官方号 | 纳米科技，工程学/材料科学 | ||
 | ![image-20260219214143168](./WOA.assets/image-20260219214143168.png) | Rubbish Cities | | | @Rubbish Cities | 城市研究 | ||
 | ![image-20260219214304652](./WOA.assets/image-20260219214304652.png) | Advanced Rubbish | | | @Advanced Rubbish | 综合 | ||
 | ![image-20260219214340111](./WOA.assets/image-20260219214340111.png) | Marketing Shitting | | | @Marketing Shitting | 商学，管理学 | ||
@@ -149,6 +149,11 @@
 | ![image-20260226194121702](WOA.assets/image-20260226194121702.png) | Advanced Shit | | | @Advanced Shit | 医学/消化系统疾病 | ||
 | ![image-20260226194241903](WOA.assets/image-20260226194241903.png) | Hockum Quarterly | | | @基本错误的经济学(FFE) | 经济学 | ||
 | ![image-20260226194339539](WOA.assets/image-20260226194339539.png) | Rubbish Psychology | | | @Rubbish Psychology | 医学/心理学，医学/神经科学，医学/神经病学 | ||
+| ![image-20260227204125524](WOA.assets/image-20260227204125524.png) | yale low journal | | | @《yale low journal》期刊 | 法学 | ||
+| ![image-20260227204418519](WOA.assets/image-20260227204418519.png) | Rubbish Philosophy | | | @Rubbish Philosophy | 哲学 | ||
+| ![image-20260227204455018](WOA.assets/image-20260227204455018.png) | Delicious | | | @Delicious编辑部（国内） | 食品科学，医学/认知科学 | ||
+| ![image-20260227204611247](WOA.assets/image-20260227204611247.png) | Management Silence | | | @Management Silence | 管理学 | ||
+| ![image-20260227204850521](WOA.assets/image-20260227204850521.png) | Unapplied Linguistics | | | @Unapplied Linguistics | 语言学 | ||
 
 
 
@@ -173,6 +178,9 @@
 | ![image-20260226194550242](WOA.assets/image-20260226194550242.png) | 野史研究           | 核心期刊 |      | @《野史研究》         | 史学                           |          |                    |
 | ![image-20260226194626383](WOA.assets/image-20260226194626383.png) | 法术研究           | 核心期刊 |      | @《法术研究》         | 法学                           |          |                    |
 | ![image-20260226194702194](WOA.assets/image-20260226194702194.png) | 棋牌法学           | 核心期刊 |      | @《棋牌法学》         | 法学，数学/运筹学，数学/概率学 |          |                    |
+| ![image-20260227204228513](WOA.assets/image-20260227204228513.png) | 烟酒法学           | 核心期刊 |      | @磷淋霖（烟酒法学）   | 食品科学，微生物学，法学       |          |                    |
+| ![image-20260227204339001](WOA.assets/image-20260227204339001.png) | 管理宇宙           | 核心期刊 |      | @《管理宇宙》         | 管理学                         |          |                    |
+| ![image-20260227204538618](WOA.assets/image-20260227204538618.png) | 辩                 | 核心期刊 |      | @辩 \| BIAN           | 哲学                           |          |                    |
 
 ## 会议
 
