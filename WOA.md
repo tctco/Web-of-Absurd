@@ -154,6 +154,9 @@
 | ![image-20260227204455018](WOA.assets/image-20260227204455018.png) | Delicious | | | @Delicious编辑部（国内） | 食品科学，医学/认知科学 | ||
 | ![image-20260227204611247](WOA.assets/image-20260227204611247.png) | Management Silence | | | @Management Silence | 管理学 | ||
 | ![image-20260227204850521](WOA.assets/image-20260227204850521.png) | Unapplied Linguistics | | | @Unapplied Linguistics | 语言学 | ||
+| ![image-20260228105448822](WOA.assets/image-20260228105448822.png) | Rubbish Health | | | @Rubbish Health | 医学/综合 | ||
+| ![image-20260228105527006](WOA.assets/image-20260228105527006.png) | Secrets | | | @Secrets | 情报学，数学/密码学 | ||
+| ![image-20260228105810046](WOA.assets/image-20260228105810046.png) | FOOLISH | | | @FOOLISH期刊官方账号 | 医学/认知科学，哲学 | ||
 
 
 
@@ -181,6 +184,8 @@
 | ![image-20260227204228513](WOA.assets/image-20260227204228513.png) | 烟酒法学           | 核心期刊 |      | @磷淋霖（烟酒法学）   | 食品科学，微生物学，法学       |          |                    |
 | ![image-20260227204339001](WOA.assets/image-20260227204339001.png) | 管理宇宙           | 核心期刊 |      | @《管理宇宙》         | 管理学                         |          |                    |
 | ![image-20260227204538618](WOA.assets/image-20260227204538618.png) | 辩                 | 核心期刊 |      | @辩 \| BIAN           | 哲学                           |          |                    |
+| ![image-20260228105632970](WOA.assets/image-20260228105632970.png) | 考古不学报         | 核心期刊 |      | @《考古不学报》编辑部 | 考古学                         |          |                    |
+| ![image-20260228105748512](WOA.assets/image-20260228105748512.png) | 天意学报           | 核心期刊 |      |                       | 气象学，天文学                 |          |                    |
 
 ## 会议
 
