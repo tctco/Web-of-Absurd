@@ -98,7 +98,7 @@
 | ![image-20260216104253927](./WOA.assets/image-20260216104253927.png) | Rubbish Discovery | | | @Rubbish Discovery | 综合 | ||
 | ![image-20260216104400801](./WOA.assets/image-20260216104400801.png) | Rubbish Design | | | @Rubbish Design | 工程学/工业设计 | ||
 | ![image-20260216104532321](./WOA.assets/image-20260216104532321.png) | Medical Waste | | | @《Medical Waste》主理人 | 医学/综合 | ||
-| ![image-20260216113015720](./WOA.assets/image-20260216113015720.png) | Nonsense Nanotechnology | | | @Nonsense Nanotechnology | 工程学/材料科学，纳米技术 | ||
+| ![image-20260216113015720](./WOA.assets/image-20260216113015720.png) | Nonsense Nanotechnology | | | @Nonsense Nanotechnology | 工程学/材料科学，纳米科技 | ||
 | ![image-20260216141423222](./WOA.assets/image-20260216141423222.png) | Fucking Academia | | | @F*cking Academia | 医学/生殖医学 | ||
 | ![image-20260216141538668](./WOA.assets/image-20260216141538668.png) | Review of Rubbish Finance | | | @生如夏花 | 经济学 | 是 ||
 | ![image-20260216141640485](./WOA.assets/image-20260216141640485.png) | Nonsense Medicine | | | @18F-大蜘蛛哼唱 | 医学/综合 |  ||
@@ -173,17 +173,17 @@
 | ![image-20260216141344594](./WOA.assets/image-20260216141344594.png) | 灌水               | 核心期刊 |      | @灌水                 | 综合                           |          |                    |
 | ![image-20260216171118181](./WOA.assets/image-20260216171118181.png) | 垃圾诗刊           | 核心期刊 |      | @青梧新论             | 文学                           |          |                    |
 | ![image-20260216173456522](./WOA.assets/image-20260216173456522.png) | 甘蔗社会科学       | 核心期刊 |      | @甘蔗社会科学         | 社会学                         |          | 感觉很难嚼的样子   |
-| ![image-20260217011852802](./WOA.assets/image-20260217011852802.png) | 人文学术垃圾       | 核心期刊 |      | @人文学术垃圾         | 艺术学，社会科学               |          |                    |
+| ![image-20260217011852802](./WOA.assets/image-20260217011852802.png) | 人文学术垃圾       | 核心期刊 |      | @人文学术垃圾         | 艺术学，社会学               |          |                    |
 | ![image-20260220152201820](./WOA.assets/image-20260220152201820.png) | 辛青年             | 核心期刊 |      | @The Sin Youth 辛青年 | 文学                           |          |                    |
 | ![image-20260225233314512](E:\projects\web-of-absurd\WOA.assets\image-20260225233314512.png) | 法克研究           | 核心期刊 |      | @《Legal Rubbish》    | 法学                           |          |                    |
 | ![image-20260225234427397](WOA.assets/image-20260225234427397.png) | 文学鉴史           | 核心期刊 |      | @《文学鉴史》编辑部   | 文学，史学                     |          |                    |
-| ![image-20260225234548079](WOA.assets/image-20260225234548079.png) | 史                 | 核心期刊 |      | @《史》\|Shitory      | 史学                           |          |                    |
+| ![image-20260225234548079](WOA.assets/image-20260225234548079.png) | 史                 | 核心期刊 |      | @《史》/ Shitory      | 史学                           |          |                    |
 | ![image-20260226194550242](WOA.assets/image-20260226194550242.png) | 野史研究           | 核心期刊 |      | @《野史研究》         | 史学                           |          |                    |
 | ![image-20260226194626383](WOA.assets/image-20260226194626383.png) | 法术研究           | 核心期刊 |      | @《法术研究》         | 法学                           |          |                    |
 | ![image-20260226194702194](WOA.assets/image-20260226194702194.png) | 棋牌法学           | 核心期刊 |      | @《棋牌法学》         | 法学，数学/运筹学，数学/概率学 |          |                    |
 | ![image-20260227204228513](WOA.assets/image-20260227204228513.png) | 烟酒法学           | 核心期刊 |      | @磷淋霖（烟酒法学）   | 食品科学，微生物学，法学       |          |                    |
 | ![image-20260227204339001](WOA.assets/image-20260227204339001.png) | 管理宇宙           | 核心期刊 |      | @《管理宇宙》         | 管理学                         |          |                    |
-| ![image-20260227204538618](WOA.assets/image-20260227204538618.png) | 辩                 | 核心期刊 |      | @辩 \| BIAN           | 哲学                           |          |                    |
+| ![image-20260227204538618](WOA.assets/image-20260227204538618.png) | 辩                 | 核心期刊 |      | @辩 / BIAN            | 哲学                           |          |                    |
 | ![image-20260228105632970](WOA.assets/image-20260228105632970.png) | 考古不学报         | 核心期刊 |      | @《考古不学报》编辑部 | 考古学                         |          |                    |
 | ![image-20260228105748512](WOA.assets/image-20260228105748512.png) | 天意学报           | 核心期刊 |      |                       | 气象学，天文学                 |          |                    |
 
@@ -191,7 +191,7 @@
 
 | 封面                                                         | 期刊                                                         | AIF  | 主编               | 学科 | 综述期刊 | 注释   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ------------------ | ---- | -------- | ------ |
-| ![image-20260215230914422](./WOA.assets/image-20260215230914422.png) | Internaltional Laboratory Oolong Converence                  |      | @Litter 期刊编辑部 | 综合 |          | ILOC   |
+| ![image-20260215230914422](./WOA.assets/image-20260215230914422.png) | InternationalLaboratory Oolong Conference                    |      | @Litter 期刊编辑部 | 综合 |          | ILOC   |
 | ![image-20260225234851270](WOA.assets/image-20260225234851270.png) | International Conference on Academic Failure & Research Rubbish |      | @RubbishReview     | 综合 |          | ICAFRR |
 |                                                              | Network of Nothing New Observed                              |      | @不妨试试看        | 综合 |          | NNNO   |
 | ![image-20260226194504365](WOA.assets/image-20260226194504365.png) | International Conference on Nobody Cares Science             |      | @NBCS  Conference  | 综合 |          | NBCS   |

@@ -540,5 +540,62 @@
     },
     "source": "WOA.md",
     "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-28T03:02:10.011Z",
+    "count": 234,
+    "sectionCounts": {
+      "SCIE": 210,
+      "北小核心": 20,
+      "会议": 4
+    },
+    "statusCounts": {
+      "中科院预警": 5,
+      "WOS除名": 51
+    },
+    "sourceCounts": {
+      "XHS": 179,
+      "EXTERNAL_INDEX": 55
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-28T03:03:58.035Z",
+    "count": 234,
+    "sectionCounts": {
+      "SCIE": 210,
+      "北小核心": 20,
+      "会议": 4
+    },
+    "statusCounts": {
+      "中科院预警": 5,
+      "WOS除名": 51
+    },
+    "sourceCounts": {
+      "XHS": 179,
+      "EXTERNAL_INDEX": 55
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-02-28T03:05:15.301Z",
+    "count": 234,
+    "sectionCounts": {
+      "SCIE": 210,
+      "北小核心": 20,
+      "会议": 4
+    },
+    "statusCounts": {
+      "中科院预警": 5,
+      "WOS除名": 51
+    },
+    "sourceCounts": {
+      "XHS": 179,
+      "EXTERNAL_INDEX": 55
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
   }
 ]

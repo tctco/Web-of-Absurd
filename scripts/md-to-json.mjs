@@ -121,8 +121,11 @@ function normalizeTitleForLookup(raw) {
 
 function buildJournal(row, section, id) {
   const title = (row["期刊"] || "").trim();
-  const subjectRaw = (row["学科"] || row["领域"] || "").trim();
-  const notes = (row["注释"] || "").trim();
+  const subjectRaw =
+    section === "会议"
+      ? (row["学科"] || "").trim()
+      : (row["学科"] || row["领域"] || "").trim();
+  const notes = pickRowValue(row, ["注释", "备注", "简称"]);
   const sourceIssnRaw = pickRowValue(row, ["ISSN/EISSN", "ISSN", "EISSN"]);
 
   return {

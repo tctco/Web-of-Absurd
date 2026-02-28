@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T02:59:36.909Z",
+  "generatedAt": "2026-02-28T03:05:15.301Z",
   "source": "WOA.md",
   "count": 234,
   "sectionCounts": {
@@ -2681,9 +2681,9 @@
       "tags": [
         "工程学",
         "材料科学",
-        "纳米技术"
+        "纳米科技"
       ],
-      "subjectRaw": "工程学/材料科学，纳米技术",
+      "subjectRaw": "工程学/材料科学，纳米科技",
       "isReview": false,
       "note": "",
       "cover": "./WOA.assets/image-20260216113015720.png",
@@ -4506,9 +4506,9 @@
       "editor": "@人文学术垃圾",
       "tags": [
         "艺术学",
-        "社会科学"
+        "社会学"
       ],
-      "subjectRaw": "艺术学，社会科学",
+      "subjectRaw": "艺术学，社会学",
       "isReview": false,
       "note": "",
       "cover": "./WOA.assets/image-20260217011852802.png",
@@ -4613,13 +4613,13 @@
       "section": "北小核心",
       "originalQuartile": "核心期刊",
       "originalAif": "",
-      "editor": "@《史》\\",
+      "editor": "@《史》/ Shitory",
       "tags": [
-        "Shitory"
+        "史学"
       ],
-      "subjectRaw": "Shitory",
+      "subjectRaw": "史学",
       "isReview": false,
-      "note": "|",
+      "note": "",
       "cover": "./WOA.assets/image-20260225234548079.png",
       "sourceIssnRaw": "",
       "sourceIssns": [],
@@ -4780,13 +4780,13 @@
       "section": "北小核心",
       "originalQuartile": "核心期刊",
       "originalAif": "",
-      "editor": "@辩 \\",
+      "editor": "@辩 / BIAN",
       "tags": [
-        "BIAN"
+        "哲学"
       ],
-      "subjectRaw": "BIAN",
+      "subjectRaw": "哲学",
       "isReview": false,
-      "note": "|",
+      "note": "",
       "cover": "./WOA.assets/image-20260227204538618.png",
       "sourceIssnRaw": "",
       "sourceIssns": [],
@@ -4858,7 +4858,7 @@
     },
     {
       "id": 176,
-      "title": "Internaltional Laboratory Oolong Converence",
+      "title": "InternationalLaboratory Oolong Conference",
       "section": "会议",
       "originalQuartile": "",
       "originalAif": "",
@@ -4881,7 +4881,7 @@
       },
       "sourceType": "XHS",
       "onHoldEligible": true,
-      "issn": "0484-8667"
+      "issn": "0388-1601"
     },
     {
       "id": 177,
