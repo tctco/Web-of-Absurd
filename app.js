@@ -21,6 +21,7 @@ const elements = {
   pageInfo: document.getElementById("pageInfo"),
   totalCount: document.getElementById("totalCount"),
   visibleCount: document.getElementById("visibleCount"),
+  seedBox: document.querySelector(".seed-box"),
   seedDate: document.getElementById("seedDate"),
   metricLineChart: document.getElementById("metricLineChart"),
   metricWordCloud: document.getElementById("metricWordCloud"),
@@ -46,6 +47,7 @@ const state = {
 };
 
 let journals = [];
+let sourceJournals = [];
 let thresholds = { q25: 0, q50: 0, q75: 0 };
 let seedDate = "";
 let lastTotalPages = 1;
@@ -105,6 +107,12 @@ function isJokerJournal(title) {
 
 function randomAif() {
   return Math.round((Math.random() * 200 - 100) * 10) / 10;
+}
+
+function randomExtremeAif() {
+  const sign = Math.random() < 0.5 ? -1 : 1;
+  const magnitude = 50 + Math.random() * 50;
+  return Math.round(sign * magnitude * 10) / 10;
 }
 
 function quartile(values, percentile) {
@@ -169,6 +177,10 @@ function computeTier(value) {
   return "T4";
 }
 
+function computeExtremeTier(value) {
+  return value >= 0 ? "T1" : "T4";
+}
+
 function parseSubjectPaths(subjectRaw) {
   if (!subjectRaw) return [];
   return subjectRaw
@@ -178,7 +190,8 @@ function parseSubjectPaths(subjectRaw) {
     .filter(Boolean);
 }
 
-function enrichJournals(rawJournals) {
+function enrichJournals(rawJournals, options = {}) {
+  const extremeMode = options.extremeMode === true;
   seedDate = getUtcSeedDate();
   const holdEligibleIds = rawJournals
     .filter((item) => item.onHoldEligible !== false)
@@ -199,18 +212,24 @@ function enrichJournals(rawJournals) {
     let aifDisplay = "";
     let aifClass = "aif-pos";
 
-    if (isRubbish) {
-      numericAif = 100;
-      aifDisplay = "100.0";
-      aifClass = "aif-pos";
-    } else if (isJoker) {
-      numericAif = 0;
-      aifDisplay = "🤡";
-      aifClass = "aif-joker";
-    } else {
-      numericAif = randomAif();
+    if (extremeMode) {
+      numericAif = randomExtremeAif();
       aifDisplay = numericAif.toFixed(1);
       aifClass = numericAif >= 0 ? "aif-pos" : "aif-neg";
+    } else {
+      if (isRubbish) {
+        numericAif = 100;
+        aifDisplay = "100.0";
+        aifClass = "aif-pos";
+      } else if (isJoker) {
+        numericAif = 0;
+        aifDisplay = "🤡";
+        aifClass = "aif-joker";
+      } else {
+        numericAif = randomAif();
+        aifDisplay = numericAif.toFixed(1);
+        aifClass = numericAif >= 0 ? "aif-pos" : "aif-neg";
+      }
     }
 
     return {
@@ -224,17 +243,26 @@ function enrichJournals(rawJournals) {
     };
   });
 
-  const numericValues = withAif.map((item) => item.numericAif);
-  thresholds = {
-    q25: quartile(numericValues, 0.25),
-    q50: quartile(numericValues, 0.5),
-    q75: quartile(numericValues, 0.75)
-  };
+  if (!extremeMode) {
+    const numericValues = withAif.map((item) => item.numericAif);
+    thresholds = {
+      q25: quartile(numericValues, 0.25),
+      q50: quartile(numericValues, 0.5),
+      q75: quartile(numericValues, 0.75)
+    };
+  }
 
   return withAif.map((item) => ({
     ...item,
-    tier: computeTier(item.numericAif)
+    tier: extremeMode ? computeExtremeTier(item.numericAif) : computeTier(item.numericAif)
   }));
+}
+
+function rerollExtremeAif() {
+  if (!sourceJournals.length) return;
+  journals = enrichJournals(sourceJournals, { extremeMode: true });
+  storeRuntimeSnapshot(journals);
+  render();
 }
 
 function buildSubjectTree(items) {
@@ -1002,6 +1030,10 @@ function bindEvents() {
     state.currentPage += 1;
     render();
   });
+
+  elements.seedBox?.addEventListener("click", () => {
+    rerollExtremeAif();
+  });
 }
 
 async function loadData() {
@@ -1040,7 +1072,8 @@ async function bootstrap() {
   try {
     const [raw, history] = await Promise.all([loadData(), loadHistory()]);
     historyEntries = history;
-    journals = enrichJournals(raw);
+    sourceJournals = raw;
+    journals = enrichJournals(sourceJournals);
     storeRuntimeSnapshot(journals);
     subjectTree = buildSubjectTree(journals);
     const availableSections = new Set(journals.map((item) => item.section));
