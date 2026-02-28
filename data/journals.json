@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T03:05:15.301Z",
+  "generatedAt": "2026-02-28T03:16:27.055Z",
   "source": "WOA.md",
   "count": 234,
   "sectionCounts": {
@@ -2040,10 +2040,10 @@
       "originalAif": "",
       "editor": "@0xLLLLLL",
       "tags": [
-        "生物",
+        "生物学",
         "综合"
       ],
-      "subjectRaw": "生物/综合",
+      "subjectRaw": "生物学/综合",
       "isReview": false,
       "note": "简称SB",
       "cover": "./WOA.assets/image-20260215233050023.png",
@@ -2203,10 +2203,10 @@
       "originalAif": "",
       "editor": "@Rubbish Plant",
       "tags": [
-        "生物",
+        "生物学",
         "植物学"
       ],
-      "subjectRaw": "生物/植物学",
+      "subjectRaw": "生物学/植物学",
       "isReview": false,
       "note": "植物人研究植物学",
       "cover": "./WOA.assets/image-20260216095338202.png",
