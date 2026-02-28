@@ -160,7 +160,7 @@
 | ![image-20260228223640125](WOA.assets/image-20260228223640125.png) | Emotion | | | @Emotion | 数学/博弈论，医学/认知科学 | ||
 | ![image-20260228224227482](WOA.assets/image-20260228224227482.png) | iSilence | | | @Lessvier 底刊出版社 | 综合 | ||
 | ![image-20260228224446188](WOA.assets/image-20260228224446188.png) | Rubbish Bioinformatics | | | @Fen | 生物学/计算生物学 | ||
-| ![image-20260228224553843](WOA.assets/image-20260228224553843.png) | Odd Phytologist | | | @Odd Phytologist期刊官方 | 生物学。植物学，农学 | ||
+| ![image-20260228224553843](WOA.assets/image-20260228224553843.png) | Odd Phytologist | | | @Odd Phytologist期刊官方 | 生物学/植物学，农学 | ||
 | ![image-20260228224744866](WOA.assets/image-20260228224744866.png) | Fabricate | | | @《Fabricate》非官方账号 | 综合 | ||
 
 

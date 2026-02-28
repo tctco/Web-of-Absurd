@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T14:49:54.567Z",
+  "generatedAt": "2026-02-28T15:05:18.159Z",
   "source": "WOA.md",
   "count": 241,
   "sectionCounts": {
@@ -4399,10 +4399,11 @@
       "originalAif": "",
       "editor": "@Odd Phytologist期刊官方",
       "tags": [
-        "生物学。植物学",
+        "生物学",
+        "植物学",
         "农学"
       ],
-      "subjectRaw": "生物学。植物学，农学",
+      "subjectRaw": "生物学/植物学，农学",
       "isReview": false,
       "note": "",
       "cover": "./WOA.assets/image-20260228224553843.png",
