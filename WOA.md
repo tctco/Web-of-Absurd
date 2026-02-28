@@ -27,7 +27,7 @@
 | ![image-20260214213428740](./WOA.assets/image-20260214213428740.png) | Academic Waste | T2 | 5.5 | @Academic Waste | 综合 |  | 这不是我吗！？ |
 | ![image-20260214222103067](./WOA.assets/image-20260214222103067.png) | The Journal of Cold, Nothing and Silence | T1 | 0.75 | @Nothing and Silence编辑部 | 综合 |          |期刊名不够抽象，不像底刊|
 | ![image-20260214212416007](./WOA.assets/image-20260214212416007.png) | JAMA Rubbish | T4       | 9.7  | @JAMA Rubbish |医学/临床医学||同JAMA network open|
-| ![image-20260214213653602](./WOA.assets/image-20260214213653602.png) | Journal of Rubbish Behavior | T4 | 28.5 | @箱型核密度图（生活版） |神经科学，生物/心理学|||
+| ![image-20260214213653602](./WOA.assets/image-20260214213653602.png) | Journal of Rubbish Behavior | T4 | 28.5 | @箱型核密度图（生活版） |神经科学，医学/心理学|||
 | ![image-20260214214223698](./WOA.assets/image-20260214214223698.png) | Refuse | T1 | 0.1 | @学会侠 |综合||全refuse了，没有AIF|
 | ![image-20260214214239729](./WOA.assets/image-20260214214239729.png) | Reject | T1 | 0.1 | @学会侠 |综合||以上期刊专门收录被传统学术体系筛选出的“不合格品”并且拒绝被传统学术期刊筛选出来的“标准品”。刊名在作为名词时，是指被判定为不合格、无利用价值的“不合格品”或“废弃物”;而作为动词有着拒绝的含义。但我们的本质并非盲目否定付出的学术努力，也并非对“不合格品”的拒绝，而是反向定义了合格标准，倒逼筛选体系的优化，显示本刊对作品来源的定位和取舍，挖掘来稿作品的价值边界和“无用之物”大智慧。通过主动发掘正规期刊看不上的“废弃物”，规避内耗、聚焦核心，以彰显本刊清醒的价值判断和正向的发展导向作用|
 | ![image-20260214214316213](./WOA.assets/image-20260214214316213.png) | Garbage | T1 | 0.1 | @学会侠 |综合||Cells对Cell的拙劣模仿|
@@ -73,7 +73,7 @@
 | ![image-20260215231924878](./WOA.assets/image-20260215231924878.png) | Silence |  |  | @Silence | 综合 | ||
 | <img src="./WOA.assets/image-20260214215446474.png" alt="image-20260214215446474" style="zoom: 33%;" /> | Sorry |  |  | @《Crazy》期刊 | 医学/心理学 | ||
 | <img src="./WOA.assets/image-20260214221018932.png" alt="image-20260214221018932" style="zoom: 33%;" /> | Rubbish Research |  |  | @Rubbish Research | 综合 | ||
-| ![image-20260215232414009](./WOA.assets/image-20260215232414009.png) | Litter Human Behavior |  |  | @Litter Human Behavior | 神经科学，医学/心理学 | ||
+| ![image-20260215232414009](./WOA.assets/image-20260215232414009.png) | Litter Human Behavior |  |  | @Litter Human Behavior | 医学/神经科学，医学/心理学 | ||
 | ![image-20260215232820247](./WOA.assets/image-20260215232820247.png) | Rubbish Daily |  |  | @Rubbish Daily | 文学 | |兄弟们，他真发过nc|
 | ![image-20260215233050023](./WOA.assets/image-20260215233050023.png) | SciHorizon: Biology |  |  | @0xLLLLLL | 生物学/综合 | |简称SB|
 | ![image-20260215233450658](./WOA.assets/image-20260215233450658.png) | Call |  |  | @Call期刊编辑部 | 综合 | |中国小Cell|
@@ -157,6 +157,11 @@
 | ![image-20260228105448822](WOA.assets/image-20260228105448822.png) | Rubbish Health | | | @Rubbish Health | 医学/综合 | ||
 | ![image-20260228105527006](WOA.assets/image-20260228105527006.png) | Secrets | | | @Secrets | 情报学，数学/密码学 | ||
 | ![image-20260228105810046](WOA.assets/image-20260228105810046.png) | FOOLISH | | | @FOOLISH期刊官方账号 | 医学/认知科学，哲学 | ||
+| ![image-20260228223640125](WOA.assets/image-20260228223640125.png) | Emotion | | | @Emotion | 数学/博弈论，医学/认知科学 | ||
+| ![image-20260228224227482](WOA.assets/image-20260228224227482.png) | iSilence | | | @Lessvier 底刊出版社 | 综合 | ||
+| ![image-20260228224446188](WOA.assets/image-20260228224446188.png) | Rubbish Bioinformatics | | | @Fen | 生物学/计算生物学 | ||
+| ![image-20260228224553843](WOA.assets/image-20260228224553843.png) | Odd Phytologist | | | @Odd Phytologist期刊官方 | 生物学。植物学，农学 | ||
+| ![image-20260228224744866](WOA.assets/image-20260228224744866.png) | Fabricate | | | @《Fabricate》非官方账号 | 综合 | ||
 
 
 
@@ -185,7 +190,9 @@
 | ![image-20260227204339001](WOA.assets/image-20260227204339001.png) | 管理宇宙           | 核心期刊 |      | @《管理宇宙》         | 管理学                         |          |                    |
 | ![image-20260227204538618](WOA.assets/image-20260227204538618.png) | 辩                 | 核心期刊 |      | @辩 / BIAN            | 哲学                           |          |                    |
 | ![image-20260228105632970](WOA.assets/image-20260228105632970.png) | 考古不学报         | 核心期刊 |      | @《考古不学报》编辑部 | 考古学                         |          |                    |
-| ![image-20260228105748512](WOA.assets/image-20260228105748512.png) | 天意学报           | 核心期刊 |      |                       | 气象学，天文学                 |          |                    |
+| ![image-20260228105748512](WOA.assets/image-20260228105748512.png) | 天意学报           | 核心期刊 |      | @挽杉 | 气象学，天文学                 |          |                    |
+| ![image-20260228224311237](WOA.assets/image-20260228224311237.png) | 惊悸研究 | 核心期刊 | | @惊悸研究 | 经济学 | | |
+| ![image-20260228224648960](WOA.assets/image-20260228224648960.png) | 中国法术 | 核心期刊 | | @momo（科研版） | 法学 | | |
 
 ## 会议
 
