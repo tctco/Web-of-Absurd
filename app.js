@@ -27,6 +27,7 @@ const elements = {
   metricWordCloud: document.getElementById("metricWordCloud"),
   metricTypePie: document.getElementById("metricTypePie"),
   metricTagPie: document.getElementById("metricTagPie"),
+  metricTagScopeTabs: document.getElementById("metricTagScopeTabs"),
   tableBody: document.getElementById("tableBody"),
   mobileList: document.getElementById("mobileList"),
   emptyStateTpl: document.getElementById("emptyStateTpl")
@@ -41,6 +42,7 @@ const state = {
   hold: "ALL",
   source: "ALL",
   tagPath: "ALL",
+  metricTagScope: "ALL",
   sort: "TITLE_ASC",
   pageSize: 10,
   currentPage: 1
@@ -60,6 +62,7 @@ const metricCharts = {
   tagPie: null
 };
 const TAB_SECTIONS = ["SCIE", "北小核心", "会议"];
+const METRIC_TAG_SCOPES = ["ALL", ...TAB_SECTIONS];
 const RUNTIME_SNAPSHOT_KEY = "woa-runtime-snapshot-v2";
 const TITLE_STOPWORDS = new Set([
   "journal",
@@ -385,6 +388,15 @@ function updateViewTabsUi() {
   const buttons = elements.viewTabs.querySelectorAll(".view-tab");
   for (const button of buttons) {
     const isActive = button.dataset.view === state.view;
+    button.classList.toggle("active", isActive);
+  }
+}
+
+function updateMetricTagScopeUi() {
+  if (!elements.metricTagScopeTabs) return;
+  const buttons = elements.metricTagScopeTabs.querySelectorAll(".metric-scope-tab");
+  for (const button of buttons) {
+    const isActive = button.dataset.metricScope === state.metricTagScope;
     button.classList.toggle("active", isActive);
   }
 }
@@ -760,6 +772,11 @@ function getTagPieData(items, limit = 10) {
   return [...head, { name: "其他", value: tailSum }];
 }
 
+function getTagPieSourceItems() {
+  if (state.metricTagScope === "ALL") return journals;
+  return journals.filter((item) => item.section === state.metricTagScope);
+}
+
 function renderMetrics() {
   const echarts = window.echarts;
   if (!echarts) {
@@ -778,7 +795,7 @@ function renderMetrics() {
   const lineData = getLineData();
   const wordData = getWordCloudData(journals);
   const pieData = getSectionPieData(journals);
-  const tagPieData = getTagPieData(journals, 10);
+  const tagPieData = getTagPieData(getTagPieSourceItems(), 10);
 
   metricCharts.line.setOption({
     tooltip: {
@@ -872,14 +889,21 @@ function renderMetrics() {
 
   metricCharts.tagPie.setOption({
     tooltip: { trigger: "item" },
-    legend: { bottom: 0 },
+    legend: {
+      type: "scroll",
+      left: "center",
+      bottom: 4
+    },
     series: [
       {
         type: "pie",
-        radius: ["32%", "68%"],
-        center: ["50%", "45%"],
+        radius: ["30%", "58%"],
+        center: ["50%", "40%"],
+        avoidLabelOverlap: true,
+        minShowLabelAngle: 3,
         data: tagPieData,
-        label: { formatter: "{b}: {d}%" }
+        label: { formatter: "{b}: {d}%" },
+        labelLayout: { moveOverlap: "shiftY" }
       }
     ]
   });
@@ -1034,6 +1058,23 @@ function bindEvents() {
   elements.seedBox?.addEventListener("click", () => {
     rerollExtremeAif();
   });
+
+  elements.metricTagScopeTabs?.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLElement)) return;
+    const button = target.closest(".metric-scope-tab");
+    if (!(button instanceof HTMLElement)) return;
+
+    const nextScope = button.dataset.metricScope;
+    if (!nextScope || !METRIC_TAG_SCOPES.includes(nextScope)) return;
+    if (state.metricTagScope === nextScope) return;
+
+    state.metricTagScope = nextScope;
+    updateMetricTagScopeUi();
+    if (state.view === "metrics") {
+      renderMetrics();
+    }
+  });
 }
 
 async function loadData() {
@@ -1076,6 +1117,7 @@ async function bootstrap() {
     journals = enrichJournals(sourceJournals);
     storeRuntimeSnapshot(journals);
     subjectTree = buildSubjectTree(journals);
+    updateMetricTagScopeUi();
     const availableSections = new Set(journals.map((item) => item.section));
     if (!availableSections.has(state.section)) {
       state.section = TAB_SECTIONS.find((section) => availableSections.has(section)) || state.section;

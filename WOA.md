@@ -162,6 +162,8 @@
 | ![image-20260228224446188](WOA.assets/image-20260228224446188.png) | Rubbish Bioinformatics | | | @Fen | 生物学/计算生物学 | ||
 | ![image-20260228224553843](WOA.assets/image-20260228224553843.png) | Odd Phytologist | | | @Odd Phytologist期刊官方 | 生物学/植物学，农学 | ||
 | ![image-20260228224744866](WOA.assets/image-20260228224744866.png) | Fabricate | | | @《Fabricate》非官方账号 | 综合 | ||
+| ![image-20260301213728475](WOA.assets/image-20260301213728475.png) | Cat Communications | | | @Cat Communications | 生物学/动物学 | ||
+| ![image-20260301214055511](WOA.assets/image-20260301214055511.png) | SuperNature | | | @SuperNature | 物理学/玄学 | ||
 
 
 
@@ -193,6 +195,8 @@
 | ![image-20260228105748512](WOA.assets/image-20260228105748512.png) | 天意学报           | 核心期刊 |      | @挽杉 | 气象学，天文学                 |          |                    |
 | ![image-20260228224311237](WOA.assets/image-20260228224311237.png) | 惊悸研究 | 核心期刊 | | @惊悸研究 | 经济学 | | |
 | ![image-20260228224648960](WOA.assets/image-20260228224648960.png) | 中国法术 | 核心期刊 | | @momo（科研版） | 法学 | | |
+| ![image-20260301213806759](WOA.assets/image-20260301213806759.png) | 厕所评论 | 核心期刊 | | @《厕所评论》主编 | 城市学，管理科学，环境科学 | 是 | |
+| ![image-20260301214020572](WOA.assets/image-20260301214020572.png) | 废话 | 核心期刊 | | @废话 | 传播学，新闻学 |  | |
 
 ## 会议
 

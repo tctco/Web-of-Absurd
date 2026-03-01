@@ -354,10 +354,45 @@ select:focus {
   font-size: 1rem;
 }
 
+.metric-scope-tabs {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.metric-scope-tab {
+  border: 1px solid #b8d1ec;
+  background: #f2f8ff;
+  color: #1a538f;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.metric-scope-tab:hover {
+  background: #e5f1ff;
+}
+
+.metric-scope-tab.active {
+  background: #0f5fb4;
+  border-color: #0f5fb4;
+  color: #fff;
+}
+
 .metric-chart {
   margin-top: 8px;
   width: 100%;
   height: 360px;
+}
+
+#metricTypePie,
+#metricTagPie {
+  height: 400px;
 }
 
 .metric-panel:first-child {
@@ -860,6 +895,11 @@ tbody tr:nth-child(odd) {
 
   .metric-chart {
     height: 300px;
+  }
+
+  #metricTypePie,
+  #metricTagPie {
+    height: 340px;
   }
 
   .detail-card {
