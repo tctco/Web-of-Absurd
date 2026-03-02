@@ -164,6 +164,7 @@
 | ![image-20260228224744866](WOA.assets/image-20260228224744866.png) | Fabricate | | | @《Fabricate》非官方账号 | 综合 | ||
 | ![image-20260301213728475](WOA.assets/image-20260301213728475.png) | Cat Communications | | | @Cat Communications | 生物学/动物学 | ||
 | ![image-20260301214055511](WOA.assets/image-20260301214055511.png) | SuperNature | | | @SuperNature | 物理学/玄学 | ||
+| ![image-20260302164310591](WOA.assets/image-20260302164310591.png) | Psychological Shit | | | @Psychological Shit | 医学/心理学，医学/精神病学 | ||
 
 
 
@@ -197,6 +198,9 @@
 | ![image-20260228224648960](WOA.assets/image-20260228224648960.png) | 中国法术 | 核心期刊 | | @momo（科研版） | 法学 | | |
 | ![image-20260301213806759](WOA.assets/image-20260301213806759.png) | 厕所评论 | 核心期刊 | | @《厕所评论》主编 | 城市学，管理科学，环境科学 | 是 | |
 | ![image-20260301214020572](WOA.assets/image-20260301214020572.png) | 废话 | 核心期刊 | | @废话 | 传播学，新闻学 |  | |
+| ![image-20260302164419475](WOA.assets/image-20260302164419475.png) | 世界金鸡与蒸制 | 核心期刊 | | @tellusaboutyourself | 经济学，政治学，食品科学 | | |
+| ![image-20260302164514037](WOA.assets/image-20260302164514037.png) | 牲活 | 核心期刊 | | @OxLife / 《牲活》期刊编辑部 | 农学，动物学，畜牧学，综合 | | |
+| ![image-20260302164625181](WOA.assets/image-20260302164625181.png) | 一搞多头 | 核心期刊 | | @一搞多头 | 综合 | | |
 
 ## 会议
 
