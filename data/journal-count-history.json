@@ -749,5 +749,24 @@
     },
     "source": "WOA.md",
     "output": "data/journals.json"
+  },
+  {
+    "generatedAt": "2026-03-11T03:25:14.009Z",
+    "count": 266,
+    "sectionCounts": {
+      "SCIE": 225,
+      "北小核心": 36,
+      "会议": 5
+    },
+    "statusCounts": {
+      "中科院预警": 5,
+      "WOS除名": 51
+    },
+    "sourceCounts": {
+      "XHS": 211,
+      "EXTERNAL_INDEX": 55
+    },
+    "source": "WOA.md",
+    "output": "data/journals.json"
   }
 ]
