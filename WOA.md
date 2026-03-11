@@ -165,6 +165,13 @@
 | ![image-20260301213728475](WOA.assets/image-20260301213728475.png) | Cat Communications | | | @Cat Communications | 生物学/动物学 | ||
 | ![image-20260301214055511](WOA.assets/image-20260301214055511.png) | SuperNature | | | @SuperNature | 物理学/玄学 | ||
 | ![image-20260302164310591](WOA.assets/image-20260302164310591.png) | Psychological Shit | | | @Psychological Shit | 医学/心理学，医学/精神病学 | ||
+| ![image-20260311104715225](WOA.assets/image-20260311104715225.png) | Social Nonsense Research | | | @Social Nonsense Research | 社会学 | ||
+| ![image-20260311104803276](WOA.assets/image-20260311104803276.png) | Crazy Asian Fxxking ART | | | @当代落选者沙龙 | 艺术学 | ||
+| ![image-20260311104911899](WOA.assets/image-20260311104911899.png) | kisscience | | | @嗑学 | 社会学 | ||
+| ![image-20260311105223946](WOA.assets/image-20260311105223946.png) | No Science Advances | | | @小红薯69B03F6F | 综合 | ||
+| ![image-20260311105342288](WOA.assets/image-20260311105342288.png) | Game | | | @Game | 游戏学 | ||
+| ![image-20260311105429744](WOA.assets/image-20260311105429744.png) | Ecology Litters | | | @Ecology Litters | 生态学，地质科学 | ||
+| ![image-20260311105619227](WOA.assets/image-20260311105619227.png) | Frontiers of Utility, Consumption, and Knowledge | | | @F.U.C.K.期刊 | 经济学 | |fuck|
 
 
 
@@ -201,13 +208,21 @@
 | ![image-20260302164419475](WOA.assets/image-20260302164419475.png) | 世界金鸡与蒸制 | 核心期刊 | | @tellusaboutyourself | 经济学，政治学，食品科学 | | |
 | ![image-20260302164514037](WOA.assets/image-20260302164514037.png) | 牲活 | 核心期刊 | | @OxLife / 《牲活》期刊编辑部 | 农学，动物学，畜牧学，综合 | | |
 | ![image-20260302164625181](WOA.assets/image-20260302164625181.png) | 一搞多头 | 核心期刊 | | @一搞多头 | 综合 | | |
+| ![image-20260311104447464](WOA.assets/image-20260311104447464.png) | 抽象学报 | 核心期刊 | | @Abstract-journal | 综合 | | |
+| ![image-20260311104525079](WOA.assets/image-20260311104525079.png) | 石由学报 | 核心期刊 | | @《是由学报》编辑部 | 地质学 | | |
+| ![image-20260311104613886](WOA.assets/image-20260311104613886.png) | 臆术设寄 | 核心期刊 | | @《臆术与设寄》编辑部 | 艺术学，设计学 | | |
+| ![image-20260311105005640](WOA.assets/image-20260311105005640.png) | 痔 | 核心期刊 | | 痔（Piles Studies）编辑部 | 政治学，社会学 | | |
+| ![image-20260311105135159](WOA.assets/image-20260311105135159.png) | 癫瘾研究 | 核心期刊 | | 癫瘾研究 | 电影学，精神病学 | | |
+| ![image-20260311105532130](WOA.assets/image-20260311105532130.png) | 当代文盲 | 核心期刊 | | 当代文盲文学bot | 汉语言文学 | | |
+| ![image-20260311105806466](WOA.assets/image-20260311105806466.png) | 摸鱼学研究 | 核心期刊 | | 摸鱼学研究 | 水产科学 | | |
 
 ## 会议
 
-| 封面                                                         | 期刊                                                         | AIF  | 主编               | 学科 | 综述期刊 | 注释   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ------------------ | ---- | -------- | ------ |
-| ![image-20260215230914422](./WOA.assets/image-20260215230914422.png) | InternationalLaboratory Oolong Conference                    |      | @Litter 期刊编辑部 | 综合 |          | ILOC   |
-| ![image-20260225234851270](WOA.assets/image-20260225234851270.png) | International Conference on Academic Failure & Research Rubbish |      | @RubbishReview     | 综合 |          | ICAFRR |
-|                                                              | Network of Nothing New Observed                              |      | @不妨试试看        | 综合 |          | NNNO   |
-| ![image-20260226194504365](WOA.assets/image-20260226194504365.png) | International Conference on Nobody Cares Science             |      | @NBCS  Conference  | 综合 |          | NBCS   |
+| 封面                                                         | 期刊                                                         | AIF  | 主编               | 学科     | 综述期刊 | 注释   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ------------------ | -------- | -------- | ------ |
+| ![image-20260215230914422](./WOA.assets/image-20260215230914422.png) | InternationalLaboratory Oolong Conference                    |      | @Litter 期刊编辑部 | 综合     |          | ILOC   |
+| ![image-20260225234851270](WOA.assets/image-20260225234851270.png) | International Conference on Academic Failure & Research Rubbish |      | @RubbishReview     | 综合     |          | ICAFRR |
+|                                                              | Network of Nothing New Observed                              |      | @不妨试试看        | 综合     |          | NNNO   |
+| ![image-20260226194504365](WOA.assets/image-20260226194504365.png) | International Conference on Nobody Cares Science             |      | @NBCS  Conference  | 综合     |          | NBCS   |
+| ![image-20260311105723387](WOA.assets/image-20260311105723387.png) | International Conference on Laughable Rubbish                |      | @人工智能底会ICLR  | 人工智能 |          | ICLR   |
 
